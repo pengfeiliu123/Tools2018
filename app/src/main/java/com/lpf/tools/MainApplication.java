@@ -1,10 +1,12 @@
 package com.lpf.tools;
 
+import com.lpf.tools.base.BaseApplication;
+
 /**
  * Created by liupengfei on 2018/2/5 14:53.
  */
 
-public class MainApplication extends BaseApplication{
+public class MainApplication extends BaseApplication {
 
 
     @Override
