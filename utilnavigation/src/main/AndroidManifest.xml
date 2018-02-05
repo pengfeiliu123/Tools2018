@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lpf.navigation">
+
+    <application>
+        <activity android:name=".style.StyleActivity" />
+        <activity
+            android:name=".viewpager.WithViewPagerActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".setupwithviewpager.SetupWithViewPagerActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".badgeview.BadgeViewActivity"/>
+        <activity android:name=".centerfab.CenterFabActivity"/>
+
+    </application>
+</manifest>
