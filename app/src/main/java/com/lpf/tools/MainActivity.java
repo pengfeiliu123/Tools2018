@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
-import com.lpf.tools.entity.FlowTag;
+import com.lpf.tools.entity.TagFlowEntity;
 import com.lpf.tools.feature.flowtag.FlowLayout;
 import com.lpf.tools.feature.flowtag.TagAdapter;
 import com.lpf.tools.feature.flowtag.TagFlowLayout;
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.flow_layout)
     TagFlowLayout flowLayout;
 
-    private List<FlowTag> tagDatas;
+    private List<TagFlowEntity> tagDatas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,15 +39,15 @@ public class MainActivity extends AppCompatActivity {
 
     private void initTagDatas() {
         tagDatas = new ArrayList<>();
-        tagDatas.add(new FlowTag("permission", PermissionActivity.class));
-        tagDatas.add(new FlowTag("navigation", NavigationActivity.class));
+        tagDatas.add(new TagFlowEntity("permission", PermissionActivity.class));
+        tagDatas.add(new TagFlowEntity("navigation", NavigationActivity.class));
     }
 
     private void initFlowLayout() {
         final LayoutInflater mInflater = LayoutInflater.from(this);
-        flowLayout.setAdapter(new TagAdapter<FlowTag>(tagDatas) {
+        flowLayout.setAdapter(new TagAdapter<TagFlowEntity>(tagDatas) {
             @Override
-            public View getView(FlowLayout parent, int position, FlowTag tagBean) {
+            public View getView(FlowLayout parent, int position, TagFlowEntity tagBean) {
                 TextView tv = (TextView) mInflater.inflate(R.layout.item_tag_tv, flowLayout, false);
                 tv.setText(tagBean.tagName);
                 return tv;
