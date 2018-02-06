@@ -1,0 +1,39 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lpf.utilindicator" >
+    
+    <application>
+        <activity
+            android:name="com.lpf.utilindicator.styles.ScrollableTabExampleActivity"
+            android:label="@string/scrollable_tab" />
+
+        <activity
+            android:name="com.lpf.utilindicator.styles.FixedTabExampleActivity"
+            android:label="@string/fixed_tab" />
+
+        <activity
+            android:name="com.lpf.utilindicator.styles.DynamicTabExampleActivity"
+            android:label="@string/dynamic_tab" />
+
+        <activity
+            android:name="com.lpf.utilindicator.styles.NoTabOnlyIndicatorExampleActivity"
+            android:label="@string/no_tab_only_indicator" />
+
+        <activity
+            android:name="com.lpf.utilindicator.styles.FragmentContainerExampleActivity"
+            android:label="@string/work_with_fragment_container" />
+
+        <activity
+            android:name="com.lpf.utilindicator.styles.BadgeTabExampleActivity"
+            android:label="@string/tab_with_badge_view" />
+
+        <activity
+            android:name="com.lpf.utilindicator.styles.CustomNavigatorExampleActivity"
+            android:label="@string/custom_navigator" />
+
+        <activity
+            android:name="com.lpf.utilindicator.styles.LoadCustomLayoutExampleActivity"
+            android:label="@string/tab_with_custom_layout" />
+
+    </application>
+    
+</manifest>

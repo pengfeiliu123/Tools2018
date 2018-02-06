@@ -11,6 +11,7 @@ import com.lpf.tools.entity.TagFlowEntity;
 import com.lpf.tools.feature.flowtag.FlowLayout;
 import com.lpf.tools.feature.flowtag.TagAdapter;
 import com.lpf.tools.feature.flowtag.TagFlowLayout;
+import com.lpf.tools.feature.magicIndicator.IndicatorActivity;
 import com.lpf.tools.feature.navigation.NavigationActivity;
 import com.lpf.tools.feature.permission.PermissionActivity;
 
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         tagDatas = new ArrayList<>();
         tagDatas.add(new TagFlowEntity("permission", PermissionActivity.class));
         tagDatas.add(new TagFlowEntity("navigation", NavigationActivity.class));
+        tagDatas.add(new TagFlowEntity("indicator", IndicatorActivity.class));
     }
 
     private void initFlowLayout() {

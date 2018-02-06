@@ -22,7 +22,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".feature.permission.PermissionActivity" />
-        <activity android:name=".feature.navigation.NavigationActivity"></activity>
+        <activity android:name=".feature.navigation.NavigationActivity" />
+        <activity android:name=".feature.magicIndicator.IndicatorActivity"></activity>
     </application>
 
 </manifest>

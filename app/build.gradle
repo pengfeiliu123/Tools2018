@@ -23,7 +23,7 @@ android {
         }
     }
 
-    dataBinding{
+    dataBinding {
         enabled = true
     }
 }
@@ -31,6 +31,7 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     // butterknife
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     //butterknife for kotlin
@@ -46,8 +47,8 @@ dependencies {
     compile 'com.squareup.retrofit2:converter-gson:2.3.0'
     compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
     compile 'com.facebook.stetho:stetho:1.5.0'
-
     compile project(path: ':utilcode')
     compile project(':utilnavigation')
-//    compile 'com.android.support:appcompat-v7:27.0.2'
+    //    compile 'com.android.support:appcompat-v7:27.0.2'
+    implementation project(':utilindicator')
 }
