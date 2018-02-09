@@ -23,7 +23,9 @@
         </activity>
         <activity android:name=".feature.permission.PermissionActivity" />
         <activity android:name=".feature.navigation.NavigationActivity" />
-        <activity android:name=".feature.magicIndicator.IndicatorActivity"></activity>
+        <activity android:name=".feature.magicIndicator.IndicatorActivity" />
+        <activity android:name=".feature.banner.BannerActivity" />
+        <activity android:name=".feature.banner.convenientbanner.BannerConvenientActivity"></activity>
     </application>
 
 </manifest>

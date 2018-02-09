@@ -1,1 +1,1 @@
-include ':app', ':utilcode', ':utilnavigation', ':utilindicator'
+include ':app', ':utilcode', ':utilnavigation', ':utilindicator', ':utilbanner'

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.lpf.tools.feature.banner.BannerActivity">
+
+    <com.lpf.tools.feature.flowtag.TagFlowLayout
+        android:id="@+id/banner_flow_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.lpf.tools.feature.flowtag.TagFlowLayout>
+
+</LinearLayout>

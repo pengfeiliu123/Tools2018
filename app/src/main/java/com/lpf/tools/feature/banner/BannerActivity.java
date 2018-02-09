@@ -1,53 +1,46 @@
-package com.lpf.tools;
+package com.lpf.tools.feature.banner;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
+import com.lpf.tools.R;
 import com.lpf.tools.entity.TagFlowEntity;
-import com.lpf.tools.feature.banner.BannerActivity;
+import com.lpf.tools.feature.BaseFeatureActivity;
 import com.lpf.tools.feature.flowtag.FlowLayout;
 import com.lpf.tools.feature.flowtag.TagAdapter;
 import com.lpf.tools.feature.flowtag.TagFlowLayout;
-import com.lpf.tools.feature.magicIndicator.IndicatorActivity;
-import com.lpf.tools.feature.navigation.NavigationActivity;
-import com.lpf.tools.feature.permission.PermissionActivity;
+import com.lpf.utilbanner.BannerDemoActivity;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity {
+public class BannerActivity extends BaseFeatureActivity {
 
-    @BindView(R.id.flow_layout)
+    @BindView(R.id.banner_flow_layout)
     TagFlowLayout flowLayout;
-
-    private List<TagFlowEntity> tagDatas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        ButterKnife.bind(this);
-
-        initTagDatas();
-        initFlowLayout();
     }
 
-    private void initTagDatas() {
+    @Override
+    public int getLayout() {
+        return R.layout.activity_banner;
+    }
+
+    @Override
+    public void initTagDatas() {
         tagDatas = new ArrayList<>();
-        tagDatas.add(new TagFlowEntity("permission", PermissionActivity.class));
-        tagDatas.add(new TagFlowEntity("navigation", NavigationActivity.class));
-        tagDatas.add(new TagFlowEntity("indicator", IndicatorActivity.class));
-        tagDatas.add(new TagFlowEntity("banner", BannerActivity.class));
+        tagDatas.add(new TagFlowEntity("convenientBanner", BannerDemoActivity.class));
     }
 
-    private void initFlowLayout() {
+    @Override
+    public void initLayoutView() {
         final LayoutInflater mInflater = LayoutInflater.from(this);
         flowLayout.setAdapter(new TagAdapter<TagFlowEntity>(tagDatas) {
             @Override

@@ -51,4 +51,6 @@ dependencies {
     compile project(':utilnavigation')
     //    compile 'com.android.support:appcompat-v7:27.0.2'
     implementation project(':utilindicator')
+    compile project(':utilbanner')
+//    compile 'com.bigkoo:convenientbanner:2.0.5'
 }
