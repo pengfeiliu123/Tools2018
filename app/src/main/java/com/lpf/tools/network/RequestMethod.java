@@ -23,8 +23,8 @@ public class RequestMethod {
         return SingletonHolder.INSTANCE;
     }
 
-    public Observable<ResponseEntity> getResponseData(){
-        return getRequestService().getResponseData()
+    public Observable<ResponseEntity> getResponseData(int start, int count){
+        return getRequestService().getResponseData(start,count)
                 .subscribeOn(Schedulers.io())
                 .unsubscribeOn(Schedulers.io());
     }

@@ -5,6 +5,7 @@ import com.lpf.tools.feature.networkdemo.ResponseEntity;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;
+import retrofit2.http.Query;
 
 /**
  * Created by liupengfei on 2018/2/9 18:13.
@@ -12,8 +13,9 @@ import retrofit2.http.GET;
 
 public interface IRequestUrl {
 
-    @GET("/test/1.json")
-    Observable<ResponseEntity> getResponseData();
+    @GET("/v2/movie/top250")
+    Observable<ResponseEntity> getResponseData(@Query("start") int startPos, @Query("count") int count);
+
 
 //    @GET(API_VERSION + "/user/subscribe")
 //    Observable<ChannelGetResponse> getChannel();

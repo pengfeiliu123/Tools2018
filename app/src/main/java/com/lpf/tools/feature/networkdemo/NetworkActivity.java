@@ -25,12 +25,12 @@ public class NetworkActivity extends AppCompatActivity {
         setContentView(R.layout.activity_network);
         ButterKnife.bind(this);
 
-        initRequestData();
+        initRequestData(0,10);
     }
 
-    private void initRequestData() {
+    private void initRequestData(int start, int count) {
         //request data.
-        RequestMethod.getInstance().getResponseData()
+        RequestMethod.getInstance().getResponseData(start,count)
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<ResponseEntity>() {
                     Disposable disposable;

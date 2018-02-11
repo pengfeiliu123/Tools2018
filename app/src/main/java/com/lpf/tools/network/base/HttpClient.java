@@ -5,7 +5,7 @@ import com.lpf.tools.network.IRequestUrl;
 
 public class HttpClient {
     private static volatile IRequestUrl instance;
-    public static String baseUrl = "http://192.168.10.43:8080";
+    public static String baseUrl = "https://api.douban.com";
 
     public static IRequestUrl getRequestService() {
         if (instance == null) {
