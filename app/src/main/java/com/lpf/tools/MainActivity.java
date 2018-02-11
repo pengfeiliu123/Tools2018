@@ -14,6 +14,7 @@ import com.lpf.tools.feature.flowtag.TagAdapter;
 import com.lpf.tools.feature.flowtag.TagFlowLayout;
 import com.lpf.tools.feature.magicIndicator.IndicatorActivity;
 import com.lpf.tools.feature.navigation.NavigationActivity;
+import com.lpf.tools.feature.networkdemo.NetworkActivity;
 import com.lpf.tools.feature.permission.PermissionActivity;
 
 import java.util.ArrayList;
@@ -45,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         tagDatas.add(new TagFlowEntity("navigation", NavigationActivity.class));
         tagDatas.add(new TagFlowEntity("indicator", IndicatorActivity.class));
         tagDatas.add(new TagFlowEntity("banner", BannerActivity.class));
+        tagDatas.add(new TagFlowEntity("network", NetworkActivity.class));
     }
 
     private void initFlowLayout() {
