@@ -13,6 +13,7 @@ import android.widget.Toast;
 import com.lpf.tools.R;
 import com.lpf.tools.feature.networkdemo.ResponseEntity;
 import com.lpf.tools.feature.widgets.recyclerviewdemo.itemdecoration.DividerGridItemDecoration;
+import com.lpf.tools.feature.widgets.recyclerviewdemo.itemdecoration.SpaceItemDecoration;
 import com.lpf.tools.feature.widgets.recyclerviewdemo.viewholders.ResponseEntityViewBinder;
 import com.lpf.tools.network.RequestMethod;
 
@@ -29,8 +30,6 @@ public class RecyclerViewActivity extends AppCompatActivity {
 
     @BindView(R.id.recyclerview)
     MXRecyclerView recyclerview;
-    @BindView(R.id.swipe)
-    SwipeRefreshLayout swipe;
     @BindView(R.id.rv_empty_layout)
     LinearLayout rvEmptyLayout;
 
@@ -72,7 +71,6 @@ public class RecyclerViewActivity extends AppCompatActivity {
                         responseEntity = responseData;
                         total = responseData.getTotal();
 
-                        swipe.setRefreshing(false);
                         recyclerview.finishRefreshing();
                         recyclerview.finishLoadingMore();
 
@@ -92,6 +90,8 @@ public class RecyclerViewActivity extends AppCompatActivity {
                     @Override
                     public void onError(Throwable e) {
                         disposable.dispose();
+                        recyclerview.finishRefreshing();
+                        recyclerview.finishLoadingMore();
                     }
 
                     @Override
@@ -111,11 +111,8 @@ public class RecyclerViewActivity extends AppCompatActivity {
     private void initViews() {
 
         initLayoutManager();
-        swipe.setEnabled(swipeToRefresh);
         adapter = new MultiTypeAdapter(recyclerDatas);
         initAdapter(adapter);
-//        recyclerview.disableLoadingMore();
-//        recyclerview.disableRefresh();
         recyclerview.setOnActionListener(new MXRecyclerView.OnActionListener() {
             @Override
             public void onLoadMore() {
@@ -140,9 +137,15 @@ public class RecyclerViewActivity extends AppCompatActivity {
         dividerItemDecoration.setDrawable(AppCompatResources.getDrawable(this, R.drawable.rv_divider));
         recyclerview.addItemDecoration(dividerItemDecoration);
 
-//        recyclerview.setLayoutManager(new GridLayoutManager(this,2));
-//        DividerGridItemDecoration dividerItemDecoration = new DividerGridItemDecoration(this);
-//        recyclerview.addItemDecoration(dividerItemDecoration);
+//        recyclerview.setLayoutManager(new GridLayoutManager(this, 2));
+//        recyclerview.addItemDecoration(new SpaceItemDecoration(getResources().getDimensionPixelSize(R.dimen.rv_item_left),
+//                getResources().getDimensionPixelSize(R.dimen.rv_item_top),
+//                getResources().getDimensionPixelSize(R.dimen.rv_item_right),
+//                getResources().getDimensionPixelSize(R.dimen.rv_item_bottom),
+//                getResources().getDimensionPixelSize(R.dimen.rv_item_leftSpace),
+//                getResources().getDimensionPixelSize(R.dimen.rv_item_topSpace),
+//                getResources().getDimensionPixelSize(R.dimen.rv_item_rightSpace),
+//                getResources().getDimensionPixelSize(R.dimen.rv_item_bottomSpace)));
 
     }
 
