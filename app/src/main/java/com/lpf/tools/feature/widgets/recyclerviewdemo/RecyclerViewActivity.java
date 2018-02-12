@@ -3,14 +3,16 @@ package com.lpf.tools.feature.widgets.recyclerviewdemo;
 import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.content.res.AppCompatResources;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.lpf.tools.R;
 import com.lpf.tools.feature.networkdemo.ResponseEntity;
-import com.lpf.tools.feature.widgets.recyclerviewdemo.itemdecoration.SpaceItemDecoration;
+import com.lpf.tools.feature.widgets.recyclerviewdemo.itemdecoration.DividerGridItemDecoration;
 import com.lpf.tools.feature.widgets.recyclerviewdemo.viewholders.ResponseEntityViewBinder;
 import com.lpf.tools.network.RequestMethod;
 
@@ -133,11 +135,14 @@ public class RecyclerViewActivity extends AppCompatActivity {
     }
 
     private void initLayoutManager() {
-        RecyclerView.ItemDecoration decoration = new SpaceItemDecoration(
-                0, 0, 0, 0,
-                0, 0, 0, 0);
-        recyclerview.addItemDecoration(decoration);
         recyclerview.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
+        DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
+        dividerItemDecoration.setDrawable(AppCompatResources.getDrawable(this, R.drawable.rv_divider));
+        recyclerview.addItemDecoration(dividerItemDecoration);
+
+//        recyclerview.setLayoutManager(new GridLayoutManager(this,2));
+//        DividerGridItemDecoration dividerItemDecoration = new DividerGridItemDecoration(this);
+//        recyclerview.addItemDecoration(dividerItemDecoration);
 
     }
 
