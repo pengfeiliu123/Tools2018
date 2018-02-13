@@ -22,12 +22,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".feature.permission.PermissionActivity" />
-        <activity android:name=".feature.navigation.NavigationActivity" />
-        <activity android:name=".feature.magicIndicator.IndicatorActivity" />
-        <activity android:name=".feature.banner.BannerActivity" />
-        <activity android:name=".feature.networkdemo.NetworkActivity" />
-        <activity android:name=".feature.widgets.recyclerviewdemo.RecyclerViewActivity"></activity>
+        <activity
+            android:name=".feature.permission.PermissionActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".feature.navigation.NavigationActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".feature.magicIndicator.IndicatorActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".feature.banner.BannerActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".feature.networkdemo.NetworkActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".feature.widgets.recyclerviewdemo.RecyclerViewActivity"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
