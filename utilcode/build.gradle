@@ -25,4 +25,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation "com.android.support:appcompat-v7:${rootProject.ext.buildToolsVerion}"
+
+    compile "org.greenrobot:eventbus:${rootProject.ext.eventbusVersion}"
 }
