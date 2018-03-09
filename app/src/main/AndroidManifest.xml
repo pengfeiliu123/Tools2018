@@ -6,7 +6,6 @@
     <uses-permission android:name="android.permission.READ_CALENDAR" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
-
     <application
         android:name=".MainApplication"
         android:allowBackup="true"
@@ -39,7 +38,8 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name=".feature.widgets.recyclerviewdemo.RecyclerViewActivity"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".feature.dbdemo.DbActivity"></activity>
     </application>
 
 </manifest>

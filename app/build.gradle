@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
@@ -57,4 +59,10 @@ dependencies {
     implementation project(':utilindicator')
     implementation project(':utilbanner')
 //    compile 'com.bigkoo:convenientbanner:2.0.5'
+    compile 'org.litepal.android:core:1.6.1'
+
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    compile "org.jetbrains.anko:anko:$anko_version"
+    // Anko Commons
+    compile "org.jetbrains.anko:anko-commons:$anko_version"
 }

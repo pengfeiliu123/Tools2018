@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.lpf.tools.entity.TagFlowEntity;
 import com.lpf.tools.feature.banner.BannerActivity;
+import com.lpf.tools.feature.dbdemo.DbActivity;
 import com.lpf.tools.feature.flowtag.FlowLayout;
 import com.lpf.tools.feature.flowtag.TagAdapter;
 import com.lpf.tools.feature.flowtag.TagFlowLayout;
@@ -49,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         tagDatas.add(new TagFlowEntity("banner", BannerActivity.class));
         tagDatas.add(new TagFlowEntity("network", NetworkActivity.class));
         tagDatas.add(new TagFlowEntity("widgets", RecyclerViewActivity.class));
+        tagDatas.add(new TagFlowEntity("db", DbActivity.class));
     }
 
     private void initFlowLayout() {
