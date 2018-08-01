@@ -1,9 +1,11 @@
 package com.lpf.tools.feature.dbdemo
 
-import android.support.v7.app.AppCompatActivity
+import android.databinding.DataBindingUtil.setContentView
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 
 import com.lpf.tools.R
+import com.lpf.tools.R.id.*
 import com.lpf.tools.db.Book
 import kotlinx.android.synthetic.main.activity_db.*
 import org.jetbrains.anko.toast

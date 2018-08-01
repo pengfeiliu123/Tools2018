@@ -10,6 +10,8 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode rootProject.versionCode
         versionName rootProject.versionName
+
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -36,33 +38,40 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "com.android.support:appcompat-v7:${rootProject.ext.buildToolsVerion}"
+    implementation "com.android.support:design:${rootProject.ext.buildToolsVerion}"
+    implementation "org.greenrobot:eventbus:${rootProject.ext.eventbusVersion}"
+    implementation 'com.github.hackware1993:MagicIndicator:1.5.0'
+
     // butterknife
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.jakewharton:butterknife:8.8.1'
+    implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     //butterknife for kotlin
     //kapt 'com.jakewharton:butterknife-compiler:8.8.1'
     // glide
     implementation 'com.github.bumptech.glide:glide:4.6.1'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.6.1'
-    compile 'com.squareup.okhttp3:okhttp:3.5.0'
-    compile 'com.squareup.okhttp3:logging-interceptor:3.5.0'
-    compile 'io.reactivex.rxjava2:rxjava:2.1.9'
-    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
-    compile 'com.squareup.retrofit2:retrofit:2.3.0'
-    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
-    compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
-    compile 'com.facebook.stetho:stetho:1.5.0'
-    compile 'me.drakeet.multitype:multitype:3.0.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.5.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.5.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.9'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    implementation 'com.facebook.stetho:stetho:1.5.0'
+    implementation 'me.drakeet.multitype:multitype:3.0.0'
+//    implementation ('me.drakeet.multitype:multitype:3.0.0'){
+//        exclude group: 'com.android.support'
+//    }
     implementation project(path: ':utilcode')
     implementation project(':utilnavigation')
     implementation project(':utilindicator')
     implementation project(':utilbanner')
-//    compile 'com.bigkoo:convenientbanner:2.0.5'
-    compile 'org.litepal.android:core:1.6.1'
+    implementation 'org.litepal.android:core:1.6.1'
 
-    implementation"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
-    compile "org.jetbrains.anko:anko:$anko_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "org.jetbrains.anko:anko:$anko_version"
     // Anko Commons
-    compile "org.jetbrains.anko:anko-commons:$anko_version"
+    implementation "org.jetbrains.anko:anko-commons:$anko_version"
 }
