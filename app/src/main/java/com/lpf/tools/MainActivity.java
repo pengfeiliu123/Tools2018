@@ -13,6 +13,7 @@ import com.lpf.tools.feature.dbdemo.DbActivity;
 import com.lpf.tools.feature.flowtag.FlowLayout;
 import com.lpf.tools.feature.flowtag.TagAdapter;
 import com.lpf.tools.feature.flowtag.TagFlowLayout;
+import com.lpf.tools.feature.login.LoginActivity;
 import com.lpf.tools.feature.magicIndicator.IndicatorActivity;
 import com.lpf.tools.feature.navigation.NavigationActivity;
 import com.lpf.tools.feature.networkdemo.NetworkActivity;
@@ -51,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         tagDatas.add(new TagFlowEntity("network", NetworkActivity.class));
         tagDatas.add(new TagFlowEntity("widgets", RecyclerViewActivity.class));
         tagDatas.add(new TagFlowEntity("db", DbActivity.class));
+        tagDatas.add(new TagFlowEntity("login", LoginActivity.class));
     }
 
     private void initFlowLayout() {

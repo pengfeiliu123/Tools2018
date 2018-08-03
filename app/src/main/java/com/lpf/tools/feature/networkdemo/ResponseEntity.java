@@ -1,12 +1,14 @@
 package com.lpf.tools.feature.networkdemo;
 
+import com.lpf.tools.base.BaseModel;
+
 import java.util.List;
 
 /**
  * Created by liupengfei on 2018/2/11 11:41.
  */
 
-public class ResponseEntity {
+public class ResponseEntity extends BaseModel{
 
     /**
      * count : 10

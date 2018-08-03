@@ -1,17 +1,17 @@
 package com.lpf.tools.network.base;
 
 
-import com.lpf.tools.network.IRequestUrl;
+import com.lpf.tools.api.IApiService;
 
 public class HttpClient {
-    private static volatile IRequestUrl instance;
+    private static volatile IApiService instance;
     public static String baseUrl = "https://api.douban.com";
 
-    public static IRequestUrl getRequestService() {
+    public static IApiService getRequestService() {
         if (instance == null) {
             synchronized (HttpClient.class) {
                 if (instance == null) {
-                    instance = ServiceGenerator.create(IRequestUrl.class, baseUrl);
+                    instance = ServiceGenerator.create(IApiService.class, baseUrl);
                 }
             }
         }

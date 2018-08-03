@@ -38,7 +38,8 @@
         <activity
             android:name=".feature.widgets.recyclerviewdemo.RecyclerViewActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".feature.dbdemo.DbActivity"></activity>
+        <activity android:name=".feature.dbdemo.DbActivity" />
+        <activity android:name=".feature.login.LoginActivity"></activity>
     </application>
 
 </manifest>
