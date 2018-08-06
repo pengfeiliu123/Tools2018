@@ -1,5 +1,7 @@
 package com.lpf.tools.network.base;
 
+import com.facebook.stetho.okhttp3.StethoInterceptor;
+
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -49,6 +51,7 @@ public class OkHttpClientFactory {
                         return chain.proceed(requestBuilder.build());
                     }
                 })
+                .addNetworkInterceptor(new StethoInterceptor())
 //                .addInterceptor(new HttpLoggingInterceptor().setLevel(BuildConfig.DEBUG ? HttpLoggingInterceptor.Level.BODY : HttpLoggingInterceptor.Level.NONE))
                 .build();
     }

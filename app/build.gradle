@@ -66,8 +66,10 @@ dependencies {
     //CallAdapterFactory的Rx依赖包
     implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
 
-
+    // stetho
     implementation 'com.facebook.stetho:stetho:1.5.0'
+    implementation 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+
     implementation 'me.drakeet.multitype:multitype:3.0.0'
 //    implementation ('me.drakeet.multitype:multitype:3.0.0'){
 //        exclude group: 'com.android.support'
