@@ -18,23 +18,6 @@ public abstract class BaseObserver<T> extends DisposableObserver<T> {
 
     protected BaseView view;
 
-    /**
-     * 解析数据失败
-     */
-    public static final int PARSE_ERROR = 1001;
-    /**
-     * 网络问题
-     */
-    public static final int BAD_NETWORK = 1002;
-    /**
-     * 连接错误
-     */
-    public static final int CONNECT_ERROR = 1003;
-    /**
-     * 连接超时
-     */
-    public static final int CONNECT_TIMEOUT = 1004;
-
     public BaseObserver(BaseView view) {
         this.view = view;
     }
@@ -79,45 +62,22 @@ public abstract class BaseObserver<T> extends DisposableObserver<T> {
 
         if (e instanceof HttpException) {
             // http error
-            onException(BAD_NETWORK);
+            onError(((HttpException) e).code()+ "网络问题");
         } else if (e instanceof ConnectException || e instanceof UnknownHostException) {
             // connect error
-            onException(CONNECT_ERROR);
+            onError(((HttpException) e).code()+ "连接错误");
         } else if (e instanceof InterruptedException) {
             // timeout error
-            onException(CONNECT_TIMEOUT);
+            onError(((HttpException) e).code()+ "连接超时");
         } else if (e instanceof JsonParseException || e instanceof JSONException || e instanceof ParseException) {
             // parse error
-            onException(PARSE_ERROR);
+            onError(((HttpException) e).code()+ "解析数据失败");
         } else {
             if (e != null) {
                 onError(toString());
             } else {
-                onError("未知错误");
+                onError(((HttpException) e).code()+ "未知错误");
             }
-        }
-    }
-
-    private void onException(int unKnownError) {
-        switch (unKnownError) {
-            case CONNECT_ERROR:
-                onError("连接错误");
-                break;
-
-            case CONNECT_TIMEOUT:
-                onError("连接超时");
-                break;
-
-            case BAD_NETWORK:
-                onError("网络问题");
-                break;
-
-            case PARSE_ERROR:
-                onError("解析数据失败");
-                break;
-
-            default:
-                break;
         }
     }
 

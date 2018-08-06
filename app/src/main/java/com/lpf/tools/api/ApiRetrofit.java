@@ -2,6 +2,7 @@ package com.lpf.tools.api;
 
 import android.util.Log;
 
+import com.facebook.stetho.okhttp3.StethoInterceptor;
 import com.lpf.tools.network.base.RequestUtil;
 
 import java.io.IOException;
@@ -37,6 +38,7 @@ public class ApiRetrofit {
         client = new OkHttpClient.Builder()
                 .addInterceptor(addHeaderInterceptor)
                 .addInterceptor(logInterceptor)
+                .addNetworkInterceptor(new StethoInterceptor())
                 .connectTimeout(TIME_OUT, TimeUnit.SECONDS)
                 .readTimeout(TIME_OUT,TimeUnit.SECONDS)
                 .build();

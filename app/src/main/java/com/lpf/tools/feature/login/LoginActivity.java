@@ -13,8 +13,7 @@ import android.widget.TextView;
 import com.lpf.tools.R;
 import com.lpf.tools.base.BaseActivity;
 import com.lpf.tools.base.BaseModel;
-import com.lpf.tools.mvpdemo.login.ILoginView;
-import com.lpf.tools.mvpdemo.login.LoginPresenter;
+import com.lpf.tools.feature.networkdemo.ResponseEntity;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -61,8 +60,8 @@ public class LoginActivity extends BaseActivity<LoginPresenter> implements ILogi
     }
 
     @Override
-    public void onLoginSuccess() {
-        showToast("login success");
+    public void onLoginSuccess(ResponseEntity response) {
+        showToast("login success"+response.getTitle());
         hideLoading();
     }
 
