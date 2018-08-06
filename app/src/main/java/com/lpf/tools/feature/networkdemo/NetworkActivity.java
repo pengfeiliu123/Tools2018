@@ -1,13 +1,14 @@
 package com.lpf.tools.feature.networkdemo;
 
+import android.content.Context;
 import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.lpf.tools.R;
-import com.lpf.tools.network.RequestMethod;
+import com.lpf.tools.base.BaseActivity;
+import com.lpf.tools.views.LoadingDialog;
 import com.lpf.utilcode.receiver.NetworkMessage;
 import com.lpf.utilcode.receiver.NetworkStateReceiver;
 import com.lpf.utilcode.util.ToastUtil;
@@ -16,13 +17,11 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import io.reactivex.Observer;
-import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.disposables.Disposable;
+import java.lang.ref.WeakReference;
 
-public class NetworkActivity extends AppCompatActivity {
+import butterknife.BindView;
+
+public class NetworkActivity extends BaseActivity<INetworkPresenter> implements INetworkView {
 
     @BindView(R.id.response_text)
     TextView responseText;
@@ -30,13 +29,54 @@ public class NetworkActivity extends AppCompatActivity {
     // add network receiver
     NetworkStateReceiver netWorkStateReceiver;
 
+    //保存外部activity的弱引用
+    private WeakReference<Context> weakReference;
+    private LoadingDialog loadingDialog;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_network);
-        ButterKnife.bind(this);
+    }
 
-        initRequestData(0, 10);
+    @Override
+    protected INetworkPresenter createPresenter() {
+        return new INetworkPresenter(this);
+    }
+
+    @Override
+    protected int getLayoutId() {
+        return R.layout.activity_network;
+    }
+
+    @Override
+    protected void initView() {
+        weakReference = new WeakReference<>(context);
+        loadingDialog = new LoadingDialog();
+    }
+
+    @Override
+    protected void initData() {
+        presenter.doGetDouBanList(0, 10);
+    }
+
+    @Override
+    public void onGetDouBanSuccess(ResponseEntity response) {
+        responseText.setText(response.toString());
+    }
+
+    @Override
+    public void showLoading() {
+        NetworkActivity activity = (NetworkActivity) weakReference.get();
+        if (activity != null) {
+            loadingDialog.show(activity.getSupportFragmentManager(), "LOADING");
+        }
+    }
+
+    @Override
+    public void hideLoading() {
+        if (loadingDialog != null) {
+            loadingDialog.dismiss();
+        }
     }
 
     @Override
@@ -68,39 +108,6 @@ public class NetworkActivity extends AppCompatActivity {
         unregisterReceiver(netWorkStateReceiver);
         System.out.println("注销");
         super.onPause();
-    }
-
-    private void initRequestData(int start, int count) {
-        //request data.
-        RequestMethod.getInstance().getResponseData(start, count)
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(new Observer<ResponseEntity>() {
-                    Disposable disposable;
-
-                    @Override
-                    public void onSubscribe(Disposable d) {
-                        disposable = d;
-                    }
-
-                    @Override
-                    public void onNext(ResponseEntity responseEntity) {
-                        onResponseData(responseEntity);
-                    }
-
-                    @Override
-                    public void onError(Throwable e) {
-                        disposable.dispose();
-                    }
-
-                    @Override
-                    public void onComplete() {
-                        disposable.dispose();
-                    }
-                });
-    }
-
-    private void onResponseData(ResponseEntity responseEntity) {
-        responseText.setText(responseEntity.toString());
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
