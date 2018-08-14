@@ -17,6 +17,7 @@ import com.lpf.utilbanner.BannerDemoActivity;
 import java.util.ArrayList;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class BannerActivity extends BaseFeatureActivity {
 
@@ -26,6 +27,7 @@ public class BannerActivity extends BaseFeatureActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        ButterKnife.bind(this);
     }
 
     @Override

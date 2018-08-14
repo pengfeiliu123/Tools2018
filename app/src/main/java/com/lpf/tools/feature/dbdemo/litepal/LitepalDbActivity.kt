@@ -1,22 +1,20 @@
-package com.lpf.tools.feature.dbdemo
+package com.lpf.tools.feature.dbdemo.litepal
 
-import android.databinding.DataBindingUtil.setContentView
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-
 import com.lpf.tools.R
-import com.lpf.tools.R.id.*
+
 import com.lpf.tools.db.Book
-import kotlinx.android.synthetic.main.activity_db.*
+import kotlinx.android.synthetic.main.activity_db_litepal.*
 import org.jetbrains.anko.toast
 import org.litepal.crud.DataSupport
 import org.litepal.tablemanager.Connector
 
-class DbActivity : AppCompatActivity() {
+class LitepalDbActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_db)
+        setContentView(R.layout.activity_db_litepal)
 
 
         Connector.getDatabase();
