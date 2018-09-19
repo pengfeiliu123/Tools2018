@@ -10,10 +10,10 @@ import android.widget.TextView;
 import com.lpf.tools.entity.TagFlowEntity;
 import com.lpf.tools.feature.banner.BannerActivity;
 import com.lpf.tools.feature.dbdemo.DbActivity;
-import com.lpf.tools.feature.dbdemo.litepal.LitepalDbActivity;
 import com.lpf.tools.feature.flowtag.FlowLayout;
 import com.lpf.tools.feature.flowtag.TagAdapter;
 import com.lpf.tools.feature.flowtag.TagFlowLayout;
+import com.lpf.tools.feature.fragments.FragmentDoubleListActivity;
 import com.lpf.tools.feature.login.LoginActivity;
 import com.lpf.tools.feature.magicIndicator.IndicatorActivity;
 import com.lpf.tools.feature.navigation.NavigationActivity;
@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         tagDatas.add(new TagFlowEntity("widgets", RecyclerViewActivity.class));
         tagDatas.add(new TagFlowEntity("db", DbActivity.class));
         tagDatas.add(new TagFlowEntity("login", LoginActivity.class));
+        tagDatas.add(new TagFlowEntity("fragment", FragmentDoubleListActivity.class));
     }
 
     private void initFlowLayout() {

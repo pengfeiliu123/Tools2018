@@ -13,7 +13,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,12 +41,13 @@
         <activity
             android:name=".feature.widgets.recyclerviewdemo.RecyclerViewActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".feature.dbdemo.litepal.LitepalDbActivity" />
+        <!--<activity android:name=".feature.dbdemo.litepal.LitepalDbActivity" />-->
         <activity android:name=".feature.login.LoginActivity" />
-        <activity android:name=".feature.dbdemo.room.ArticleActivity" />
-        <activity android:name=".feature.dbdemo.room.DbDataPagingActivity" />
-        <activity android:name=".feature.dbdemo.room.LocalDataPagingActivity" />
+        <!--<activity android:name=".feature.dbdemo.room.ArticleActivity" />-->
+        <!--<activity android:name=".feature.dbdemo.room.DbDataPagingActivity" />-->
+        <!--<activity android:name=".feature.dbdemo.room.LocalDataPagingActivity" />-->
         <activity android:name=".feature.dbdemo.DbActivity" />
+        <activity android:name=".feature.fragments.FragmentDoubleListActivity"></activity>
     </application>
 
 </manifest>
