@@ -41,13 +41,16 @@
         <activity
             android:name=".feature.widgets.recyclerviewdemo.RecyclerViewActivity"
             android:theme="@style/AppTheme" />
-        <!--<activity android:name=".feature.dbdemo.litepal.LitepalDbActivity" />-->
+        <!-- <activity android:name=".feature.dbdemo.litepal.LitepalDbActivity" /> -->
         <activity android:name=".feature.login.LoginActivity" />
-        <!--<activity android:name=".feature.dbdemo.room.ArticleActivity" />-->
-        <!--<activity android:name=".feature.dbdemo.room.DbDataPagingActivity" />-->
-        <!--<activity android:name=".feature.dbdemo.room.LocalDataPagingActivity" />-->
+        <!-- <activity android:name=".feature.dbdemo.room.ArticleActivity" /> -->
+        <!-- <activity android:name=".feature.dbdemo.room.DbDataPagingActivity" /> -->
+        <!-- <activity android:name=".feature.dbdemo.room.LocalDataPagingActivity" /> -->
         <activity android:name=".feature.dbdemo.DbActivity" />
-        <activity android:name=".feature.fragments.FragmentDoubleListActivity"></activity>
+        <activity android:name=".feature.fragments.FragmentDoubleListActivity" />
+        <activity
+            android:name=".feature.collapsingToolbar.CollapsingToolActivity"
+            android:theme="@style/AppThemeNoActionBar"></activity>
     </application>
 
 </manifest>

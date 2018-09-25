@@ -10,6 +10,17 @@
         <item name="android:windowAnimationStyle">@style/activityAnimation</item>
     </style>
 
+    <style name="AppThemeFullScreen" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="AppTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>                  <!-- make system toolbar gone-->
+    </style>
+
     <style name="lang_genre_style">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
