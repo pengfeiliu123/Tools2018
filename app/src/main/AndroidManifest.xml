@@ -50,7 +50,9 @@
         <activity android:name=".feature.fragments.FragmentDoubleListActivity" />
         <activity
             android:name=".feature.collapsingToolbar.CollapsingToolActivity"
-            android:theme="@style/AppThemeNoActionBar"></activity>
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity android:name=".feature.customview.drawOneCircle.CustomViewsActivity" />
+        <activity android:name=".feature.customview.drawOneCircle.ShowCustomViewActivity"></activity>
     </application>
 
 </manifest>

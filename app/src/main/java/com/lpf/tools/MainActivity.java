@@ -10,6 +10,7 @@ import android.widget.TextView;
 import com.lpf.tools.entity.TagFlowEntity;
 import com.lpf.tools.feature.banner.BannerActivity;
 import com.lpf.tools.feature.collapsingToolbar.CollapsingToolActivity;
+import com.lpf.tools.feature.customview.drawOneCircle.CustomViewsActivity;
 import com.lpf.tools.feature.dbdemo.DbActivity;
 import com.lpf.tools.feature.flowtag.FlowLayout;
 import com.lpf.tools.feature.flowtag.TagAdapter;
@@ -55,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         tagDatas.add(new TagFlowEntity("login", LoginActivity.class));
         tagDatas.add(new TagFlowEntity("fragment", FragmentDoubleListActivity.class));
         tagDatas.add(new TagFlowEntity("collapsingTool", CollapsingToolActivity.class));
+        tagDatas.add(new TagFlowEntity("customviews", CustomViewsActivity.class));
     }
 
     private void initFlowLayout() {
