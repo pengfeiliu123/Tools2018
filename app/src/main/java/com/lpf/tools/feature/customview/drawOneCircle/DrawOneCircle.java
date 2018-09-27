@@ -5,6 +5,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
+import android.graphics.Rect;
 import android.graphics.RectF;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
@@ -68,11 +69,20 @@ public class DrawOneCircle extends View {
 //        canvas.drawPath(path,paint);
 
 
-        path.moveTo(100,10);
-        RectF rectF = new RectF(100,10,200,110);
-        path.arcTo(rectF,0,90,true);
-        canvas.drawRect(rectF,paint);
-        paint.setColor(Color.BLUE);
-        canvas.drawPath(path,paint);
+//        path.moveTo(100,10);
+//        RectF rectF = new RectF(100,10,200,110);
+//        path.arcTo(rectF,0,90,true);
+//        canvas.drawRect(rectF,paint);
+//        paint.setColor(Color.BLUE);
+//        canvas.drawPath(path,paint);
+
+        canvas.drawColor(Color.RED);
+        canvas.save();
+
+        canvas.clipRect(new Rect(100,100,200,200));
+        canvas.drawColor(Color.GREEN);
+
+        canvas.restore();
+        canvas.drawARGB(125,0,0,255);
     }
 }
