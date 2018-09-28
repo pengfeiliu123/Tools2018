@@ -7,4 +7,6 @@
     <color name="magic_indicator_title_selected_color">#FFFFFF</color>
     <color name="magic_indicator_title_unselected_color">#88FFFFFF</color>
     <color name="magic_indicator_line_selected_color">#FFFFFF</color>
+
+    <color name="notification_bg">#ff2196F3</color>
 </resources>

@@ -1,6 +1,7 @@
 package com.lpf.tools;
 
 import com.facebook.stetho.Stetho;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.lpf.tools.base.BaseApplication;
 
 import org.litepal.LitePal;
@@ -18,5 +19,7 @@ public class MainApplication extends BaseApplication {
         Stetho.initializeWithDefaults(this);
         com.lpf.utilcode.util.Utils.init(this);
         LitePal.initialize(this);
+
+        FirebaseMessaging.getInstance().subscribeToTopic("news");
     }
 }
