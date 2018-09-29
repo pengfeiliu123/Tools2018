@@ -1,12 +1,33 @@
 package com.lpf.tools;
 
+import android.app.Notification;
+import android.app.PendingIntent;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.support.annotation.Nullable;
+import android.support.v4.app.NotificationCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.RequestBuilder;
+import com.bumptech.glide.load.DataSource;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.bumptech.glide.load.engine.GlideException;
+import com.bumptech.glide.request.RequestListener;
+import com.bumptech.glide.request.RequestOptions;
+import com.bumptech.glide.request.target.SimpleTarget;
+import com.bumptech.glide.request.target.Target;
 import com.lpf.tools.entity.TagFlowEntity;
 import com.lpf.tools.feature.banner.BannerActivity;
 import com.lpf.tools.feature.collapsingToolbar.CollapsingToolActivity;
@@ -20,8 +41,12 @@ import com.lpf.tools.feature.login.LoginActivity;
 import com.lpf.tools.feature.magicIndicator.IndicatorActivity;
 import com.lpf.tools.feature.navigation.NavigationActivity;
 import com.lpf.tools.feature.networkdemo.NetworkActivity;
+import com.lpf.tools.feature.notification.NotificationUtil;
 import com.lpf.tools.feature.permission.PermissionActivity;
 import com.lpf.tools.feature.widgets.recyclerviewdemo.RecyclerViewActivity;
+import com.lpf.tools.imageloader.BaseImageLoaderStrategy;
+import com.lpf.tools.imageloader.ImageLoader;
+import com.lpf.utilcode.util.ToastUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,15 +56,14 @@ import butterknife.ButterKnife;
 public class MainActivity extends AppCompatActivity {
 
     TagFlowLayout flowLayout;
-
     private List<TagFlowEntity> tagDatas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ButterKnife.bind(this);
 
+        setTitle("Tools2018");
         initTagDatas();
         initFlowLayout();
     }
@@ -81,8 +105,70 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private static int NOTIFICATION_ID = 0x100001;
+
     private void startActivity(Class tagClass) {
-        Intent intent = new Intent(this, tagClass);
-        startActivity(intent);
+
+        sendNotification();
+
+//        Intent intent = new Intent(this, tagClass);
+//        startActivity(intent);
     }
+
+    private void sendNotification() {
+
+        // create click pendingIntent
+        Intent intent = new Intent(this, NavigationActivity.class);
+        PendingIntent pi = PendingIntent.getActivity(this, 0, intent, 0);
+
+        final NotificationUtil notificationUtil = NotificationUtil.getInstance();
+        final NotificationCompat.Builder builder = notificationUtil.getNotificationBuilder(this);
+        builder.setContentTitle("change content");
+        builder.setContentText("content text");
+        builder.setContentIntent(pi);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            builder.setSmallIcon(R.drawable.ic_notification_white);
+            builder.setColor(ContextCompat.getColor(getApplicationContext(), R.color.notification_bg));
+        } else {
+            builder.setSmallIcon(R.drawable.ic_notif_white_big);
+        }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            builder.setShowWhen(true);
+        }
+
+        builder.setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.ic_notifiation_big));
+
+        String imageUrl = "http://www.linkchant.com/manage/images/2012119203021580.jpg";
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                String imageUrl = "http://www.linkchant.com/manage/images/2012119203021580.jpg";
+                final Bitmap bitmap = ImageLoader.getInstance().loadBitmap(MainActivity.this,imageUrl);
+                if (bitmap != null) {
+                    new Handler(Looper.getMainLooper()).post(new Runnable() {
+                        @Override
+                        public void run() {
+//                            imageView.setImageBitmap(bitmap);
+
+                            //创建大视图样式
+                            NotificationCompat.BigPictureStyle bigPictureStyle =
+                                    new NotificationCompat.BigPictureStyle()
+                                            .setBigContentTitle("Big picture style notification ~ Expand title")
+                                            .setSummaryText("Demo for big picture style notification ! ~ Expand summery")
+                                            .bigLargeIcon(null)
+                                            .bigPicture(bitmap);
+
+                            builder.setStyle(bigPictureStyle);
+
+
+                            notificationUtil.getManager(MainActivity.this).notify(NOTIFICATION_ID++, builder.build());
+
+                        }
+                    });
+                }
+            }
+        }).start();
+    }
+
 }

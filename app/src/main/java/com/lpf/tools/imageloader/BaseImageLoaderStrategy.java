@@ -21,6 +21,8 @@ public interface BaseImageLoaderStrategy {
 
     void loadImageWithProgress(Context context, String url, ImageView imageView , int placeholder, ProgressLoadListener listener);
 
+    void loadImageWithProgress(Context context, String url, ProgressLoadListener listener);
+
     void clearImageDiskCache(final Context context);
 
     void clearImageMemoryCache(final Context context);

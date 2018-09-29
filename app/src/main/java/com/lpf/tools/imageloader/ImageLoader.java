@@ -50,6 +50,10 @@ public class ImageLoader {
         strategy.loadImageWithProgress(context, url, imageView, placeholder, listener);
     }
 
+    public void loadImageWithoutImagView(Context context,String url,BaseImageLoaderStrategy.ProgressLoadListener listener){
+        strategy.loadImageWithProgress(context,url,listener);
+    }
+
 
     public void clearImageDiskCache(Context context) {
         strategy.clearImageDiskCache(context);

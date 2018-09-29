@@ -78,6 +78,27 @@ public class GlideImageLoaderStrategy implements BaseImageLoaderStrategy {
     }
 
     @Override
+    public void loadImageWithProgress(Context context, String url, final ProgressLoadListener listener) {
+        Glide.with(context).asBitmap().load(url)
+                .apply(RequestOptions.centerCropTransform()
+                        .dontAnimate()
+                        .diskCacheStrategy(DiskCacheStrategy.RESOURCE))
+                .listener(new RequestListener<Bitmap>() {
+                    @Override
+                    public boolean onLoadFailed(@Nullable GlideException e, Object model, Target<Bitmap> target, boolean isFirstResource) {
+                        listener.onException();
+                        return false;
+                    }
+
+                    @Override
+                    public boolean onResourceReady(Bitmap resource, Object model, Target<Bitmap> target, DataSource dataSource, boolean isFirstResource) {
+                        listener.onResourceReady(resource);
+                        return false;
+                    }
+                });
+    }
+
+    @Override
     public void clearImageDiskCache(final Context context) {
         try {
             if (Looper.myLooper() == Looper.getMainLooper()) {
