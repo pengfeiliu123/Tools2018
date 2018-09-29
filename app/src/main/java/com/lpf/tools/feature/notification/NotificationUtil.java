@@ -1,11 +1,13 @@
 package com.lpf.tools.feature.notification;
 
 import android.app.Notification;
+import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.graphics.BitmapFactory;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
+import android.support.v4.app.NotificationCompat;
 
 import com.lpf.tools.R;
 
@@ -38,29 +40,14 @@ public class NotificationUtil {
         return manager;
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.O)
-    public Notification.Builder getChannelNotification(Context context) {
-
-//        NotificationChannel channel = new NotificationChannel(id, name, NotificationManager.IMPORTANCE_DEFAULT);
-//        getManager(context).createNotificationChannel(channel);
-
-        return new Notification.Builder(context, id)
+    public NotificationCompat.Builder getNotificationBuilder(Context context) {
+        if (Build.VERSION.SDK_INT >= 26) {
+            NotificationChannel channel = new NotificationChannel(id, name, NotificationManager.IMPORTANCE_DEFAULT);
+            getManager(context).createNotificationChannel(channel);
+        }
+        return new NotificationCompat.Builder(context, id)
                 .setAutoCancel(true)
                 .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.ic_notifiation_big));
-    }
-
-    public Notification.Builder getNotification_25(Context context) {
-        return new Notification.Builder(context)
-                .setTicker("ticker")
-                .setAutoCancel(true);
-    }
-
-    public Notification.Builder getNotificationBuilder(Context context) {
-        if (Build.VERSION.SDK_INT >= 26) {
-            return getChannelNotification(context);
-        } else {
-            return getNotification_25(context);
-        }
     }
 
 }
