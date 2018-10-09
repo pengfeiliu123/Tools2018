@@ -109,10 +109,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void startActivity(Class tagClass) {
 
-        sendNotification();
+//        sendNotification();
 
-//        Intent intent = new Intent(this, tagClass);
-//        startActivity(intent);
+        Intent intent = new Intent(this, tagClass);
+        startActivity(intent);
     }
 
     private void sendNotification() {

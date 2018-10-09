@@ -58,6 +58,7 @@ public class IndicatorActivity extends BaseFeatureActivity {
         tagDatas.add(new TagFlowEntity("work_with_fragment_container", FragmentContainerExampleActivity.class));
         tagDatas.add(new TagFlowEntity("load_custom_layout", LoadCustomLayoutExampleActivity.class));
         tagDatas.add(new TagFlowEntity("custom_navigator", CustomNavigatorExampleActivity.class));
+        tagDatas.add(new TagFlowEntity("viewpager_fragment_lifecycle", ViewPagerFragmentLifeCycle.class));
     }
 
     @Override
