@@ -105,7 +105,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private static int NOTIFICATION_ID = 0x100001;
 
     private void startActivity(Class tagClass) {
 
@@ -114,6 +113,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, tagClass);
         startActivity(intent);
     }
+
+    private static int NOTIFICATION_ID = 0x100001;
 
     private void sendNotification() {
 
