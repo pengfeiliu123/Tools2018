@@ -43,6 +43,7 @@ import com.lpf.tools.feature.navigation.NavigationActivity;
 import com.lpf.tools.feature.networkdemo.NetworkActivity;
 import com.lpf.tools.feature.notification.NotificationUtil;
 import com.lpf.tools.feature.permission.PermissionActivity;
+import com.lpf.tools.feature.switcher.SwitchActivity;
 import com.lpf.tools.feature.widgets.recyclerviewdemo.RecyclerViewActivity;
 import com.lpf.tools.imageloader.BaseImageLoaderStrategy;
 import com.lpf.tools.imageloader.ImageLoader;
@@ -81,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
         tagDatas.add(new TagFlowEntity("fragment", FragmentDoubleListActivity.class));
         tagDatas.add(new TagFlowEntity("collapsingTool", CollapsingToolActivity.class));
         tagDatas.add(new TagFlowEntity("customviews", CustomViewsActivity.class));
+        tagDatas.add(new TagFlowEntity("switch", SwitchActivity.class));
     }
 
     private void initFlowLayout() {

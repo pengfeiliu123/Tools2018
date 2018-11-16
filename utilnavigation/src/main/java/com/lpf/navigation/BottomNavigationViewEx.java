@@ -1,5 +1,6 @@
 package com.lpf.navigation;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.graphics.Paint;
@@ -157,6 +158,7 @@ public class BottomNavigationViewEx extends BottomNavigationView {
      *
      * @param visibility
      */
+    @SuppressLint("RestrictedApi")
     public void setIconVisibility(boolean visibility) {
         /*
         1. get field in this class

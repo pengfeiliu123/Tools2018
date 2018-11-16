@@ -80,7 +80,8 @@
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorAccent" />
 
-        <activity android:name=".feature.magicIndicator.ViewPagerFragmentLifeCycle"></activity>
+        <activity android:name=".feature.magicIndicator.ViewPagerFragmentLifeCycle" />
+        <activity android:name=".feature.switcher.SwitchActivity"></activity>
     </application>
 
 </manifest>

@@ -26,6 +26,11 @@ android {
         enabled = true
     }
 
+    lintOptions {
+        abortOnError false
+    }
+
+
 }
 
 dependencies {
