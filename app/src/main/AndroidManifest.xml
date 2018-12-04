@@ -39,6 +39,9 @@
             android:name=".feature.networkdemo.NetworkActivity"
             android:theme="@style/AppTheme" />
         <activity
+            android:name=".feature.snackbar.TestSnackbarUtilsActivity"
+            android:theme="@style/AppTheme" />
+        <activity
             android:name=".feature.widgets.recyclerviewdemo.RecyclerViewActivity"
             android:theme="@style/AppTheme" />
         <!-- <activity android:name=".feature.dbdemo.litepal.LitepalDbActivity" /> -->

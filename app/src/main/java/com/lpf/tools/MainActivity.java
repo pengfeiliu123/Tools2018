@@ -1,6 +1,5 @@
 package com.lpf.tools;
 
-import android.app.Notification;
 import android.app.PendingIntent;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -9,25 +8,13 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.RequestBuilder;
-import com.bumptech.glide.load.DataSource;
-import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.bumptech.glide.load.engine.GlideException;
-import com.bumptech.glide.request.RequestListener;
-import com.bumptech.glide.request.RequestOptions;
-import com.bumptech.glide.request.target.SimpleTarget;
-import com.bumptech.glide.request.target.Target;
 import com.lpf.tools.entity.TagFlowEntity;
 import com.lpf.tools.feature.banner.BannerActivity;
 import com.lpf.tools.feature.collapsingToolbar.CollapsingToolActivity;
@@ -43,16 +30,13 @@ import com.lpf.tools.feature.navigation.NavigationActivity;
 import com.lpf.tools.feature.networkdemo.NetworkActivity;
 import com.lpf.tools.feature.notification.NotificationUtil;
 import com.lpf.tools.feature.permission.PermissionActivity;
+import com.lpf.tools.feature.snackbar.TestSnackbarUtilsActivity;
 import com.lpf.tools.feature.switcher.SwitchActivity;
 import com.lpf.tools.feature.widgets.recyclerviewdemo.RecyclerViewActivity;
-import com.lpf.tools.imageloader.BaseImageLoaderStrategy;
 import com.lpf.tools.imageloader.ImageLoader;
-import com.lpf.utilcode.util.ToastUtil;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -83,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         tagDatas.add(new TagFlowEntity("collapsingTool", CollapsingToolActivity.class));
         tagDatas.add(new TagFlowEntity("customviews", CustomViewsActivity.class));
         tagDatas.add(new TagFlowEntity("switch", SwitchActivity.class));
+        tagDatas.add(new TagFlowEntity("snackbar", TestSnackbarUtilsActivity.class));
     }
 
     private void initFlowLayout() {
