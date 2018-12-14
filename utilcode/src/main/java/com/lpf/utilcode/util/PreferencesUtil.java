@@ -9,6 +9,8 @@ public class PreferencesUtil {
     private static PreferencesUtil instance;
 
     private static SharedPreferences sharedPreferences;
+    public static final String USER_NAME = "user_name";
+    public static final String APP_THEME = "app_theme";
 
     private PreferencesUtil(Context context) {
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
@@ -22,18 +24,30 @@ public class PreferencesUtil {
 
     public String getTestName() {
         if (sharedPreferences != null) {
-            return sharedPreferences.getString("user_name", "");
+            return sharedPreferences.getString(USER_NAME, "");
         }
         return "";
     }
 
     public boolean saveTestName(String name) {
         if (sharedPreferences != null) {
-            return sharedPreferences.edit().putString("user_name", name)
+            return sharedPreferences.edit().putString(USER_NAME, name)
                     .commit();
         }
         return false;
     }
 
+    public static String getAppTheme() {
+        if (sharedPreferences != null) {
+            return sharedPreferences.getString(APP_THEME, "");
+        }
+        return "";
+    }
+
+    public static void setAppTheme(String name) {
+        if (sharedPreferences != null) {
+            sharedPreferences.edit().putString(APP_THEME, name).commit();
+        }
+    }
 
 }

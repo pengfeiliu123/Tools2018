@@ -10,7 +10,7 @@ import org.litepal.LitePal;
  * Created by liupengfei on 2018/2/5 14:53.
  */
 
-public class MainApplication extends BaseApplication {
+public class App extends BaseApplication {
 
 
     @Override
@@ -21,5 +21,10 @@ public class MainApplication extends BaseApplication {
         LitePal.initialize(this);
 
         FirebaseMessaging.getInstance().subscribeToTopic("news");
+    }
+
+
+    public static App applicationContext(){
+        return (App) getsInstance();
     }
 }

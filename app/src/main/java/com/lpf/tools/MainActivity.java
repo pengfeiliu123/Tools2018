@@ -46,8 +46,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //them method from xml
+//        setTheme(SkinManager.get().getThemeId(ThemeStyles.MAIN_ACTIVITY_THEME));
         setContentView(R.layout.activity_main);
-
         setTitle("Tools2018");
         initTagDatas();
         initFlowLayout();
@@ -90,6 +91,8 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+        //theme method from code
+//        SkinManager.getSkinStrategy().setMainActivityBgColor(flowLayout);
     }
 
 
@@ -132,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 String imageUrl = "http://www.linkchant.com/manage/images/2012119203021580.jpg";
-                final Bitmap bitmap = ImageLoader.getInstance().loadBitmap(MainActivity.this,imageUrl);
+                final Bitmap bitmap = ImageLoader.getInstance().loadBitmap(MainActivity.this, imageUrl);
                 if (bitmap != null) {
                     new Handler(Looper.getMainLooper()).post(new Runnable() {
                         @Override

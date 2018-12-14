@@ -7,6 +7,6 @@
     <com.lpf.tools.feature.flowtag.TagFlowLayout
         android:id="@+id/flow_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></com.lpf.tools.feature.flowtag.TagFlowLayout>
+        android:layout_height="400dp"></com.lpf.tools.feature.flowtag.TagFlowLayout>
 
 </LinearLayout>
