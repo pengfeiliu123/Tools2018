@@ -132,7 +132,7 @@ public class BottomNavigationViewEx extends BottomNavigationView {
 
             // mShiftingMode
             boolean mShiftingMode = getField(button.getClass(), button, "mShiftingMode");
-            boolean selected = button.getItemPosition() == currentItem;
+            @SuppressLint("RestrictedApi") boolean selected = button.getItemPosition() == currentItem;
             if (mShiftingMode) {
                 if (selected) {
                     mLargeLabel.setVisibility(VISIBLE);
@@ -225,6 +225,7 @@ public class BottomNavigationViewEx extends BottomNavigationView {
      *
      * @param visibility
      */
+    @SuppressLint("RestrictedApi")
     public void setTextVisibility(boolean visibility) {
         this.textVisibility = visibility;
         /*
@@ -317,6 +318,7 @@ public class BottomNavigationViewEx extends BottomNavigationView {
      *
      * @param enable It means the text won't scale and icon won't move when active it in no item shifting mode if false.
      */
+    @SuppressLint("RestrictedApi")
     public void enableAnimation(boolean enable) {
         /*
         1. get field in this class
@@ -767,6 +769,7 @@ public class BottomNavigationViewEx extends BottomNavigationView {
      * @attr ref android.R.styleable#TextView_typeface
      * @attr ref android.R.styleable#TextView_textStyle
      */
+    @SuppressLint("RestrictedApi")
     public void setTypeface(Typeface typeface, int style) {
         int count = getItemCount();
         for (int i = 0; i < count; i++) {
@@ -781,6 +784,7 @@ public class BottomNavigationViewEx extends BottomNavigationView {
      *
      * @attr ref android.R.styleable#TextView_typeface
      */
+    @SuppressLint("RestrictedApi")
     public void setTypeface(Typeface typeface) {
         int count = getItemCount();
         for (int i = 0; i < count; i++) {
@@ -978,18 +982,21 @@ public class BottomNavigationViewEx extends BottomNavigationView {
 
     }
 
-    public void enableShiftingMode(int position, boolean enable) {
-        getBottomNavigationItemView(position).setShiftingMode(enable);
-    }
+//    public void enableShiftingMode(int position, boolean enable) {
+//        getBottomNavigationItemView(position).setShiftingMode(enable);
+//    }
 
+    @SuppressLint("RestrictedApi")
     public void setItemBackground(int position, int background) {
         getBottomNavigationItemView(position).setItemBackground(background);
     }
 
+    @SuppressLint("RestrictedApi")
     public void setIconTintList(int position, ColorStateList tint) {
         getBottomNavigationItemView(position).setIconTintList(tint);
     }
 
+    @SuppressLint("RestrictedApi")
     public void setTextTintList(int position, ColorStateList tint) {
         getBottomNavigationItemView(position).setTextColor(tint);
     }

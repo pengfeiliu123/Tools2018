@@ -11,11 +11,14 @@ import com.lpf.tools.feature.dbdemo.room.ArticleEntity
 class ArticlePageAdapter : PagedListAdapter<ArticleEntity, ArticleViewHolder>(diffCallback) {
     companion object {
         private val diffCallback = object : DiffUtil.ItemCallback<ArticleEntity>() {
-            override fun areItemsTheSame(oldItem: ArticleEntity?, newItem: ArticleEntity?): Boolean =
-                    oldItem!!.id == newItem!!.id
+            override fun areItemsTheSame(p0: ArticleEntity, p1: ArticleEntity): Boolean {
+                TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+            }
 
-            override fun areContentsTheSame(oldItem: ArticleEntity?, newItem: ArticleEntity?): Boolean =
-                    oldItem == newItem
+            override fun areContentsTheSame(oldItem: ArticleEntity, newItem: ArticleEntity): Boolean {
+                TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+                oldItem == newItem
+            }
         }
     }
 
