@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".feature.theme.SkinTestActivity">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/skin_test_img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/skin_img_test__light"
+        app:mxSkin="src"/>
+
+    <com.lpf.tools.feature.theme.SkinImageView
+        android:id="@+id/skin_test_img_2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/skin_img_test__light"/>
+
+    <Button
+        android:id="@+id/skin_change_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Change Theme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</LinearLayout>

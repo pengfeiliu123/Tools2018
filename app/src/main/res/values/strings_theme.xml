@@ -1,0 +1,3 @@
+<resources>
+    <string name="mx_skin_view_inflater" translatable="false">com.lpf.tools.utilskin.SkinViewInflater</string>
+</resources>

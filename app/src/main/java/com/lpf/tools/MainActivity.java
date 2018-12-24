@@ -32,6 +32,7 @@ import com.lpf.tools.feature.notification.NotificationUtil;
 import com.lpf.tools.feature.permission.PermissionActivity;
 import com.lpf.tools.feature.snackbar.TestSnackbarUtilsActivity;
 import com.lpf.tools.feature.switcher.SwitchActivity;
+import com.lpf.tools.feature.theme.SkinTestActivity;
 import com.lpf.tools.feature.widgets.recyclerviewdemo.RecyclerViewActivity;
 import com.lpf.tools.imageloader.ImageLoader;
 
@@ -69,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
         tagDatas.add(new TagFlowEntity("customviews", CustomViewsActivity.class));
         tagDatas.add(new TagFlowEntity("switch", SwitchActivity.class));
         tagDatas.add(new TagFlowEntity("snackbar", TestSnackbarUtilsActivity.class));
+        tagDatas.add(new TagFlowEntity("skin", SkinTestActivity.class));
     }
 
     private void initFlowLayout() {

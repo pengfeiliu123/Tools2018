@@ -8,4 +8,6 @@ import android.view.View;
 public interface ISkinStrategy {
 
     void setMainActivityBgColor(View view);
+
+    String getResourceName(String name);
 }

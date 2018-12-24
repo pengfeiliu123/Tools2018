@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lpf.tools">
-
     <!-- permission -->
     <uses-permission android:name="android.permission.READ_CALENDAR" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -13,6 +12,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".feature.theme.SkinTestActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTask">
@@ -43,10 +43,8 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name=".feature.widgets.recyclerviewdemo.RecyclerViewActivity"
-            android:theme="@style/AppTheme" />
-        <!-- <activity android:name=".feature.dbdemo.litepal.LitepalDbActivity" /> -->
-        <activity android:name=".feature.login.LoginActivity" />
-        <!-- <activity android:name=".feature.dbdemo.room.ArticleActivity" /> -->
+            android:theme="@style/AppTheme" /> <!-- <activity android:name=".feature.dbdemo.litepal.LitepalDbActivity" /> -->
+        <activity android:name=".feature.login.LoginActivity" /> <!-- <activity android:name=".feature.dbdemo.room.ArticleActivity" /> -->
         <!-- <activity android:name=".feature.dbdemo.room.DbDataPagingActivity" /> -->
         <!-- <activity android:name=".feature.dbdemo.room.LocalDataPagingActivity" /> -->
         <activity android:name=".feature.dbdemo.DbActivity" />
@@ -67,7 +65,6 @@
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
-
         <!--
      Set custom default icon. This is used when no icon is set for incoming notification messages.
      See README(https://goo.gl/l4GJaQ) for more.
@@ -84,7 +81,7 @@
             android:resource="@color/colorAccent" />
 
         <activity android:name=".feature.magicIndicator.ViewPagerFragmentLifeCycle" />
-        <activity android:name=".feature.switcher.SwitchActivity"></activity>
+        <activity android:name=".feature.switcher.SwitchActivity" />
     </application>
 
 </manifest>

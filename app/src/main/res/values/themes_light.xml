@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="MainActivityLightTheme" parent="AppTheme">
+    <style name="LightTheme" parent="AppTheme">
+        <item name="viewInflaterClass">@string/mx_skin_view_inflater</item>
+    </style>
+    <style name="MainActivityLightTheme" parent="LightTheme">
+        <item name="homeBackgroundColor">@style/homeBackgroundColorLight</item>
+    </style>
+    <style name="SkinTestActivityLightTheme" parent="LightTheme">
         <item name="homeBackgroundColor">@style/homeBackgroundColorLight</item>
     </style>
 </resources>

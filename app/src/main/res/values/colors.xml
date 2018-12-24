@@ -9,4 +9,6 @@
     <color name="magic_indicator_line_selected_color">#FFFFFF</color>
 
     <color name="notification_bg">#ff2196F3</color>
+
+    <color name="skin_test_img__light">#ff2196F3</color>
 </resources>

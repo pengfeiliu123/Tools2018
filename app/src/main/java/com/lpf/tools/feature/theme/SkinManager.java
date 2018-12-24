@@ -1,5 +1,6 @@
 package com.lpf.tools.feature.theme;
 
+import android.content.Context;
 import android.support.annotation.StyleRes;
 import android.text.TextUtils;
 
@@ -30,6 +31,10 @@ public class SkinManager {
         setOnlineTheme(AppTheme.THEME_DARK);
     }
 
+    public void setLightTheme(){
+        setOnlineTheme(AppTheme.THEME_DEFAULT);
+    }
+
     public void setOnlineTheme(@AppTheme String newTheme) {
         PreferencesUtil.setAppTheme(newTheme);
         theme = newTheme;
@@ -50,6 +55,16 @@ public class SkinManager {
     public static ISkinStrategy getSkinStrategy(){
         return get().getCurrentStrategy();
     }
+
+    public static String getResourceNameForSkin(Context context, int id) {
+        String name = context.getResources().getResourceEntryName(id);
+        String newName = getSkinStrategy().getResourceName(name);
+        if (TextUtils.equals(name, newName))
+            return null;
+
+        return newName;
+    }
+
 
     // switch theme from default and dark.
     public boolean switchTheme() {
@@ -82,12 +97,14 @@ public class SkinManager {
     private static Map<String, Integer> darkTheme = new HashMap<String, Integer>(){
         {
             put(ThemeStyles.MAIN_ACTIVITY_THEME, R.style.MainActivityDarkTheme);
+            put(ThemeStyles.SKIN_TEST_ACTIVITY_THEME, R.style.SkinTestActivityDarkTheme);
         }
     };
 
     private static Map<String, Integer> defaultTheme = new HashMap<String, Integer>(){
         {
             put(ThemeStyles.MAIN_ACTIVITY_THEME, R.style.MainActivityLightTheme);
+            put(ThemeStyles.SKIN_TEST_ACTIVITY_THEME, R.style.SkinTestActivityLightTheme);
         }
     };
 }

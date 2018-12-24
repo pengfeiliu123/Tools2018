@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SkinImageView">
+        <attr name="android:src"/>
+    </declare-styleable>
+    <declare-styleable name="SkinSupport">
+        <attr name="android:background"/>
+    </declare-styleable>
+    <declare-styleable name="SkinTextView">
+        <attr name="android:textColor"/>
+    </declare-styleable>
+    <declare-styleable name="SkinTintImageView">
+        <attr name="android:tint"/>
+    </declare-styleable>
+    <declare-styleable name="SkinSupportFlag">
+        <attr name="mxSkin" format="enum">
+            <enum name="background" value="0"/>
+            <enum name="src" value="1"/>
+            <enum name="tint" value="2"/>
+            <enum name="textColor" value="3"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

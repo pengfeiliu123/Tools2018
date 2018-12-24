@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="MainActivityDarkTheme" parent="AppTheme">
+
+    <style name="DarkTheme" parent="AppTheme">
+        <item name="viewInflaterClass">@string/mx_skin_view_inflater</item>
+    </style>
+
+    <style name="MainActivityDarkTheme" parent="DarkTheme">
         <item name="homeBackgroundColor">@style/homeBackgroundColorDark</item>
     </style>
+
+    <style name="SkinTestActivityDarkTheme" parent="DarkTheme">
+    </style>
+
+
 </resources>
