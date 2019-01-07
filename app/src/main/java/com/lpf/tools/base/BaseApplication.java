@@ -24,7 +24,21 @@ public class BaseApplication extends Application {
     public void onCreate() {
         super.onCreate();
         sInstance = this;
-        registerActivityLifecycleCallbacks(mCallbacks);
+//        registerActivityLifecycleCallbacks(mCallbacks);
+
+        ForegroundCallbacks.init(this);
+        ForegroundCallbacks.get(this).addListener(new ForegroundCallbacks.Listener() {
+            @Override
+            public void onBecameForeground() {
+                Log.d("lpftag","切换到前台");
+            }
+
+            @Override
+            public void onBecameBackground() {
+                Log.d("lpftag","切换到后台");
+            }
+        });
+
     }
 
     private ActivityLifecycleCallbacks mCallbacks = new ActivityLifecycleCallbacks() {

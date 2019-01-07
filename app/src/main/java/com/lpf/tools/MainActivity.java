@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void startActivity(Class tagClass) {
 
-//        sendNotification();
+        sendNotification();
 
         Intent intent = new Intent(this, tagClass);
         startActivity(intent);
@@ -130,38 +130,40 @@ public class MainActivity extends AppCompatActivity {
             builder.setShowWhen(true);
         }
 
-        builder.setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.ic_notifiation_big));
+//        builder.setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.ic_notifiation_big));
+        builder.setLargeIcon(null);
+        notificationUtil.getManager(MainActivity.this).notify(NOTIFICATION_ID++, builder.build());
 
-        String imageUrl = "http://www.linkchant.com/manage/images/2012119203021580.jpg";
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                String imageUrl = "http://www.linkchant.com/manage/images/2012119203021580.jpg";
-                final Bitmap bitmap = ImageLoader.getInstance().loadBitmap(MainActivity.this, imageUrl);
-                if (bitmap != null) {
-                    new Handler(Looper.getMainLooper()).post(new Runnable() {
-                        @Override
-                        public void run() {
-//                            imageView.setImageBitmap(bitmap);
-
-                            //创建大视图样式
-                            NotificationCompat.BigPictureStyle bigPictureStyle =
-                                    new NotificationCompat.BigPictureStyle()
-                                            .setBigContentTitle("Big picture style notification ~ Expand title")
-                                            .setSummaryText("Demo for big picture style notification ! ~ Expand summery")
-                                            .bigLargeIcon(null)
-                                            .bigPicture(bitmap);
-
-                            builder.setStyle(bigPictureStyle);
-
-
-                            notificationUtil.getManager(MainActivity.this).notify(NOTIFICATION_ID++, builder.build());
-
-                        }
-                    });
-                }
-            }
-        }).start();
+//        String imageUrl = "http://www.linkchant.com/manage/images/2012119203021580.jpg";
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                String imageUrl = "http://www.linkchant.com/manage/images/2012119203021580.jpg";
+//                final Bitmap bitmap = ImageLoader.getInstance().loadBitmap(MainActivity.this, imageUrl);
+//                if (bitmap != null) {
+//                    new Handler(Looper.getMainLooper()).post(new Runnable() {
+//                        @Override
+//                        public void run() {
+////                            imageView.setImageBitmap(bitmap);
+//
+//                            //创建大视图样式
+//                            NotificationCompat.BigPictureStyle bigPictureStyle =
+//                                    new NotificationCompat.BigPictureStyle()
+//                                            .setBigContentTitle("Big picture style notification ~ Expand title")
+//                                            .setSummaryText("Demo for big picture style notification ! ~ Expand summery")
+//                                            .bigLargeIcon(null)
+//                                            .bigPicture(bitmap);
+//
+//                            builder.setStyle(bigPictureStyle);
+//
+//
+//                            notificationUtil.getManager(MainActivity.this).notify(NOTIFICATION_ID++, builder.build());
+//
+//                        }
+//                    });
+//                }
+//            }
+//        }).start();
     }
 
 }
