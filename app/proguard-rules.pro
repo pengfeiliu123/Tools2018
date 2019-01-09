@@ -38,3 +38,7 @@
 -keep public class android.support.design.internal.BottomNavigationPresenter { *; }
 -keep public class android.support.design.internal.BottomNavigationItemView { *; }
 #bottom navigation end
+
+# Fix issue that class R is proguarded. now keep it.
+-keep class **.R {*;}
+-keep class **.R$* { *;}

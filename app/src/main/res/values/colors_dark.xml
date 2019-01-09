@@ -2,4 +2,7 @@
 <resources>
     <color name="homeBackgroundColorDark">#ffff00</color>
     <color name="skin_test_img__dark">#ff0000</color>
+
+    <color name="delete_all_text_color_unable__dark">#88dadde4</color>
+    <color name="delete_all_text_color_enable__dark">#dadde4</color>
 </resources>

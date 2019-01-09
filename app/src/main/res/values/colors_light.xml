@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="homeBackgroundColorLight">#ffffff</color>
+
+    <color name="delete_all_text_color_unable__light">#96a2ba</color>
+    <color name="delete_all_text_color_enable__light">#505a78</color>
 </resources>

@@ -1,4 +1,4 @@
-package com.lpf.tools.feature.theme;
+package com.lpf.tools.feature.theme.util;
 
 import android.content.Context;
 import android.support.annotation.StyleRes;

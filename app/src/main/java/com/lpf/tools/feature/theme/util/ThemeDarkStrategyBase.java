@@ -1,4 +1,4 @@
-package com.lpf.tools.feature.theme;
+package com.lpf.tools.feature.theme.util;
 
 public abstract class ThemeDarkStrategyBase implements ISkinStrategy {
 

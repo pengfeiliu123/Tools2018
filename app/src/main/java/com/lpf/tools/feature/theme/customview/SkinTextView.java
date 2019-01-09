@@ -1,11 +1,14 @@
-package com.lpf.tools.feature.theme;
+package com.lpf.tools.feature.theme.customview;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.support.annotation.AnyRes;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 
+import com.lpf.tools.App;
 import com.lpf.tools.R;
+import com.lpf.tools.feature.theme.util.SkinManager;
 import com.lpf.tools.utilskin.ThemeResourceUtil;
 
 /**
@@ -48,6 +51,23 @@ public class SkinTextView extends android.support.v7.widget.AppCompatTextView {
             setTextColor(getResources().getColor(colorId));
         } finally {
             a.recycle();
+        }
+    }
+
+    public void setCustomTextColor(@AnyRes int resourceId) {
+        if(SkinManager.get().isDarkTheme()){
+            String name = App.getsInstance().getResources().getResourceEntryName(resourceId);
+            String newName = SkinManager.getSkinStrategy().getResourceName(name);
+            if (TextUtils.isEmpty(newName))
+                return;
+
+            int colorId = ThemeResourceUtil.getColorId(App.applicationContext(), newName);
+            if (colorId == 0)
+                return;
+
+            setTextColor(getResources().getColor(colorId));
+        }else{
+            setTextColor(getResources().getColor(resourceId));
         }
     }
 }

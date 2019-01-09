@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatViewInflater;
 import android.support.v7.content.res.AppCompatResources;
 import android.text.TextUtils;
 import android.util.AttributeSet;
+import android.view.ContextThemeWrapper;
 import android.view.InflateException;
 import android.view.View;
 import android.widget.ImageView;
@@ -115,10 +116,48 @@ public class SkinViewInflater extends AppCompatViewInflater {
             return null;
         }
     }
+    
+    private static boolean supportSkin(Context context) {
+        if (context instanceof SkinDelegate)
+            return true;
+        
+        if (context instanceof ContextThemeWrapper) {
+            Context baseContext = ((ContextThemeWrapper) context).getBaseContext();
+            return baseContext instanceof SkinDelegate;
+        }
+        
+        if (context instanceof android.support.v7.view.ContextThemeWrapper) {
+            Context baseContext = ((android.support.v7.view.ContextThemeWrapper) context).getBaseContext();
+            return baseContext instanceof SkinDelegate;
+        }
+        
+        return false;
+    }
+    
+    private static SkinDelegate getSkinDelegate(Context context) {
+        if (context instanceof SkinDelegate)
+        return (SkinDelegate) context;
+
+        if (context instanceof ContextThemeWrapper) {
+            Context baseContext = ((ContextThemeWrapper) context).getBaseContext();
+            if (baseContext instanceof SkinDelegate)
+                return (SkinDelegate) baseContext;
+        }
+
+        if (context instanceof android.support.v7.view.ContextThemeWrapper) {
+            Context baseContext = ((android.support.v7.view.ContextThemeWrapper) context).getBaseContext();
+            if (baseContext instanceof SkinDelegate)
+                return (SkinDelegate) baseContext;
+        }
+        
+        return null;
+    }
+            
 
     private void initSkin(Context context, View view, AttributeSet attrs) {
-        if (!(context instanceof SkinDelegate))
+        if (!supportSkin(context)){
             return;
+        }
 
         String skinFlag = attrs.getAttributeValue(SKIN_FLAG_NAMESPACE, SKIN_FLAG_NAME);
         if (TextUtils.isEmpty(skinFlag))
@@ -137,14 +176,14 @@ public class SkinViewInflater extends AppCompatViewInflater {
 
     private void updateBackground(Context context, View view, AttributeSet attrs) {
         final TypedArray a = context.obtainStyledAttributes(
-                attrs, com.lpf.tools.utilskin.R.styleable.SkinSupport, 0, 0);
+                attrs, R.styleable.SkinSupport, 0, 0);
 
         try {
-            int id = a.getResourceId(com.lpf.tools.utilskin.R.styleable.SkinSupport_android_background, 0);
+            int id = a.getResourceId(R.styleable.SkinSupport_android_background, 0);
             if (id == 0)
                 return;
 
-            String newName = ((SkinDelegate) context).getResourceNameForSkin(id);
+            String newName = getSkinDelegate(context).getResourceNameForSkin(id);
             if (TextUtils.isEmpty(newName))
                 return;
 
@@ -161,14 +200,14 @@ public class SkinViewInflater extends AppCompatViewInflater {
 
     private void updateSrc(Context context, ImageView imageView, AttributeSet attrs) {
         final TypedArray a = context.obtainStyledAttributes(
-                attrs, com.lpf.tools.utilskin.R.styleable.SkinImageView, 0, 0);
+                attrs, R.styleable.SkinImageView, 0, 0);
 
         try {
-            int id = a.getResourceId(com.lpf.tools.utilskin.R.styleable.SkinImageView_android_src, 0);
+            int id = a.getResourceId(R.styleable.SkinImageView_android_src, 0);
             if (id == 0)
                 return;
 
-            String newName = ((SkinDelegate) context).getResourceNameForSkin(id);
+            String newName = getSkinDelegate(context).getResourceNameForSkin(id);
             if (TextUtils.isEmpty(newName))
                 return;
 
@@ -188,14 +227,14 @@ public class SkinViewInflater extends AppCompatViewInflater {
 
     private void updateTint(Context context, ImageView imageView, AttributeSet attrs) {
         final TypedArray a = context.obtainStyledAttributes(
-                attrs, com.lpf.tools.utilskin.R.styleable.SkinTintImageView, 0, 0);
+                attrs, R.styleable.SkinTintImageView, 0, 0);
 
         try {
-            int id = a.getResourceId(com.lpf.tools.utilskin.R.styleable.SkinTintImageView_android_tint, 0);
+            int id = a.getResourceId(R.styleable.SkinTintImageView_android_tint, 0);
             if (id == 0)
                 return;
 
-            String newName = ((SkinDelegate) context).getResourceNameForSkin(id);
+            String newName = getSkinDelegate(context).getResourceNameForSkin(id);
             if (TextUtils.isEmpty(newName))
                 return;
 
@@ -213,14 +252,14 @@ public class SkinViewInflater extends AppCompatViewInflater {
 
     private void updateTextColor(Context context, TextView textView, AttributeSet attrs) {
         final TypedArray a = context.obtainStyledAttributes(
-                attrs, com.lpf.tools.utilskin.R.styleable.SkinTextView, 0, 0);
+                attrs, R.styleable.SkinTextView, 0, 0);
 
         try {
-            int id = a.getResourceId(com.lpf.tools.utilskin.R.styleable.SkinTextView_android_textColor, 0);
+            int id = a.getResourceId(R.styleable.SkinTextView_android_textColor, 0);
             if (id == 0)
                 return;
 
-            String newName = ((SkinDelegate) context).getResourceNameForSkin(id);
+            String newName = getSkinDelegate(context).getResourceNameForSkin(id);
             if (TextUtils.isEmpty(newName))
                 return;
 

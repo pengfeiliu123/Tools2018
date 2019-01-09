@@ -222,7 +222,7 @@ public class TestSnackbarUtilsActivity extends AppCompatActivity implements View
             case R.id.bt_addview:
                 //TODO implement
                 ImageView imageView = new ImageView(context);
-                imageView.setImageResource(R.mipmap.ic_launcher);
+                imageView.setImageResource(R.mipmap.ic_launcher_new);
                 SnackbarUtils.Short(bt_addview,"向Snackbar布局中添加View").addView(imageView,0).show();
                 break;
             case R.id.bt_radius:

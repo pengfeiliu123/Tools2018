@@ -1,12 +1,12 @@
-package com.lpf.tools.feature.theme;
+package com.lpf.tools.feature.theme.util;
 
 import android.support.annotation.StringDef;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-import static com.lpf.tools.feature.theme.ThemeStyles.MAIN_ACTIVITY_THEME;
-import static com.lpf.tools.feature.theme.ThemeStyles.SKIN_TEST_ACTIVITY_THEME;
+import static com.lpf.tools.feature.theme.util.ThemeStyles.MAIN_ACTIVITY_THEME;
+import static com.lpf.tools.feature.theme.util.ThemeStyles.SKIN_TEST_ACTIVITY_THEME;
 
 @StringDef({
         MAIN_ACTIVITY_THEME,

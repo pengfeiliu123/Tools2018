@@ -48,7 +48,7 @@ public class ResponseEntityViewBinder extends ItemViewBinder<ResponseEntity.Subj
                 return;
             }
             movieName.setText(bean.getTitle());
-            ImageLoader.getInstance().loadCircleImage(itemView.getContext(), bean.getImages().getMedium(), movieImage, R.mipmap.ic_launcher);
+            ImageLoader.getInstance().loadCircleImage(itemView.getContext(), bean.getImages().getMedium(), movieImage, R.mipmap.ic_launcher_new);
         }
     }
 }

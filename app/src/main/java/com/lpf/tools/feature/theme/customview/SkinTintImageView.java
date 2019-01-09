@@ -1,4 +1,4 @@
-package com.lpf.tools.feature.theme;
+package com.lpf.tools.feature.theme.customview;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -10,6 +10,7 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 
 import com.lpf.tools.R;
+import com.lpf.tools.feature.theme.util.SkinManager;
 import com.lpf.tools.utilskin.ThemeResourceUtil;
 
 /**
