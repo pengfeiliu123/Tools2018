@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BrandedLaunch" parent="AppTheme">
+        <item name="android:statusBarColor">@color/welcome_page_color</item>
+        <item name="android:navigationBarColor">@color/welcome_page_color</item>
+        <item name="android:windowBackground">@color/colorGray</item>
+    </style>
+</resources>

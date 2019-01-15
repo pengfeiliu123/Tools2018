@@ -15,7 +15,8 @@
         <activity android:name=".feature.theme.SkinTestActivity"></activity>
         <activity
             android:name=".MainActivity"
-            android:launchMode="singleTask">
+            android:launchMode="singleTask"
+            android:theme="@style/BrandedLaunch">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
