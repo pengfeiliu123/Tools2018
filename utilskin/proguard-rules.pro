@@ -20,6 +20,6 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep class com.mxtech.SkinViewInflater {
+-keep class com.lpf.tools.utilskin.SkinViewInflater {
     public *;
 }
