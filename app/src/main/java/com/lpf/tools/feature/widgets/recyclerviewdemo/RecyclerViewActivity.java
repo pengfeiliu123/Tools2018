@@ -17,6 +17,7 @@ import com.lpf.tools.feature.widgets.recyclerviewdemo.itemdecoration.SpaceItemDe
 import com.lpf.tools.feature.widgets.recyclerviewdemo.viewholders.ResponseEntityViewBinder;
 import com.lpf.tools.network.RequestMethod;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
@@ -50,8 +51,8 @@ public class RecyclerViewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_recycler_view);
         ButterKnife.bind(this);
 
-        requestData(true, firstPosition, count);
         initViews();
+        requestData(true, firstPosition, count);
     }
 
     private void requestData(final boolean refresh, final int start, final int count) {
@@ -111,6 +112,7 @@ public class RecyclerViewActivity extends AppCompatActivity {
     private void initViews() {
 
         initLayoutManager();
+        recyclerDatas = new ArrayList<>();
         adapter = new MultiTypeAdapter(recyclerDatas);
         initAdapter(adapter);
         recyclerview.setOnActionListener(new MXRecyclerView.OnActionListener() {

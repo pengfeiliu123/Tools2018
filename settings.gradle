@@ -1,1 +1,1 @@
-include ':app', ':utilcode', ':utilnavigation', ':utilindicator', ':utilbanner', ':utilskin', ':utilscreenadaptation'
+include ':app', ':utilcode', ':utilnavigation', ':utilindicator', ':utilbanner', ':utilskin', ':utilscreenadaptation', ':utilmultitype'
