@@ -16,17 +16,25 @@
 
 package me.drakeet.multitype;
 
+import android.content.Context;
 import android.support.annotation.CheckResult;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.RecyclerView.ViewHolder;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
+
+import com.drakeet.multitype.R;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
+
+import me.drakeet.multitype.ext.AutoCacheViewHolder;
+import me.drakeet.multitype.ext.MultiTypeViewCacheProvider;
+import me.drakeet.multitype.ext.ViewCache;
 
 import static me.drakeet.multitype.Preconditions.checkNotNull;
 
@@ -40,6 +48,45 @@ public class MultiTypeAdapter extends RecyclerView.Adapter<ViewHolder> {
   private @NonNull
   List<?> items;
   private @NonNull TypePool typePool;
+
+  @NonNull protected LayoutInflater inflater;
+  private ViewCache viewCache;
+
+  private static RecyclerView.Adapter emptyAdapter = new RecyclerView.Adapter(){
+    @NonNull
+    @Override
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+      return null;
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {}
+
+    @Override
+    public int getItemCount() {return 0;}
+  };
+
+  public void setViewCache(ViewCache viewCache) {
+    this.viewCache = viewCache;
+  }
+
+  @Override
+  public void onDetachedFromRecyclerView(@NonNull RecyclerView recyclerView) {
+    super.onDetachedFromRecyclerView(recyclerView);
+
+    if( viewCache != null){
+      if(recyclerView instanceof Recyclable){
+        ((Recyclable)recyclerView).setInRecycling(true);
+      }
+      if(viewCache.recycle(recyclerView)){
+        viewCache.recycle(this);
+        recyclerView.setLayoutManager(null);
+      }
+      if(recyclerView instanceof Recyclable){
+        ((Recyclable)recyclerView).setInRecycling(false);
+      }
+    }
+  }
 
 
   /**
@@ -213,9 +260,44 @@ public class MultiTypeAdapter extends RecyclerView.Adapter<ViewHolder> {
 
   @Override
   public final ViewHolder onCreateViewHolder(ViewGroup parent, int indexViewType) {
-    LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-    ItemViewBinder<?, ?> binder = typePool.getItemViewBinder(indexViewType);
-    return binder.onCreateViewHolder(inflater, parent);
+//    LayoutInflater inflater = LayoutInflater.from(parent.getContext());
+//    ItemViewBinder<?, ?> binder = typePool.getItemViewBinder(indexViewType);
+//    return binder.onCreateViewHolder(inflater, parent);
+
+    ItemViewBinder<?,?> binder = typePool.getItemViewBinder(indexViewType);
+    binder.adapter = this;
+
+    if(viewCache == null){
+        Context context = parent.getContext();
+        if(context instanceof MultiTypeViewCacheProvider){
+            viewCache = ((MultiTypeViewCacheProvider)context).getMultiTypeViewCache();
+            LayoutInflater inflater = ((MultiTypeViewCacheProvider)context).getMultiTypeLayoutInflater();
+            if(inflater == null){
+                inflater = LayoutInflater.from(parent.getContext());
+                ((MultiTypeViewCacheProvider)context).saveLayoutInflater(inflater);
+            }
+            this.inflater = inflater;
+        }
+    }
+
+    if(inflater == null){
+        inflater = LayoutInflater.from(parent.getContext());
+    }
+
+    int layoutId = binder.getMultiTypeLayoutId();
+    if(layoutId != 0 && viewCache != null){
+        View view = viewCache.getViewById(layoutId,binder.getClass());
+        if( view != null ){
+            ViewHolder holder = binder.onCreateViewHolder(inflater,parent,view);
+            return holder;
+        }
+    }
+
+    ViewHolder holder = binder.onCreateViewHolder(inflater,parent);
+    if(layoutId != 0){
+        holder.itemView.setTag(R.id.multi_type_tag,layoutId);
+    }
+    return holder;
   }
 
 
@@ -285,6 +367,32 @@ public class MultiTypeAdapter extends RecyclerView.Adapter<ViewHolder> {
   @Override
   @SuppressWarnings("unchecked")
   public final void onViewRecycled(@NonNull ViewHolder holder) {
+
+    if(viewCache != null){
+      if(holder instanceof AutoCacheViewHolder){
+          RecyclerView recyclerView = ((AutoCacheViewHolder)holder).getRecyclerView();
+          if(recyclerView == null ){
+              Log.d("multiType","onViewRecycled error, "+ holder.getClass().getCanonicalName());
+              return;
+          }
+          if(recyclerView instanceof Recyclable){
+              ((Recyclable)recyclerView).setInRecycling(true);
+          }
+          if(viewCache.recycle(recyclerView)){
+              recyclerView.setLayoutManager(null);
+              RecyclerView.Adapter adapter = recyclerView.getAdapter();
+              if(adapter instanceof  MultiTypeAdapter){
+                  if(viewCache.recycle((MultiTypeAdapter)adapter)){
+                      recyclerView.setAdapter(emptyAdapter);
+                  }
+              }
+          }
+          if(recyclerView instanceof Recyclable){
+              ((Recyclable)recyclerView).setInRecycling(false);
+          }
+      }
+    }
+
     getRawBinderByViewHolder(holder).onViewRecycled(holder);
   }
 

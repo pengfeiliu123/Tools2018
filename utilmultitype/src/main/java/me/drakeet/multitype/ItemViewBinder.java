@@ -21,6 +21,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.RecyclerView.LayoutManager;
 import android.support.v7.widget.RecyclerView.ViewHolder;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
 import java.util.List;
@@ -32,6 +33,19 @@ public abstract class ItemViewBinder<T, VH extends ViewHolder> {
 
   /* internal */ MultiTypeAdapter adapter;
 
+  public static final int NO_CACHE = 0;
+
+  public int getMultiTypeLayoutId(){
+    return getLayoutId();
+  }
+
+  protected int getLayoutId(){
+    return 0;
+  }
+
+  protected VH onCreateViewHolder(@NonNull LayoutInflater inflater, @NonNull ViewGroup parent, View view){
+    return onCreateViewHolder(inflater,parent);
+  }
 
   protected abstract @NonNull VH onCreateViewHolder(@NonNull LayoutInflater inflater, @NonNull ViewGroup parent);
 
