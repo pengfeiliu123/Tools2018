@@ -9,4 +9,323 @@
     <dimen name="rv_item_bottom">4dp</dimen>
     <dimen name="rv_item_bottomSpace">4dp</dimen>
     <dimen name="view_pager_tab_text_size">14dp</dimen>
+
+    <!-- local more videos-->
+    <dimen name="local_back_width">24dp</dimen>
+    <dimen name="local_back_height">24dp</dimen>
+    <dimen name="local_back_margin_left">16dp</dimen>
+    <dimen name="local_back_margin_right">16dp</dimen>
+    <dimen name="local_back_land_margin_top">12dp</dimen>
+    <dimen name="local_back_port_margin_top">12dp</dimen>
+    <dimen name="local_back_padding">4dp</dimen>
+    <dimen name="local_title_port_margin_top">36dp</dimen>
+    <dimen name="local_list_land_margin_bottom">16dp</dimen>
+    <dimen name="local_list_land_margin_left">0dp</dimen>
+    <dimen name="local_list_land_margin_right">0dp</dimen>
+    <dimen name="local_list_land_margin_top">8dp</dimen>
+    <dimen name="local_list_port_margin_bottom">0dp</dimen>
+    <dimen name="local_list_port_margin_left">16dp</dimen>
+    <dimen name="local_list_port_margin_right">16dp</dimen>
+    <dimen name="local_list_port_margin_top">0dp</dimen>
+    <dimen name="more_videos_title_margin_left">16dp</dimen>
+    <dimen name="more_videos_title_margin_right">16dp</dimen>
+    <dimen name="find_more_margin_left">16dp</dimen>
+    <dimen name="find_more_margin_right">16dp</dimen>
+    <dimen name="local_more_videos_left_feed_margin_top">8dp</dimen>
+    <dimen name="local_more_videos_left_feed_margin_bottom">8dp</dimen>
+    <dimen name="local_more_videos_left_feed_margin_between_item">8dp</dimen>
+    <dimen name="local_more_videos_slide_feed_margin_left">16dp</dimen>
+    <dimen name="local_more_videos_slide_feed_margin_right">16dp</dimen>
+    <dimen name="local_more_videos_slide_feed_margin_between_item">4dp</dimen>
+    <!--<dimen name="local_more_videos_port_blank_view_height">24dp</dimen>-->
+
+    <!-- bubble -->
+    <dimen name="login_sign_tip_margin_bottom">88dp</dimen>
+    <dimen name="login_facebook_btn_margin_bottom">114dp</dimen>
+    <dimen name="login_welcome_logo_margin_top">200dp</dimen>
+    <dimen name="online_tip_bubble_margin_left_land">64dp</dimen>
+    <dimen name="online_tip_bubble_margin_right_land">64dp</dimen>
+    <dimen name="online_tip_bubble_margin_left_port">16dp</dimen>
+    <dimen name="online_tip_bubble_margin_right_port">16dp</dimen>
+    <dimen name="online_tip_bubble_length">20dp</dimen>
+
+    <!-- featureCard -->
+    <dimen name="feature_card_title_height">130dp</dimen>
+    <dimen name="slide_item_mxoriginal_height">261dp</dimen>
+
+    <!-- card view -->
+    <dimen name="card_view_margin_left">8dp</dimen>
+    <dimen name="card_view_margin_right">8dp</dimen>
+    <dimen name="card_view_margin_Top">4dp</dimen>
+    <dimen name="card_view_margin_Bottom">4dp</dimen>
+    <dimen name="card_view_radius_slide">4dp</dimen>
+    <dimen name="card_view_radius_slide_game">12dp</dimen>
+    <dimen name="card_view_radius">4dp</dimen>
+    <dimen name="card_view_elevation_slide">2dp</dimen>
+    <dimen name="card_view_elevation">2dp</dimen>
+    <dimen name="card_view_radius_small">4dp</dimen>
+    <dimen name="card_view_elevation_small">2dp</dimen>
+
+    <!-- browse item -->
+    <dimen name="browse_item_width">104dp</dimen>
+    <dimen name="browse_item_height">59dp</dimen>
+
+    <!-- liveTv -->
+    <!--<dimen name="live_tv_detail_avatar_width">40dp</dimen>
+    <dimen name="live_tv_detail_avatar_height">40dp</dimen>
+    <dimen name="live_tv_detail_avatar_margin_left">16dp</dimen>
+    <dimen name="live_tv_detail_avatar_margin_top">12dp</dimen>
+    <dimen name="live_tv_detail_avatar_margin_bottom">12dp</dimen>-->
+    <dimen name="live_tv_detail_title_margin_left">12dp</dimen>
+    <dimen name="live_tv_detail_title_margin_right">12dp</dimen>
+    <dimen name="live_tv_detail_subtitle_margin_top">4dp</dimen>
+    <dimen name="live_tv_detail_subtitle_margin_bottom">12dp</dimen>
+    <dimen name="live_tv_detail_info_img_width">20dp</dimen>
+    <dimen name="live_tv_detail_info_img_height">20dp</dimen>
+    <dimen name="live_tv_detail_info_img_margin_left">8dp</dimen>
+    <dimen name="live_tv_detail_info_img_margin_right">16dp</dimen>
+    <dimen name="live_tv_detail_bullet_img_width">24dp</dimen>
+    <dimen name="live_tv_detail_bullet_img_height">24dp</dimen>
+    <dimen name="live_tv_detail_bullet_img_margin_right">8dp</dimen>
+    <!--<dimen name="live_tv_detail_program_layout_padding_top">10dp</dimen>-->
+    <!--<dimen name="live_tv_detail_program_control_margin_bottom">12dp</dimen>-->
+    <!--<dimen name="live_tv_detail_program_control_width">24dp</dimen>-->
+    <!--<dimen name="live_tv_detail_program_control_height">24dp</dimen>-->
+    <!--<dimen name="live_tv_detail_program_control_padding">2dp</dimen>-->
+    <dimen name="live_tv_detail_program_time_width">120dp</dimen>
+    <dimen name="live_tv_detail_program_time_margin_left">4dp</dimen>
+    <dimen name="live_tv_detail_program_time_margin_right">4dp</dimen>
+    <dimen name="live_tv_detail_program_time_padding_left">12dp</dimen>
+    <dimen name="live_tv_detail_program_time_padding_right">12dp</dimen>
+    <dimen name="live_tv_detail_program_list_height">113dp</dimen>
+    <dimen name="live_tv_detail_channel_list_height">81dp</dimen>
+    <dimen name="live_tv_detail_channel_list_margin_top">30dp</dimen>
+    <dimen name="live_tv_detail_channel_title_margin_top">4dp</dimen>
+    <dimen name="live_tv_detail_channel_title_margin_bottom">4dp</dimen>
+    <dimen name="live_tv_detail_bottom_btn_height">48dp</dimen>
+    <dimen name="live_tv_detail_bottom_divide_height">1dp</dimen>
+    <dimen name="live_tv_item_program_width">200dp</dimen>
+    <dimen name="live_tv_item_program_padding_top">10dp</dimen>
+    <dimen name="live_tv_item_program_padding_bottom">16dp</dimen>
+    <dimen name="live_tv_item_program_playing_width">110dp</dimen>
+    <dimen name="live_tv_item_program_title_margin_top">8dp</dimen>
+    <!--<dimen name="live_tv_item_program_loading_height">95dp</dimen>-->
+    <dimen name="live_tv_channel_list_img_width">24dp</dimen>
+    <dimen name="live_tv_channel_list_img_height">24dp</dimen>
+    <dimen name="live_tv_channel_list_margin_left">10dp</dimen>
+    <dimen name="live_tv_channel_list_img_padding_left_right">2dp</dimen>
+    <dimen name="live_tv_channel_list_img_padding_top_bottom">3dp</dimen>
+
+    <!-- tv channel item -->
+    <dimen name="channel_item_width">60dp</dimen>
+    <dimen name="channel_item_height">60dp</dimen>
+    <dimen name="channel_item_select_width">60dp</dimen>
+    <dimen name="channel_item_select_height">60dp</dimen>
+    <dimen name="channel_item_normal_width">60dp</dimen>
+    <dimen name="channel_item_normal_height">60dp</dimen>
+    <dimen name="live_tv_item_channel_decoration">11dp</dimen>
+    <dimen name="live_tv_show_detail_close_bg_margin_right">16dp</dimen>
+    <dimen name="live_tv_show_detail_text_margin">16dp</dimen>
+    <dimen name="live_tv_show_detail_title_text_height">48dp</dimen>
+    <dimen name="live_tv_show_detail_margin_bottom">22dp</dimen>
+
+    <!-- banner -->
+    <dimen name="banner_item_height">250dp</dimen>
+    <dimen name="banner_image_height">185dp</dimen>
+    <dimen name="online_item_buzz_width_key">328dp</dimen>
+    <dimen name="online_item_buzz_height_key">185dp</dimen>
+
+    <!-- channel_list -->
+    <dimen name="channel_list_thumbnail_width">20dp</dimen>
+    <dimen name="channel_list_thumbnail_height">20dp</dimen>
+    <dimen name="channel_list_thumbnail_corner_radius">16dp</dimen>
+    <dimen name="channel_list_text_margin_left">5dp</dimen>
+    <dimen name="channel_list_text_margin_right">10dp</dimen>
+    <dimen name="channel_list_item_margin_Right">8dp</dimen>
+    <dimen name="channel_list_item_margin_top">3dp</dimen>
+    <dimen name="channel_list_item_margin_bottom">3dp</dimen>
+
+    <!-- cover left -->
+    <dimen name="left_cover_item_width">130dp</dimen>
+    <dimen name="left_cover_item_height">73dp</dimen>
+    <dimen name="left_cover_item_container_height">75dp</dimen>
+    <dimen name="artist_left_item__height">60dp</dimen>
+
+    <!-- cover big -->
+    <dimen name="feed_cover_big_image_height">185dp</dimen>
+    <dimen name="feed_cover_big_publisher_image_margin_top">8dp</dimen>
+    <dimen name="feed_cover_big_title_margin_top">8dp</dimen>
+    <dimen name="feed_cover_big_title_margin_left">10dp</dimen>
+    <dimen name="feed_cover_big_title_margin_right">10dp</dimen>
+
+    <!-- item view -->
+    <dimen name="item_episode_season_text_padding_left">16dp</dimen>
+    <dimen name="item_episode_season_text_padding_right">16dp</dimen>
+
+    <!-- item width and height -->
+    <dimen name="tvshow_episode_season_music_short_item_img_width">160dp</dimen>
+    <dimen name="tvshow_episode_season_music_short_item_img_height">90dp</dimen>
+    <dimen name="tvshow_episode_season_width">160dp</dimen>
+    <dimen name="tvshow_episode_season_height">130dp</dimen>
+    <dimen name="music_short_width">160dp</dimen>
+    <dimen name="music_short_height">148dp</dimen>
+    <dimen name="movie_width">104dp</dimen>
+    <dimen name="movie_height">205dp</dimen>
+    <dimen name="movie_height_no_metadata">156dp</dimen>
+    <dimen name="album_playlist_width">104dp</dimen>
+    <dimen name="album_playlist_height">162dp</dimen>
+    <dimen name="album_playlist_height_no_metadata">104dp</dimen>
+    <dimen name="album_playlist_height_one_metadata">128dp</dimen>
+    <dimen name="big_mx_original_item_img_width">160dp</dimen>
+    <dimen name="big_mx_original_item_img_height">240dp</dimen>
+    <dimen name="movie_item_img_width">104dp</dimen>
+    <dimen name="movie_item_img_height">156dp</dimen>
+    <dimen name="album_playlist_img_width">104dp</dimen>
+    <dimen name="album_playlist_img_height">104dp</dimen>
+    <dimen name="music_short_title_height">36dp</dimen>
+    <dimen name="music_short_subtitle_height">14dp</dimen>
+    <dimen name="tvshow_episode_season_title_height">18dp</dimen>
+    <dimen name="tvshow_episode_season_subtitle_height">14dp</dimen>
+    <dimen name="movie_title_height">18dp</dimen>
+    <dimen name="movie_subtitle_height">14dp</dimen>
+    <dimen name="album_playlist_title_height">36dp</dimen>
+    <dimen name="album_playlist_subtitle_height">14dp</dimen>
+    <dimen name="game_width">85dp</dimen>
+    <dimen name="game_height">112dp</dimen>
+    <dimen name="game_item_img_width">85dp</dimen>
+    <dimen name="game_item_img_height">70dp</dimen>
+    <dimen name="card_item_slide_publisher_icon_size">70dp</dimen>
+    <dimen name="card_item_slide_publisher_container_size">72dp</dimen>
+    <dimen name="card_item_slide_publisher_icon_corner_radius">35dp</dimen>
+    <dimen name="album_item_cover_left_height">130dp</dimen>
+    <dimen name="album_item_cover_left_container_height">132dp</dimen>
+    <dimen name="album_item_cover_left_width">130dp</dimen>
+    <dimen name="watch_list_item_margin_right">16dp</dimen>
+    <dimen name="big_cover_corner_radius">5dp</dimen>
+    <dimen name="big_cover_elevation">3dp</dimen>
+    <dimen name="video_progress_height">2dp</dimen>
+    <dimen name="slide_item_height">148dp</dimen>
+    <dimen name="slide_item_height_no_metadata">90dp</dimen>
+    <dimen name="slide_item_height_one_metadata">114dp</dimen>
+    <dimen name="online_item_publisher_width_key">40dp</dimen>
+    <dimen name="online_item_publisher_height_key">40dp</dimen>
+    <dimen name="slide_item_height_programme">132dp</dimen>
+
+    <!-- details page -->
+    <dimen name="online_detail_header_16_9_img_header_width">360dp</dimen>
+    <dimen name="online_detail_header_img_header_width">202dp</dimen>
+    <dimen name="online_detail_header_img_header_height">202dp</dimen>
+    <dimen name="online_detail_header_img_header_icon_width">60dp</dimen>
+    <dimen name="online_detail_header_img_header_icon_height">60dp</dimen>
+    <dimen name="online_detail_header_img_header_icon_margin_top">83dp</dimen>
+    <dimen name="online_detail_header_img_header_icon_margin_bottom">59dp</dimen>
+    <dimen name="online_detail_header_img_header_title_margin_top">25dp</dimen>
+    <dimen name="online_detail_header_img_header_title_margin_bottom">16dp</dimen>
+    <dimen name="online_detail_header_padding_left">16dp</dimen>
+    <dimen name="online_detail_header_padding_right">16dp</dimen>
+    <dimen name="online_detail_header_padding_top">12dp</dimen>
+    <dimen name="online_detail_header_title_margin_right">10dp</dimen>
+    <dimen name="online_detail_header_title_margin_left">10dp</dimen>
+    <dimen name="online_detail_header_title_margin_bottom">3dp</dimen>
+    <dimen name="online_detail_header_subtitle_margin_top">2dp</dimen>
+    <dimen name="online_detail_header_subtitle_margin_bottom">3dp</dimen>
+    <dimen name="online_detail_header_trailer_btn_width">85dp</dimen>
+    <dimen name="online_detail_header_trailer_btn_height">30dp</dimen>
+    <dimen name="online_detail_header_subscribe_btn_width">87dp</dimen>
+    <dimen name="online_detail_header_subscribe_btn_height">30dp</dimen>
+    <dimen name="online_detail_header_unsubscribe_btn_width">104dp</dimen>
+    <dimen name="online_detail_header_unsubscribe_btn_height">30dp</dimen>
+    <dimen name="online_detail_subscribe_header_padding_top">8dp</dimen>
+    <dimen name="online_detail_subscribe_header_padding_bottom">8dp</dimen>
+    <dimen name="online_detail_header_expand_content_space_height">12dp</dimen>
+    <dimen name="online_detail_header_expand_content_margin_top">9dp</dimen>
+    <dimen name="online_detail_header_expand_content_margin_bottom">3dp</dimen>
+    <dimen name="online_detail_header_expand_arrow_padding_top">16dp</dimen>
+    <dimen name="online_detail_header_expand_arrow_padding_bottom">16dp</dimen>
+    <dimen name="online_detail_header_whats_app_margin_top">8dp</dimen>
+    <dimen name="online_detail_header_expand_content_blow_item_margin_top">2dp</dimen>
+    <dimen name="online_detail_header_expand_content_blow_item_margin_bottom">2dp</dimen>
+    <dimen name="online_detail_header_expand_content_blow_padding_top">5dp</dimen>
+    <dimen name="online_detail_header_expand_content_blow_padding_bottom">5dp</dimen>
+    <dimen name="online_detail_header_expand_arrow_text_drawable_padding">6dp</dimen>
+    <dimen name="online_detail_header_artist_img_height">60dp</dimen>
+    <dimen name="online_detail_header_artist_img_width">60dp</dimen>
+    <dimen name="online_detail_header_artist_subtitle_margin_top">2dp</dimen>
+    <dimen name="online_detail_header_artist_title_margin_top">6dp</dimen>
+
+    <!-- whatsApp -->
+    <dimen name="video_detail_whatsapp_margin">2dp</dimen>
+    <dimen name="video_detail_whatsapp_padding_top">8dp</dimen>
+    <dimen name="video_detail_whatsapp_padding_bottom">8dp</dimen>
+    <dimen name="video_detail_whatsapp_drawable_padding">2dp</dimen>
+
+    <!-- update -->
+    <dimen name="privacy_log_width">104dp</dimen>
+    <dimen name="privacy_log_height">104dp</dimen>
+    <dimen name="privacy_log_margin">20dp</dimen>
+    <dimen name="privacy_title_margin">12dp</dimen>
+    <dimen name="privacy_btn_height">36dp</dimen>
+    <dimen name="privacy_btn_margin">24dp</dimen>
+
+    <!-- profile tab -->
+    <dimen name="profile_login_height">120dp</dimen>
+    <dimen name="profile_login_img_hw">48dp</dimen>
+    <dimen name="profile_login_img_margin">24dp</dimen>
+    <dimen name="profile_login_name_margin">16dp</dimen>
+    <dimen name="profile_item_height">56dp</dimen>
+
+    <!-- download -->
+    <dimen name="download_dialog_bottom_bt_height">56dp</dimen>
+    <dimen name="download_snackbar_margin">8dp</dimen>
+    <dimen name="download_snackbar_height">68dp</dimen>
+    <dimen name="download_status_pop_height">68dp</dimen>
+    <dimen name="download_status_pop_margin">8dp</dimen>
+    <dimen name="download_status_text_margin_left">16dp</dimen>
+    <dimen name="download_status_action_margin_left">8dp</dimen>
+    <dimen name="download_status_action_margin_right">8dp</dimen>
+    <dimen name="item_download_padding_left">16dp</dimen>
+    <dimen name="item_download_padding_right">16dp</dimen>
+    <dimen name="item_download_padding_top">8dp</dimen>
+    <dimen name="item_download_padding_bottom">8dp</dimen>
+    <dimen name="item_download_tv_show_name_margin_left">15dp</dimen>
+    <dimen name="item_download_image_card_margin_left">16dp</dimen>
+    <dimen name="item_download_image_card_margin_right">10dp</dimen>
+    <dimen name="item_download_image_card_margin_top">8dp</dimen>
+    <dimen name="item_download_image_card_margin_bottom">8dp</dimen>
+    <dimen name="item_download_episode_num_margin_left">10dp</dimen>
+    <dimen name="download_title_margin_left">16dp</dimen>
+    <dimen name="download_title_padding_top">16dp</dimen>
+    <dimen name="download_title_padding_bottom">16dp</dimen>
+    <dimen name="download_btn_text_padding_top">16dp</dimen>
+    <dimen name="download_btn_text_padding_bottom">18dp</dimen>
+    <dimen name="item_download_dialog_padding_top">16dp</dimen>
+    <dimen name="item_download_dialog_padding_bottom">16dp</dimen>
+    <dimen name="item_download_dialog_img_margin_left">16dp</dimen>
+    <dimen name="item_download_dialog_size_text_margin_right">16dp</dimen>
+    <dimen name="item_download_dialog_resolution_text_margin_left">16dp</dimen>
+    <dimen name="item_download_dialog_resolution_text_margin_right">16dp</dimen>
+    <dimen name="download_tip_margin_left">10dp</dimen>
+    <dimen name="download_tip_margin_right">10dp</dimen>
+    <dimen name="download_video_item_img_width_key">150dp</dimen>
+    <dimen name="download_video_item_img_height_key">100dp</dimen>
+    <dimen name="download_video_item_status_margin_bottom">4dp</dimen>
+    <dimen name="download_video_item_progress_bar_margin_top">4dp</dimen>
+    <dimen name="download_video_item_status_icon_padding">1dp</dimen>
+    <dimen name="download_video_item_edit_icon_padding">3dp</dimen>
+    <dimen name="download_episodes_dialog_capacity_left_padding_left">10dp</dimen>
+    <dimen name="download_episodes_dialog_capacity_left_padding_right">10dp</dimen>
+    <dimen name="item_download_dialog_resolution_padding_left">10dp</dimen>
+    <dimen name="item_download_dialog_resolution_padding_right">10dp</dimen>
+    <dimen name="item_download_dialog_resolution_padding_top">18dp</dimen>
+    <dimen name="item_download_dialog_resolution_padding_bottom">8dp</dimen>
+    <dimen name="item_download_dialog_resolution_select_line_padding_top">8dp</dimen>
+    <dimen name="item_download_dialog_episodes_corner_radius">4dp</dimen>
+
+    <!-- search -->
+    <dimen name="search_list_item_height">20dp</dimen>
+
+    <!-- other -->
+    <dimen name="online_normal_progress_width">33dp</dimen>
+    <dimen name="online_player_margin_horizontal">15dp</dimen>
+
 </resources>

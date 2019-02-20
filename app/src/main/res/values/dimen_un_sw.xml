@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- bar -->
+    <dimen name="player_action_bar_height_un_sw">56dp</dimen>
+    <dimen name="app_bar_height_56_un_sw">56dp</dimen>
+    <dimen name="app_bar_height_104_un_sw">104dp</dimen>
+    <dimen name="search_tool_bar_img_width_un_sw">152dp</dimen>
+    <dimen name="search_tool_bar_img_height_un_sw">40dp</dimen>
+    <dimen name="magic_indicator_toolbar_height_un_sw">48dp</dimen>
+    <dimen name="app_bar_gray_bg_height_un_sw">1dp</dimen>
+
+    <!-- badge -->
+    <dimen name="download_badge_padding_left">5dp</dimen>
+    <dimen name="download_badge_padding_right">5dp</dimen>
+    <dimen name="download_badge_width">12dp</dimen>
+    <dimen name="download_badge_margin">6dp</dimen>
+    <dimen name="download_badge_text_size">9sp</dimen>
+    <dimen name="download_badge_bg_radius">6dp</dimen>
+
+    <dimen name="mx_tab_text_size_un_sw">12sp</dimen>
+    <dimen name="normal_online_player_height_un_sw">200dp</dimen>
+    <dimen name="online_tab_indicator_spacing_un_sw">10dp</dimen>
+    <dimen name="online_tab_indicator_horizon_un_sw">16dp</dimen>
+
+    <!-- item view -->
+    <item name="online_view_pager_tab_text_size_un_sw" format="float" type="dimen">14</item>
+    <dimen name="trailer_item_width_un_sw">104dp</dimen>
+    <dimen name="trailer_item_height_un_sw">120dp</dimen>
+    <dimen name="trailer_item_image_width_un_sw">96dp</dimen>
+    <dimen name="trailer_item_image_height_un_sw">96dp</dimen>
+    <dimen name="trailer_item_radius_un_sw">52dp</dimen>
+    <dimen name="trailer_item_border_width_un_sw">4dp</dimen>
+
+    <dimen name="profile_login_name_text_size">14sp</dimen>
+
+    <dimen name="find_more_text_size">14sp</dimen>
+
+    <dimen name="live_tv_detail_bottom_btn_text_size">12sp</dimen>
+    <dimen name="live_tv_detail_channel_title_text_size">14sp</dimen>
+    <dimen name="live_tv_detail_title_text_size">16sp</dimen>
+    <dimen name="live_tv_detail_subtitle_text_size">12sp</dimen>
+    <dimen name="live_tv_show_detail_text_size">16sp</dimen>
+    <dimen name="live_tv_item_program_playing_text_size">14sp</dimen>
+    <dimen name="live_tv_item_program_title_text_size">16sp</dimen>
+    <dimen name="live_tv_item_program_time_text_size">12sp</dimen>
+
+
+    <dimen name="feed_item_language_genre_size">12sp</dimen>
+    <dimen name="search_item_hidden_text_size">10sp</dimen>
+
+    <dimen name="more_videos_title_text_size">16sp</dimen>
+    <dimen name="feed_item_title_size">16sp</dimen>
+    <dimen name="feed_item_publisher_size">13sp</dimen>
+
+    <dimen name="video_detail_whatsapp_text_size">11sp</dimen>
+
+    <dimen name="online_detail_header_trailer_btn_text_size">12sp</dimen>
+    <dimen name="online_detail_header_expand_content_blow_text_size">13sp</dimen>
+    <dimen name="online_detail_header_img_header_title_text_size">14sp</dimen>
+    <dimen name="online_detail_header_expand_content_text_size">14sp</dimen>
+    <dimen name="online_detail_header_expand_arrow_text_size">12sp</dimen>
+    <dimen name="online_detail_header_title_text_size">18sp</dimen>
+    <dimen name="online_detail_header_subtitle_text_size">13sp</dimen>
+    <dimen name="online_detail_header_artist_title_text_size">14sp</dimen>
+    <dimen name="online_detail_header_artist_subtitle_text_size">12sp</dimen>
+    <dimen name="download_episodes_dialog_capacity_left_text_size">12sp</dimen>
+    <dimen name="download_status_text_size">14sp</dimen>
+    <dimen name="download_status_action_size">14sp</dimen>
+    <dimen name="download_episodes_size_text_size">12sp</dimen>
+
+
+    <dimen name="universal_space_left">16dp</dimen>
+    <dimen name="universal_space_right">16dp</dimen>
+
+    <!-- refresh -->
+    <dimen name="refresh_popup_height_un_sw">30dp</dimen>
+    <dimen name="refresh_popup_thumbnail_width_un_sw">12dp</dimen>
+    <dimen name="refresh_popup_thumbnail_height_un_sw">12dp</dimen>
+    <dimen name="refresh_popup_text_margin_left_un_sw">10dp</dimen>
+    <dimen name="refresh_popup_max_margin_top_un_sw">70dp</dimen>
+    <dimen name="refresh_popup_margin_top_un_sw">10dp</dimen>
+    <dimen name="refresh_popup_shake_cache_un_sw">2dp</dimen>
+
+    <!-- channel_list -->
+    <!-- search -->
+    <!-- card view -->
+    <!-- live tv item -->
+    <!-- browse item -->
+    <!-- whatsApp -->
+    <!-- download -->
+    <!-- details page -->
+    <!-- cover left -->
+    <!-- cover big -->
+    <!-- item width and height -->
+    <!-- bubble -->
+    <!-- update -->
+    <!-- profile tab -->
+
+    <!-- other -->
+    <!-- this should change bb_asset sdk to modify the fab_main -->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_margin_un_sw">16dp</dimen>
+    <dimen name="search_container_margin_top_un_sw">1dp</dimen>
+    <dimen name="search_history_text_size">14sp</dimen>
+    <dimen name="history_view_line_height_un_sw">0.5dp</dimen>
+
+    <!-- ab test material -->
+    <dimen name="view_count_text_size_un_sw">12sp</dimen>
+    <dimen name="ab_image_slide_width_un_sw">150dp</dimen>
+    <dimen name="ab_image_slide_height_un_sw">100dp</dimen>
+
+    <dimen name="trailer_progress_margin_top_un_sw">15dp</dimen>
+
+    <dimen name="dp0_5_un_sw">0.5dp</dimen>
+    <dimen name="dp1_un_sw">1dp</dimen>
+    <dimen name="dp2_un_sw">2dp</dimen>
+    <dimen name="dp3_un_sw">3dp</dimen>
+    <dimen name="dp4_un_sw">4dp</dimen>
+    <dimen name="dp5_un_sw">5dp</dimen>
+    <dimen name="dp6_un_sw">6dp</dimen>
+    <dimen name="dp7_un_sw">7dp</dimen>
+    <dimen name="dp8_un_sw">8dp</dimen>
+    <dimen name="dp9_un_sw">9dp</dimen>
+    <dimen name="dp10_un_sw">10dp</dimen>
+    <dimen name="dp11_un_sw">11dp</dimen>
+    <dimen name="dp12_un_sw">12dp</dimen>
+    <dimen name="dp13_un_sw">13dp</dimen>
+    <dimen name="dp14_un_sw">14dp</dimen>
+    <dimen name="dp15_un_sw">15dp</dimen>
+    <dimen name="dp16_un_sw">16dp</dimen>
+    <dimen name="dp17_un_sw">17dp</dimen>
+    <dimen name="dp18_un_sw">18dp</dimen>
+    <dimen name="dp19_un_sw">19dp</dimen>
+    <dimen name="dp20_un_sw">20dp</dimen>
+    <dimen name="dp21_un_sw">21dp</dimen>
+    <dimen name="dp22_un_sw">22dp</dimen>
+    <dimen name="dp23_un_sw">23dp</dimen>
+    <dimen name="dp24_un_sw">24dp</dimen>
+    <dimen name="dp25_un_sw">25dp</dimen>
+    <dimen name="dp26_un_sw">26dp</dimen>
+    <dimen name="dp27_un_sw">27dp</dimen>
+    <dimen name="dp28_un_sw">28dp</dimen>
+    <dimen name="dp29_un_sw">29dp</dimen>
+    <dimen name="dp30_un_sw">30dp</dimen>
+    <dimen name="dp31_un_sw">31dp</dimen>
+    <dimen name="dp32_un_sw">32dp</dimen>
+    <dimen name="dp33_un_sw">33dp</dimen>
+    <dimen name="dp34_un_sw">34dp</dimen>
+    <dimen name="dp35_un_sw">35dp</dimen>
+    <dimen name="dp36_un_sw">36dp</dimen>
+    <dimen name="dp37_un_sw">37dp</dimen>
+    <dimen name="dp38_un_sw">38dp</dimen>
+    <dimen name="dp39_un_sw">39dp</dimen>
+    <dimen name="dp40_un_sw">40dp</dimen>
+    <dimen name="dp41_un_sw">41dp</dimen>
+    <dimen name="dp42_un_sw">42dp</dimen>
+    <dimen name="dp43_un_sw">43dp</dimen>
+    <dimen name="dp44_un_sw">44dp</dimen>
+    <dimen name="dp45_un_sw">45dp</dimen>
+    <dimen name="dp46_un_sw">46dp</dimen>
+    <dimen name="dp47_un_sw">47dp</dimen>
+    <dimen name="dp48_un_sw">48dp</dimen>
+    <dimen name="dp49_un_sw">49dp</dimen>
+    <dimen name="dp50_un_sw">50dp</dimen>
+    <dimen name="dp51_un_sw">51dp</dimen>
+    <dimen name="dp52_un_sw">52dp</dimen>
+    <dimen name="dp53_un_sw">53dp</dimen>
+    <dimen name="dp54_un_sw">54dp</dimen>
+    <dimen name="dp55_un_sw">55dp</dimen>
+    <dimen name="dp56_un_sw">56dp</dimen>
+    <dimen name="dp57_un_sw">57dp</dimen>
+    <dimen name="dp58_un_sw">58dp</dimen>
+    <dimen name="dp59_un_sw">59dp</dimen>
+    <dimen name="dp60_un_sw">60dp</dimen>
+    <dimen name="dp65_un_sw">65dp</dimen>
+    <dimen name="dp69_un_sw">69dp</dimen>
+    <dimen name="dp70_un_sw">70dp</dimen>
+    <dimen name="dp75_un_sw">75dp</dimen>
+    <dimen name="dp76_un_sw">76dp</dimen>
+    <dimen name="dp86_un_sw">86dp</dimen>
+    <dimen name="dp89_un_sw">89dp</dimen>
+    <dimen name="dp90_un_sw">90dp</dimen>
+    <dimen name="dp103_un_sw">103dp</dimen>
+    <dimen name="dp104_un_sw">104dp</dimen>
+    <dimen name="dp107_un_sw">107dp</dimen>
+    <dimen name="dp110_un_sw">110dp</dimen>
+    <dimen name="dp120_un_sw">120dp</dimen>
+    <dimen name="dp122_un_sw">122dp</dimen>
+    <dimen name="dp125_un_sw">125dp</dimen>
+    <dimen name="dp130_un_sw">130dp</dimen>
+    <dimen name="dp140_un_sw">140dp</dimen>
+    <dimen name="dp145_un_sw">145dp</dimen>
+    <dimen name="dp146_un_sw">146dp</dimen>
+    <dimen name="dp150_un_sw">150dp</dimen>
+    <dimen name="dp152_un_sw">152dp</dimen>
+    <dimen name="dp160_un_sw">160dp</dimen>
+    <dimen name="dp166_un_sw">166dp</dimen>
+    <dimen name="dp170_un_sw">170dp</dimen>
+    <dimen name="dp178_un_sw">178dp</dimen>
+    <dimen name="dp180_un_sw">180dp</dimen>
+    <dimen name="dp192_un_sw">192dp</dimen>
+    <dimen name="dp200_un_sw">200dp</dimen>
+    <dimen name="dp202_un_sw">202dp</dimen>
+    <dimen name="dp210_un_sw">210dp</dimen>
+    <dimen name="dp220_un_sw">220dp</dimen>
+    <dimen name="dp232_un_sw">232dp</dimen>
+    <dimen name="dp254_un_sw">254dp</dimen>
+    <dimen name="dp286_un_sw">286dp</dimen>
+    <dimen name="dp230_un_sw">230dp</dimen>
+    <dimen name="dp240_un_sw">240dp</dimen>
+    <dimen name="dp265_un_sw">265dp</dimen>
+    <dimen name="dp296_un_sw">296dp</dimen>
+    <dimen name="dp300_un_sw">300dp</dimen>
+
+    <dimen name="sp0_un_sw">0sp</dimen>
+    <dimen name="sp5_un_sw">5sp</dimen>
+    <dimen name="sp6_un_sw">6sp</dimen>
+    <dimen name="sp7_un_sw">7sp</dimen>
+    <dimen name="sp8_un_sw">8sp</dimen>
+    <dimen name="sp9_un_sw">9sp</dimen>
+    <dimen name="sp10_un_sw">10sp</dimen>
+    <dimen name="sp11_un_sw">11sp</dimen>
+    <dimen name="sp12_un_sw">12sp</dimen>
+    <dimen name="sp13_un_sw">13sp</dimen>
+    <dimen name="sp14_un_sw">14sp</dimen>
+    <dimen name="sp15_un_sw">15sp</dimen>
+    <dimen name="sp16_un_sw">16sp</dimen>
+    <dimen name="sp17_un_sw">17sp</dimen>
+    <dimen name="sp18_un_sw">18sp</dimen>
+    <dimen name="sp19_un_sw">19sp</dimen>
+    <dimen name="sp20_un_sw">20sp</dimen>
+    <dimen name="sp21_un_sw">21sp</dimen>
+    <dimen name="sp22_un_sw">22sp</dimen>
+    <dimen name="sp23_un_sw">23sp</dimen>
+    <dimen name="sp24_un_sw">24sp</dimen>
+    <dimen name="sp25_un_sw">25sp</dimen>
+    <dimen name="sp26_un_sw">26sp</dimen>
+    <dimen name="sp27_un_sw">27sp</dimen>
+    <dimen name="sp28_un_sw">28sp</dimen>
+    <dimen name="sp29_un_sw">29sp</dimen>
+    <dimen name="sp30_un_sw">30sp</dimen>
+    <dimen name="sp31_un_sw">31sp</dimen>
+    <dimen name="sp32_un_sw">32sp</dimen>
+    <dimen name="sp33_un_sw">33sp</dimen>
+    <dimen name="sp34_un_sw">34sp</dimen>
+    <dimen name="sp35_un_sw">35sp</dimen>
+    <dimen name="sp36_un_sw">36sp</dimen>
+    <dimen name="sp37_un_sw">37sp</dimen>
+    <dimen name="sp38_un_sw">38sp</dimen>
+    <dimen name="sp39_un_sw">39sp</dimen>
+    <dimen name="sp40_un_sw">40sp</dimen>
+    <dimen name="sp41_un_sw">41sp</dimen>
+    <dimen name="sp42_un_sw">42sp</dimen>
+    <dimen name="sp43_un_sw">43sp</dimen>
+    <dimen name="sp44_un_sw">44sp</dimen>
+    <dimen name="sp45_un_sw">45sp</dimen>
+    <dimen name="sp46_un_sw">46sp</dimen>
+    <dimen name="sp47_un_sw">47sp</dimen>
+    <dimen name="sp48_un_sw">48sp</dimen>
+
+    <dimen name="bottom_panel_elevation">0dp</dimen>
+</resources>

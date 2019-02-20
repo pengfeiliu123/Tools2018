@@ -1,0 +1,2452 @@
+{
+  "id": "Ot3yEBgsE5xT09~IKmXQT",
+  "name": "hindi",
+  "type": "search_section_list",
+  "qid": "Ot3yEBgsE5xT09~IKmXQT",
+  "resources": [{
+    "id": "search_publisher",
+    "name": "Channels",
+    "type": "normal",
+    "tag_name": "",
+    "tag_color": "",
+    "description": "",
+    "background_image": "",
+    "resources": [{
+      "id": "",
+      "name": "",
+      "type": "paging",
+      "nextUrl": "https:\/\/androidapi.dev.mxplay.com\/v1\/paging\/search\/section?section=publisher&keyword=hindi&action=type_query&qid=Ot3yEBgsE5xT09~IKmXQT&next=4&pagesize=4",
+      "resources": [{
+        "id": "e63ec6b09fecdfe186792262d43beb18",
+        "name": "Goldmines Hindi",
+        "type": "publisher",
+        "poster": [{
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/e63ec6b09fecdfe186792262d43beb18\/none\/16x9\/984x555\/test_pic1538199881492.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }, {
+          "width": 312,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/e63ec6b09fecdfe186792262d43beb18\/none\/1x1\/312x312\/test_pic1538199881492.jpg",
+          "height": 312,
+          "type": "square"
+        }],
+        "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/e63ec6b09fecdfe186792262d43beb18\/none\/1x1\/312x312\/test_pic1538199881492.jpg",
+        "subscribers": 11311,
+        "isSubscribed": 0,
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/e63ec6b09fecdfe186792262d43beb18?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/publisher\/goldmines-hindi-e63ec6b09fecdfe186792262d43beb18?utm_source=mx_android_share",
+        "description": "",
+        "attachContent": "",
+        "status": "online",
+        "attach": "{\"rank\":1}",
+        "include": []
+      }, {
+        "id": "fef444ed161a9276c6c083b5bab4a123",
+        "name": "KidsOne Hindi",
+        "type": "publisher",
+        "poster": [{
+          "width": 312,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/fef444ed161a9276c6c083b5bab4a123\/none\/1x1\/312x312\/pccb01_test_pic1531722996789.jpg",
+          "height": 312,
+          "type": "square"
+        }],
+        "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/fef444ed161a9276c6c083b5bab4a123\/none\/1x1\/312x312\/pccb01_test_pic1531722996789.jpg",
+        "subscribers": 15249,
+        "isSubscribed": 0,
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/fef444ed161a9276c6c083b5bab4a123?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/publisher\/kidsone-hindi-fef444ed161a9276c6c083b5bab4a123?utm_source=mx_android_share",
+        "description": "KidsOne Hindi is a complete Kids edutainment portal.This portal is serving the content in Hindi Language. Animated rhymes in Hindi will be fun to watch and learn. The channel mingles the education content Rhymes, Stories, Dasavatara, Festivals, Panchatantra and more. so that kids can learn with fun.",
+        "attachContent": "",
+        "status": "online",
+        "attach": "{\"rank\":2}",
+        "include": []
+      }, {
+        "id": "df54fe431d8406da20d4bd069c1cb62d",
+        "name": "Ultra Hindi",
+        "type": "publisher",
+        "poster": [{
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/df54fe431d8406da20d4bd069c1cb62d\/none\/16x9\/984x555\/test_pic1538198366982.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }, {
+          "width": 312,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/df54fe431d8406da20d4bd069c1cb62d\/none\/1x1\/312x312\/test_pic1538198366982.jpg",
+          "height": 312,
+          "type": "square"
+        }],
+        "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/df54fe431d8406da20d4bd069c1cb62d\/none\/1x1\/312x312\/test_pic1538198366982.jpg",
+        "subscribers": 25183,
+        "isSubscribed": 0,
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/df54fe431d8406da20d4bd069c1cb62d?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/publisher\/ultra-hindi-df54fe431d8406da20d4bd069c1cb62d?utm_source=mx_android_share",
+        "description": "",
+        "attachContent": "",
+        "status": "online",
+        "attach": "{\"rank\":3}",
+        "include": []
+      }, {
+        "id": "0117b71c3621f96580ee58db974b8e60",
+        "name": "Hindi Dubbed Movies Collection",
+        "type": "publisher",
+        "poster": [{
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/0117b71c3621f96580ee58db974b8e60\/none\/16x9\/984x555\/test_pic1538199218316.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }, {
+          "width": 312,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/0117b71c3621f96580ee58db974b8e60\/none\/1x1\/312x312\/test_pic1538199218316.jpg",
+          "height": 312,
+          "type": "square"
+        }],
+        "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/0117b71c3621f96580ee58db974b8e60\/none\/1x1\/312x312\/test_pic1538199218316.jpg",
+        "subscribers": 25417,
+        "isSubscribed": 0,
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/0117b71c3621f96580ee58db974b8e60?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/publisher\/hindi-dubbed-movies-collection-0117b71c3621f96580ee58db974b8e60?utm_source=mx_android_share",
+        "description": "",
+        "attachContent": "",
+        "status": "online",
+        "attach": "{\"rank\":4}",
+        "include": []
+      }],
+      "refreshUrl": "https:\/\/androidapi.dev.mxplay.com\/v1\/paging\/search\/section?section=publisher&keyword=hindi&action=type_query&qid=Ot3yEBgsE5xT09~IKmXQT&pagesize=20",
+      "lastUrl": ""
+    }],
+    "listStyle": "4pic_circle",
+    "moreStyle": "pic_left_circle",
+    "attachContent": "",
+    "nomore": 0,
+    "flowFlag": "0218b1",
+    "mostCount": 13
+  }, {
+    "id": "search_movie",
+    "name": "Movies",
+    "type": "normal",
+    "tag_name": "",
+    "tag_color": "",
+    "description": "",
+    "background_image": "",
+    "resources": [{
+      "id": "",
+      "name": "",
+      "type": "paging",
+      "nextUrl": "https:\/\/androidapi.dev.mxplay.com\/v1\/paging\/search\/section?section=movie&keyword=hindi&action=type_query&qid=Ot3yEBgsE5xT09~IKmXQT&next=4&pagesize=4",
+      "resources": [{
+        "id": "7fb93c1518c21edafc602112e8b73520",
+        "type": "movie_film",
+        "name": "S For Sex",
+        "episodeNum": 0,
+        "seasonNum": 0,
+        "poster": [{
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/7fb93c1518c21edafc602112e8b73520\/en\/16x9\/984x555\/test_pic1533535430153.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }, {
+          "width": 480,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/7fb93c1518c21edafc602112e8b73520\/en\/16x9\/480x270\/test_pic1533535430153.jpg",
+          "height": 270,
+          "type": "landscape"
+        }, {
+          "width": 312,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/7fb93c1518c21edafc602112e8b73520\/en\/2x3\/312x468\/test_pic1533535389325.jpg",
+          "height": 468,
+          "type": "portrait"
+        }],
+        "description": "A girl is confused about sex because of lack of awareness about it. The film shows how she is refrained from getting the right information from her own people as everybody regards it as a taboo.",
+        "publishTime": 1528050600000,
+        "duration": 437,
+        "watchAt": 0,
+        "isInWatchlist": 0,
+        "inWatchCount": 0,
+        "thumbStatus": 0,
+        "thumbUpCount": 0,
+        "thumbDownCount": 0,
+        "viewCount": 0,
+        "persons": [{
+          "id": "9af98f2023b0212dd115bb522c2574f6",
+          "name": "Vivekanand Daakhore",
+          "type": "director"
+        }, {
+          "id": "10973d072ef108fb2dc60ac1dcd7bc39",
+          "name": "Dhanashree Chougule",
+          "type": "star"
+        }, {
+          "id": "c938cbe72cbc32d60a09fc7081d29e3c",
+          "name": "Kajal Patil",
+          "type": "star"
+        }],
+        "genres": [{
+          "id": "3c8e8cb252de6ea1b77ba9b9a7c57ec6",
+          "name": "Short",
+          "type": "genre"
+        }, {
+          "id": "6d4b34d79c9b6e7a90f5025375750106",
+          "name": "Musical",
+          "type": "genre"
+        }, {
+          "id": "316f445dd2b6949735586fc2c445686f",
+          "name": "Social",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/movie\/7fb93c1518c21edafc602112e8b73520?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/movie\/watch-s-for-sex-movie-online_7fb93c1518c21edafc602112e8b73520?utm_source=mx_android_share",
+        "nameOfVideoAd": "normal",
+        "descriptionUrlOfVideoAd": "https:\/\/www.dev.mxplay.com\/detail\/movie\/7fb93c1518c21edafc602112e8b73520",
+        "shouldPreload": 0,
+        "preloadTime": 0,
+        "youtubeId": "",
+        "playWithYoutube": 0,
+        "playInfo": [{
+          "extension": "mpd",
+          "drmUrl": "",
+          "drmScheme": "",
+          "playUrl": "https:\/\/j2apps.s.llnwi.net\/video\/fddba898b445dd6f59e22636fbfed1e1\/3\/dash\/h264_baseline.mpd",
+          "codec": "h264",
+          "profile": "baseline"
+        }],
+        "downloadInfo": [{
+          "id": "7fb93c1518c21edafc602112e8b73520",
+          "name": "S For Sex",
+          "type": "movie_film",
+          "meta": [{
+            "url": "https:\/\/j2apps.s.llnwi.net\/video\/fddba898b445dd6f59e22636fbfed1e1\/3\/download\/h264_144_baseline_60k.mp4",
+            "codec": "h264",
+            "profile": "baseline",
+            "rate": "144p",
+            "size": 6695655,
+            "title": "Low"
+          }, {
+            "url": "https:\/\/j2apps.s.llnwi.net\/video\/fddba898b445dd6f59e22636fbfed1e1\/3\/download\/h264_360_baseline_750k.mp4",
+            "codec": "h264",
+            "profile": "baseline",
+            "rate": "360p",
+            "size": 23294183,
+            "title": "Medium"
+          }, {
+            "url": "https:\/\/j2apps.s.llnwi.net\/video\/fddba898b445dd6f59e22636fbfed1e1\/3\/download\/h264_720_baseline_2615k.mp4",
+            "codec": "h264",
+            "profile": "baseline",
+            "rate": "720p",
+            "size": 84138819,
+            "title": "High"
+          }],
+          "expiry_date": 0,
+          "valid_period": 0,
+          "download_right": 0,
+          "valid_type": ""
+        }],
+        "publisher": {
+          "id": "c18d939991cb2d04a0988378963ea5b5",
+          "name": "Pocket Films",
+          "type": "publisher",
+          "poster": [{
+            "width": 312,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/c18d939991cb2d04a0988378963ea5b5\/none\/1x1\/312x312\/pccb01_test_pic1531288404212.jpg",
+            "height": 312,
+            "type": "square"
+          }],
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/c18d939991cb2d04a0988378963ea5b5\/none\/1x1\/312x312\/pccb01_test_pic1531288404212.jpg",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/c18d939991cb2d04a0988378963ea5b5?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "levelInfos": [],
+        "seek_thumbnail": [{
+          "index": "0.jpg",
+          "big_pic_num": "1",
+          "column": "44",
+          "interval": "10",
+          "height": "77",
+          "width": "136",
+          "total": "44",
+          "row": "1",
+          "url": "https:\/\/j2apps.s.llnwi.net\/video\/fddba898b445dd6f59e22636fbfed1e1\/seek_thumbnail\/44_1_44_136_77_10_1_0.jpg"
+        }],
+        "third_party_info": {
+          "content_id": "",
+          "dash_id": "",
+          "dash_url": "",
+          "hls_url": "",
+          "name": "",
+          "valid_until": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "show_ad": 1,
+        "previews": [],
+        "attach": "{\"rank\":1}",
+        "include": ["HOT#F2405D"]
+      }, {
+        "id": "f4397888b1c6d3fe70ec7da16cd57705",
+        "type": "movie_film",
+        "name": "Battledogs | Hindi Dub",
+        "episodeNum": 0,
+        "seasonNum": 0,
+        "poster": [{
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/f4397888b1c6d3fe70ec7da16cd57705\/en\/16x9\/984x555\/test_pic1531312693733.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }, {
+          "width": 480,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/f4397888b1c6d3fe70ec7da16cd57705\/en\/16x9\/480x270\/test_pic1531312693733.jpg",
+          "height": 270,
+          "type": "landscape"
+        }, {
+          "width": 312,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/f4397888b1c6d3fe70ec7da16cd57705\/en\/2x3\/312x468\/test_pic1531726464938.jpg",
+          "height": 468,
+          "type": "portrait"
+        }],
+        "description": "New York City is under the threat of a virus that transforms humans into werewolves with extraordinary strength. An evil general tries to get his hands on it to form an army of powerful soldiers.",
+        "publishTime": 1356969600000,
+        "duration": 5093,
+        "watchAt": 0,
+        "isInWatchlist": 0,
+        "inWatchCount": 0,
+        "thumbStatus": 0,
+        "thumbUpCount": 0,
+        "thumbDownCount": 0,
+        "viewCount": 0,
+        "persons": [{
+          "id": "d8f929dfaca7073aa093cf0ce202d17a",
+          "name": "Alexander Yellen",
+          "type": "director"
+        }, {
+          "id": "cb7aafed4f558535fb44ef90ede5de9a",
+          "name": "Ariana Richards",
+          "type": "star"
+        }, {
+          "id": "646e78c5891de9ffb352f888fcd073cc",
+          "name": "Kate Vernon",
+          "type": "star"
+        }, {
+          "id": "3bf021cb3535a72cce9736e4b0bd28dd",
+          "name": "Bill Duke",
+          "type": "star"
+        }, {
+          "id": "e7a2ddd3d31b02fc62cfa2023efc3614",
+          "name": "Dennis Haysbert",
+          "type": "star"
+        }, {
+          "id": "f170589971bcda39fcf4137714356c32",
+          "name": "Craig Sheffer",
+          "type": "star"
+        }],
+        "genres": [{
+          "id": "72c7a3098399dfb77a42f5181b46fa41",
+          "name": "Action",
+          "type": "genre"
+        }, {
+          "id": "e226765da2e105f06b058d3049a10757",
+          "name": "Thriller",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/movie\/f4397888b1c6d3fe70ec7da16cd57705?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/movie\/watch-battledogs-hindi-dub-movie-online_f4397888b1c6d3fe70ec7da16cd57705?utm_source=mx_android_share",
+        "nameOfVideoAd": "normal",
+        "descriptionUrlOfVideoAd": "https:\/\/www.dev.mxplay.com\/detail\/movie\/f4397888b1c6d3fe70ec7da16cd57705",
+        "shouldPreload": 0,
+        "preloadTime": 0,
+        "youtubeId": "",
+        "playWithYoutube": 0,
+        "playInfo": [{
+          "extension": "mpd",
+          "drmUrl": "",
+          "drmScheme": "",
+          "playUrl": "https:\/\/j2apps.s.llnwi.net\/video\/dd41f7be79ccaeba6e481b51c4700041\/3\/dash\/h264_baseline.mpd",
+          "codec": "h264",
+          "profile": "baseline"
+        }, {
+          "extension": "mpd",
+          "drmUrl": "",
+          "drmScheme": "",
+          "playUrl": "https:\/\/j2apps.s.llnwi.net\/video\/dd41f7be79ccaeba6e481b51c4700041\/3\/dash\/h265_main.mpd",
+          "codec": "h265",
+          "profile": "main"
+        }],
+        "downloadInfo": [{
+          "id": "f4397888b1c6d3fe70ec7da16cd57705",
+          "name": "Battledogs | Hindi Dub",
+          "type": "movie_film",
+          "meta": [{
+            "url": "https:\/\/j2apps.s.llnwi.net\/video\/dd41f7be79ccaeba6e481b51c4700041\/3\/download\/h264_144_baseline_60k.mp4",
+            "codec": "h264",
+            "profile": "baseline",
+            "rate": "144p",
+            "size": 95614683,
+            "title": "Low"
+          }, {
+            "url": "https:\/\/j2apps.s.llnwi.net\/video\/dd41f7be79ccaeba6e481b51c4700041\/3\/download\/h264_360_baseline_750k.mp4",
+            "codec": "h264",
+            "profile": "baseline",
+            "rate": "360p",
+            "size": 352680673,
+            "title": "Medium"
+          }, {
+            "url": "https:\/\/j2apps.s.llnwi.net\/video\/dd41f7be79ccaeba6e481b51c4700041\/3\/download\/h264_720_baseline_3000k.mp4",
+            "codec": "h264",
+            "profile": "baseline",
+            "rate": "720p",
+            "size": 1215409309,
+            "title": "High"
+          }],
+          "expiry_date": 0,
+          "valid_period": 0,
+          "download_right": 0,
+          "valid_type": ""
+        }],
+        "publisher": {
+          "id": "aa14d2321cfcda510324f1866d5fb31d",
+          "name": "Rajshri",
+          "type": "publisher",
+          "poster": [{
+            "width": 312,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/aa14d2321cfcda510324f1866d5fb31d\/none\/1x1\/312x312\/pccb01_test_pic1531724849293.jpg",
+            "height": 312,
+            "type": "square"
+          }],
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/aa14d2321cfcda510324f1866d5fb31d\/none\/1x1\/312x312\/pccb01_test_pic1531724849293.jpg",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/aa14d2321cfcda510324f1866d5fb31d?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "levelInfos": [],
+        "seek_thumbnail": [{
+          "index": "0.jpg",
+          "big_pic_num": "1",
+          "column": "481",
+          "interval": "10",
+          "height": "77",
+          "width": "136",
+          "total": "509",
+          "row": "2",
+          "url": "https:\/\/j2apps.s.llnwi.net\/video\/dd41f7be79ccaeba6e481b51c4700041\/seek_thumbnail\/509_2_481_136_77_10_1_0.jpg"
+        }],
+        "third_party_info": {
+          "content_id": "",
+          "dash_id": "",
+          "dash_url": "",
+          "hls_url": "",
+          "name": "",
+          "valid_until": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "show_ad": 1,
+        "previews": [],
+        "attach": "{\"rank\":2}",
+        "include": ["HOT#F2405D"]
+      }, {
+        "id": "63e4f6d94b736746d19b63408e359db3",
+        "type": "movie_film",
+        "name": "Katamarayudu (Hindi)",
+        "episodeNum": 0,
+        "seasonNum": 0,
+        "poster": [{
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/63e4f6d94b736746d19b63408e359db3\/hi\/16x9\/984x555\/jpg_5511156577001_720x405_logo.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }, {
+          "width": 480,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/63e4f6d94b736746d19b63408e359db3\/hi\/16x9\/480x270\/jpg_5511156577001_720x405_logo.jpg",
+          "height": 270,
+          "type": "landscape"
+        }, {
+          "width": 312,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/63e4f6d94b736746d19b63408e359db3\/hi\/2x3\/312x468\/jpg_test_pic1538053812266_logo.jpg",
+          "height": 468,
+          "type": "portrait"
+        }],
+        "description": "Katamarayudu released in 2016 is a Telugu action film Based on Veeram starring Power Star Pawan Kalyan as Katamarayudu. The story revolves around Katamarayudu who uses violence to solve issues is made to wed Avantika by his brothers whose ultimate aim is that he should abandon violence. As he tries to control his brutal traits, his wifes kin face perils.",
+        "publishTime": 1451586600000,
+        "duration": 7282,
+        "watchAt": 0,
+        "isInWatchlist": 0,
+        "inWatchCount": 0,
+        "thumbStatus": 0,
+        "thumbUpCount": 0,
+        "thumbDownCount": 0,
+        "viewCount": 0,
+        "persons": [{
+          "id": "f71d6301389d56cd6cb4ebdcf87589ca",
+          "name": "Kishore Kumar Pardasani",
+          "type": "director"
+        }, {
+          "id": "f18fd1ff17ce2583bdf3fab49ef5ea70",
+          "name": "Ali",
+          "type": "star"
+        }, {
+          "id": "ef1432733189b2acc8263b624d9c2f42",
+          "name": "Ajay",
+          "type": "star"
+        }, {
+          "id": "92f10c29e9fae6e17f96002f572dce40",
+          "name": "Pawan Kalyan",
+          "type": "star"
+        }, {
+          "id": "849252cceca1f8ca4a76ec2c9b497d45",
+          "name": "Shruti Hassan",
+          "type": "star"
+        }, {
+          "id": "4af1a888751cd0c0227bb3892a2705b8",
+          "name": "Rao Ramesh",
+          "type": "star"
+        }],
+        "genres": [{
+          "id": "72c7a3098399dfb77a42f5181b46fa41",
+          "name": "Action",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/movie\/63e4f6d94b736746d19b63408e359db3?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/movie\/watch-katamarayudu-hindi-movie-online_63e4f6d94b736746d19b63408e359db3?utm_source=mx_android_share",
+        "nameOfVideoAd": "sony",
+        "descriptionUrlOfVideoAd": "https:\/\/www.dev.mxplay.com\/detail\/movie\/63e4f6d94b736746d19b63408e359db3",
+        "shouldPreload": 0,
+        "preloadTime": 0,
+        "youtubeId": "",
+        "playWithYoutube": 0,
+        "playInfo": [{
+          "extension": "mpd",
+          "drmUrl": "",
+          "drmScheme": "",
+          "playUrl": "https:\/\/manifest.prod.boltdns.net\/manifest\/v1\/dash\/live-baseurl\/clear\/5182475815001\/93d727f9-785e-47a5-924f-2672e7251184\/2s\/manifest.mpd?fastly_token=NWMxYTc5YmNfM2M2OGFjZDBiNjE5MjhiMDg5YTU5MDI3ZGNmMTBiZTBmYTgzNTMyZWMzYzQwYzgwMTQzMDBmNjBlYmRkYTlkYw%3D%3D",
+          "codec": "",
+          "profile": ""
+        }],
+        "downloadInfo": [{
+          "id": "63e4f6d94b736746d19b63408e359db3",
+          "name": "Katamarayudu (Hindi)",
+          "type": "movie_film",
+          "meta": [],
+          "expiry_date": 0,
+          "valid_period": 0,
+          "download_right": 0,
+          "valid_type": ""
+        }],
+        "publisher": {
+          "id": "42a84742cdf1d5d0dfa980f6c9bff07f",
+          "name": "Sony LIV1",
+          "type": "publisher",
+          "poster": [{
+            "width": 984,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/42a84742cdf1d5d0dfa980f6c9bff07f\/none\/16x9\/984x555\/test_pic1538659784197.jpg",
+            "height": 555,
+            "type": "bigpic"
+          }, {
+            "width": 312,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/42a84742cdf1d5d0dfa980f6c9bff07f\/none\/1x1\/312x312\/test_pic1535553885288.jpg",
+            "height": 312,
+            "type": "square"
+          }],
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/42a84742cdf1d5d0dfa980f6c9bff07f\/none\/1x1\/312x312\/test_pic1535553885288.jpg",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/42a84742cdf1d5d0dfa980f6c9bff07f?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "levelInfos": [],
+        "seek_thumbnail": [{
+          "index": "0.jpg",
+          "big_pic_num": "1",
+          "column": "481",
+          "interval": "10",
+          "height": "77",
+          "width": "136",
+          "total": "728",
+          "row": "2",
+          "url": "https:\/\/j2apps.s.llnwi.net\/video\/b34e7984a0a61045ee43c1894bb88a0d\/seek_thumbnail\/728_2_481_136_77_10_1_0.jpg"
+        }],
+        "third_party_info": {
+          "content_id": "5511156577001",
+          "dash_id": "",
+          "dash_url": "https:\/\/manifest.prod.boltdns.net\/manifest\/v1\/dash\/live-baseurl\/clear\/5182475815001\/93d727f9-785e-47a5-924f-2672e7251184\/2s\/manifest.mpd?fastly_token=NWMxYTc5YmNfM2M2OGFjZDBiNjE5MjhiMDg5YTU5MDI3ZGNmMTBiZTBmYTgzNTMyZWMzYzQwYzgwMTQzMDBmNjBlYmRkYTlkYw%3D%3D",
+          "hls_url": "https:\/\/manifest.prod.boltdns.net\/manifest\/v1\/hls\/v5\/aes128\/5182475815001\/93d727f9-785e-47a5-924f-2672e7251184\/10s\/master.m3u8?fastly_token=NWMxYTc5YmNfNzdmYjZkNDQyZjEwNmIyNjVmMjE2YTM0ZjgwMTMyYzhiYmVhYTAyZTQyZDAwZmMyOGVmODY0MjU5ZGJmOTA0NQ%3D%3D",
+          "name": "sony",
+          "valid_until": 1542896777095
+        },
+        "attachContent": "",
+        "status": "online",
+        "show_ad": 1,
+        "previews": [],
+        "attach": "{\"rank\":3}",
+        "include": ["HOT#F2405D"]
+      }, {
+        "id": "ae76f45da688d368cfbc7331ef9bc24f",
+        "type": "movie_film",
+        "name": "Main Hoon Lucky The Racer",
+        "episodeNum": 0,
+        "seasonNum": 0,
+        "poster": [{
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/ae76f45da688d368cfbc7331ef9bc24f\/hi\/16x9\/984x555\/jpg_4691473164001_720x405_logo.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }, {
+          "width": 480,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/ae76f45da688d368cfbc7331ef9bc24f\/hi\/16x9\/480x270\/jpg_4691473164001_720x405_logo.jpg",
+          "height": 270,
+          "type": "landscape"
+        }, {
+          "width": 312,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/ae76f45da688d368cfbc7331ef9bc24f\/hi\/2x3\/312x468\/jpg_test_pic1536761132813_logo.jpg",
+          "height": 468,
+          "type": "portrait"
+        }],
+        "description": "Main Hoon Lucky The Racer - Its all about two brothers who do things differently. While one brother follows rules and regulations, the other tries to achieve it in his own way.",
+        "publishTime": 1388514600000,
+        "duration": 8644,
+        "watchAt": 0,
+        "isInWatchlist": 0,
+        "inWatchCount": 0,
+        "thumbStatus": 0,
+        "thumbUpCount": 0,
+        "thumbDownCount": 0,
+        "viewCount": 0,
+        "persons": [{
+          "id": "87b9926bde40649c2a474bdbb32a27dd",
+          "name": "NA",
+          "type": "director"
+        }, {
+          "id": "5c221d674e661b2e204ff28c76de51b1",
+          "name": "Ravi Kishan",
+          "type": "star"
+        }, {
+          "id": "f04d1ec53384e5b462a2efd810826aec",
+          "name": "Allu Arjun",
+          "type": "star"
+        }, {
+          "id": "36d6b1582ce51d319c468a2531d3c372",
+          "name": "Prakash Raj",
+          "type": "star"
+        }, {
+          "id": "566433803019e75d377d9d987c0eb1db",
+          "name": "Shaam",
+          "type": "star"
+        }, {
+          "id": "d9beac2f9edbfc78b179f2b7ce072e6e",
+          "name": "Saloni",
+          "type": "star"
+        }, {
+          "id": "849252cceca1f8ca4a76ec2c9b497d45",
+          "name": "Shruti Hassan",
+          "type": "star"
+        }],
+        "genres": [{
+          "id": "72c7a3098399dfb77a42f5181b46fa41",
+          "name": "Action",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/movie\/ae76f45da688d368cfbc7331ef9bc24f?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/movie\/watch-main-hoon-lucky-the-racer-movie-online_ae76f45da688d368cfbc7331ef9bc24f?utm_source=mx_android_share",
+        "nameOfVideoAd": "sony",
+        "descriptionUrlOfVideoAd": "https:\/\/www.dev.mxplay.com\/detail\/movie\/ae76f45da688d368cfbc7331ef9bc24f",
+        "shouldPreload": 0,
+        "preloadTime": 0,
+        "youtubeId": "",
+        "playWithYoutube": 0,
+        "playInfo": [{
+          "extension": "mpd",
+          "drmUrl": "",
+          "drmScheme": "",
+          "playUrl": "https:\/\/manifest.prod.boltdns.net\/manifest\/v1\/dash\/live-baseurl\/clear\/5182475815001\/316ee5c2-cddb-488c-bc73-b71fc13330fc\/2s\/manifest.mpd?fastly_token=NWMxYTUwYWZfNmIxYjIxNmJjMDAwZmRjYWViM2M3NTAyMTc4OTAyZjYyOTU1ZDczZDAxOGY4N2FjNGJlNThlZjA5ZDY1NjgzNQ%3D%3D",
+          "codec": "",
+          "profile": ""
+        }],
+        "downloadInfo": [{
+          "id": "ae76f45da688d368cfbc7331ef9bc24f",
+          "name": "Main Hoon Lucky The Racer",
+          "type": "movie_film",
+          "meta": [],
+          "expiry_date": 0,
+          "valid_period": 0,
+          "download_right": 0,
+          "valid_type": ""
+        }],
+        "publisher": {
+          "id": "42a84742cdf1d5d0dfa980f6c9bff07f",
+          "name": "Sony LIV1",
+          "type": "publisher",
+          "poster": [{
+            "width": 984,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/42a84742cdf1d5d0dfa980f6c9bff07f\/none\/16x9\/984x555\/test_pic1538659784197.jpg",
+            "height": 555,
+            "type": "bigpic"
+          }, {
+            "width": 312,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/42a84742cdf1d5d0dfa980f6c9bff07f\/none\/1x1\/312x312\/test_pic1535553885288.jpg",
+            "height": 312,
+            "type": "square"
+          }],
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/42a84742cdf1d5d0dfa980f6c9bff07f\/none\/1x1\/312x312\/test_pic1535553885288.jpg",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/42a84742cdf1d5d0dfa980f6c9bff07f?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "levelInfos": [],
+        "seek_thumbnail": [{
+          "index": "0.jpg",
+          "big_pic_num": "1",
+          "column": "481",
+          "interval": "10",
+          "height": "77",
+          "width": "136",
+          "total": "864",
+          "row": "2",
+          "url": "https:\/\/j2apps.s.llnwi.net\/video\/a52502d8ab917a6587ff617ce4778f86\/seek_thumbnail\/864_2_481_136_77_10_1_0.jpg"
+        }],
+        "third_party_info": {
+          "content_id": "4691473164001",
+          "dash_id": "",
+          "dash_url": "https:\/\/manifest.prod.boltdns.net\/manifest\/v1\/dash\/live-baseurl\/clear\/5182475815001\/316ee5c2-cddb-488c-bc73-b71fc13330fc\/2s\/manifest.mpd?fastly_token=NWMxYTUwYWZfNmIxYjIxNmJjMDAwZmRjYWViM2M3NTAyMTc4OTAyZjYyOTU1ZDczZDAxOGY4N2FjNGJlNThlZjA5ZDY1NjgzNQ%3D%3D",
+          "hls_url": "https:\/\/manifest.prod.boltdns.net\/manifest\/v1\/hls\/v5\/aes128\/5182475815001\/316ee5c2-cddb-488c-bc73-b71fc13330fc\/10s\/master.m3u8?fastly_token=NWMxYTUwYWZfNzcwMDdhNGE5YjZiNTQ0YTIyNjMxYTZmZTg2YzU2MzU3YmI1NTRiMjA4ODM3YjlkYWRhYjM2MzJkNDVlZWI0Ng%3D%3D",
+          "name": "sony",
+          "valid_until": 1542884678626
+        },
+        "attachContent": "",
+        "status": "online",
+        "show_ad": 1,
+        "previews": [],
+        "attach": "{\"rank\":4}",
+        "include": ["HOT#F2405D"]
+      }],
+      "refreshUrl": "https:\/\/androidapi.dev.mxplay.com\/v1\/paging\/search\/section?section=movie&keyword=hindi&action=type_query&qid=Ot3yEBgsE5xT09~IKmXQT&pagesize=20",
+      "lastUrl": ""
+    }],
+    "listStyle": "pic_left",
+    "moreStyle": "pic_left",
+    "attachContent": "",
+    "nomore": 0,
+    "flowFlag": "0218b1",
+    "mostCount": 157
+  }, {
+    "id": "search_shows",
+    "name": "Shows",
+    "type": "normal",
+    "tag_name": "",
+    "tag_color": "",
+    "description": "",
+    "background_image": "",
+    "resources": [{
+      "id": "",
+      "name": "",
+      "type": "paging",
+      "nextUrl": "https:\/\/androidapi.dev.mxplay.com\/v1\/paging\/search\/section?section=shows&keyword=hindi&action=type_query&qid=Ot3yEBgsE5xT09~IKmXQT&next=4&pagesize=4",
+      "resources": [{
+        "id": "e74a1027ed48dd9f67c69e2160dfe795",
+        "name": "Aladdin",
+        "type": "tvshow_show",
+        "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/e74a1027ed48dd9f67c69e2160dfe795\/hi\/16x9\/480x270\/jpg_5824710026001_720x405_logo.jpg",
+        "poster": [{
+          "width": 480,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/e74a1027ed48dd9f67c69e2160dfe795\/hi\/16x9\/480x270\/jpg_5824710026001_720x405_logo.jpg",
+          "height": 270,
+          "type": "landscape"
+        }, {
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/e74a1027ed48dd9f67c69e2160dfe795\/hi\/16x9\/984x555\/jpg_5824710026001_720x405_logo.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }],
+        "description": "Aladdin is an age-old fantasy tale of a 20-year-old boy and his travails around his family and love. It is an absolute family entertainer show. It has got the fantastical factor of classic tale as well as the nail-biting thriller, heart-warming romance and affecting family equations. Despite being set in a very old legendary talismanic era, all the characters are entertaining, yet relatable which makes the fans correlate with its humor.",
+        "publishTime": 0,
+        "persons": [],
+        "genres": [{
+          "id": "b0b2f342fb52f39026da0aa6b78b07d7",
+          "name": "Fantasy",
+          "type": "genre"
+        }, {
+          "id": "a24ddcadde26310ddfdb674e09e38eb5",
+          "name": "Comedy",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "subscribers": 0,
+        "isSubscribed": 0,
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/tvshow\/e74a1027ed48dd9f67c69e2160dfe795?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/show\/watch-aladdin-series-online-e74a1027ed48dd9f67c69e2160dfe795?utm_source=mx_android_share",
+        "inWatchCount": 0,
+        "isInWatchlist": 0,
+        "albumCount": 1,
+        "videoCount": 32,
+        "publisher": {
+          "id": "42a84742cdf1d5d0dfa980f6c9bff07f",
+          "name": "Sony LIV1",
+          "type": "publisher",
+          "poster": [{
+            "width": 984,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/42a84742cdf1d5d0dfa980f6c9bff07f\/none\/16x9\/984x555\/test_pic1538659784197.jpg",
+            "height": 555,
+            "type": "bigpic"
+          }, {
+            "width": 312,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/42a84742cdf1d5d0dfa980f6c9bff07f\/none\/1x1\/312x312\/test_pic1535553885288.jpg",
+            "height": 312,
+            "type": "square"
+          }],
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/42a84742cdf1d5d0dfa980f6c9bff07f\/none\/1x1\/312x312\/test_pic1535553885288.jpg",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/42a84742cdf1d5d0dfa980f6c9bff07f?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "enable_bb_quiz": 0,
+        "bb_quiz_time": 0,
+        "attach": "{\"rank\":1}",
+        "include": ["HOT#F2405D"]
+      }, {
+        "id": "e4c92c4fb0782f08d3497e0a154a312f",
+        "name": "Taarak Mehta Ka Ooltah Chashmah",
+        "type": "tvshow_show",
+        "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/e4c92c4fb0782f08d3497e0a154a312f\/hi\/16x9\/480x270\/jpg_test_pic1538721462749.jpg",
+        "poster": [{
+          "width": 480,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/e4c92c4fb0782f08d3497e0a154a312f\/hi\/16x9\/480x270\/jpg_test_pic1538721462749.jpg",
+          "height": 270,
+          "type": "landscape"
+        }, {
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/e4c92c4fb0782f08d3497e0a154a312f\/hi\/16x9\/984x555\/jpg_test_pic1538721462749.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }],
+        "description": "Taarak Mehta Ka Ooltah Chashmah is a SAB Comedy Show inspired from the famous humorous column Duniya Ne Undha Chashmah written by the eminent Gujarati writer Mr. Tarak Mehta. This show revolves around Gada Family which consists of uneducated Businessman Jethalal Champaklal Gada (Actor Dilip Joshi), Jethalals Wife Daya (Disha Wakani) & their naughty Son Tipendra Gada (Bhavya Gandhi) living in Gokuldham Co-operative Society and covers topical issues which are socially relevant. In case of problem and emergency, Jethalal Gada often rushes to Taarak Mehta to seek his help and guidance as he finds a philosopher in him. Jethalal calls his Father Champaklal Gada (Amit Bhatt) from Village to keep an eye on his mischievous Son Tapu but the opposite happens and Bapuji joins hands with Tapu. This hilarious show will surely tickle your funny bone. Is there a trouble waiting for Jethalal?",
+        "publishTime": 0,
+        "persons": [],
+        "genres": [{
+          "id": "a24ddcadde26310ddfdb674e09e38eb5",
+          "name": "Comedy",
+          "type": "genre"
+        }, {
+          "id": "b413dff55bdad743c577a8bea3b65044",
+          "name": "Crime",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "subscribers": 0,
+        "isSubscribed": 0,
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/tvshow\/e4c92c4fb0782f08d3497e0a154a312f?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/show\/watch-taarak-mehta-ka-ooltah-chashmah-series-online-e4c92c4fb0782f08d3497e0a154a312f?utm_source=mx_android_share",
+        "inWatchCount": 0,
+        "isInWatchlist": 0,
+        "albumCount": 1,
+        "videoCount": 1395,
+        "publisher": {
+          "id": "42a84742cdf1d5d0dfa980f6c9bff07f",
+          "name": "Sony LIV1",
+          "type": "publisher",
+          "poster": [{
+            "width": 984,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/42a84742cdf1d5d0dfa980f6c9bff07f\/none\/16x9\/984x555\/test_pic1538659784197.jpg",
+            "height": 555,
+            "type": "bigpic"
+          }, {
+            "width": 312,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/42a84742cdf1d5d0dfa980f6c9bff07f\/none\/1x1\/312x312\/test_pic1535553885288.jpg",
+            "height": 312,
+            "type": "square"
+          }],
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/42a84742cdf1d5d0dfa980f6c9bff07f\/none\/1x1\/312x312\/test_pic1535553885288.jpg",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/42a84742cdf1d5d0dfa980f6c9bff07f?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "enable_bb_quiz": 0,
+        "bb_quiz_time": 0,
+        "attach": "{\"rank\":2}",
+        "include": ["HOT#F2405D"]
+      }, {
+        "id": "6cda23d8688e4c3ced128649ddd33767",
+        "name": "X.X.X.",
+        "type": "tvshow_show",
+        "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/6cda23d8688e4c3ced128649ddd33767\/en\/16x9\/480x270\/jpg_test_pic1538063160666.jpg",
+        "poster": [{
+          "width": 480,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/6cda23d8688e4c3ced128649ddd33767\/en\/16x9\/480x270\/jpg_test_pic1538063160666.jpg",
+          "height": 270,
+          "type": "landscape"
+        }, {
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/6cda23d8688e4c3ced128649ddd33767\/en\/16x9\/984x555\/jpg_test_pic1538063160666.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }],
+        "description": "Keep the doors closed and your headphones on! Gear up for an experience that will change you, for better or worse. You've never seen anything like this, and we doubt that you ever will, again. Watch responsibly",
+        "publishTime": 0,
+        "persons": [],
+        "genres": [{
+          "id": "48efa872f6f17facebf6149dfc536ee1",
+          "name": "Drama",
+          "type": "genre"
+        }, {
+          "id": "a24ddcadde26310ddfdb674e09e38eb5",
+          "name": "Comedy",
+          "type": "genre"
+        }, {
+          "id": "2ca814014aa9e4d236e0059f4b81c20c",
+          "name": "Web Series",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "subscribers": 0,
+        "isSubscribed": 0,
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/tvshow\/6cda23d8688e4c3ced128649ddd33767?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/show\/watch-xxx-series-online-6cda23d8688e4c3ced128649ddd33767?utm_source=mx_android_share",
+        "inWatchCount": 0,
+        "isInWatchlist": 0,
+        "albumCount": 1,
+        "videoCount": 5,
+        "publisher": {
+          "id": "6ef2dc984f1cb3c7d1c641166bdd3985",
+          "name": "ALTBalaji",
+          "type": "publisher",
+          "poster": [{
+            "width": 984,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/6ef2dc984f1cb3c7d1c641166bdd3985\/none\/16x9\/984x555\/ffd6a4d195fd3c2d108bd1b57c86c31e.jpg",
+            "height": 555,
+            "type": "bigpic"
+          }, {
+            "width": 312,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/6ef2dc984f1cb3c7d1c641166bdd3985\/none\/1x1\/312x312\/ffd6a4d195fd3c2d108bd1b57c86c31e.jpg",
+            "height": 312,
+            "type": "square"
+          }],
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/6ef2dc984f1cb3c7d1c641166bdd3985\/none\/1x1\/312x312\/ffd6a4d195fd3c2d108bd1b57c86c31e.jpg",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/6ef2dc984f1cb3c7d1c641166bdd3985?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "enable_bb_quiz": 0,
+        "bb_quiz_time": 0,
+        "attach": "{\"rank\":3}",
+        "include": ["HOT#F2405D"]
+      }, {
+        "id": "ef3eb728ae80a14841556fa5962d16cd",
+        "name": "CID",
+        "type": "tvshow_show",
+        "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/ef3eb728ae80a14841556fa5962d16cd\/hi\/16x9\/480x270\/jpg_4705475579001_720x405_logo.jpg",
+        "poster": [{
+          "width": 480,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/ef3eb728ae80a14841556fa5962d16cd\/hi\/16x9\/480x270\/jpg_4705475579001_720x405_logo.jpg",
+          "height": 270,
+          "type": "landscape"
+        }, {
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/ef3eb728ae80a14841556fa5962d16cd\/hi\/16x9\/984x555\/jpg_4705475579001_720x405_logo.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }],
+        "description": "The first thrilling investigative series on Indian Television, is today one of the most popular shows on Sony Entertainment Television. Dramatic and absolutely unpredictable, C.I.D. has captivated viewers over the last eleven years and continues to keep audiences glued to their television sets with its thrilling plots and excitement. Also interwoven in its fast paced plots are the personal challenges that the C.I.D. team faces with non-stop adventure, tremendous pressure and risk, all in the name of duty. The series consists of hard-core police procedural stories dealing with investigation, detection and suspense. The protagonists of the serial are an elite group of police officers belonging to the Crime Investigation Department of the police force, led by ACP Pradyuman [played by the dynamic Shivaji Satam]. While the stories are plausible, there is an emphasis on dramatic plotting and technical complexities faced by the police. At every stage, the plot throws up intriguing twists and turns keeping the officers on the move as they track criminals, led by the smallest of clues.n",
+        "publishTime": 0,
+        "persons": [],
+        "genres": [{
+          "id": "b413dff55bdad743c577a8bea3b65044",
+          "name": "Crime",
+          "type": "genre"
+        }, {
+          "id": "48efa872f6f17facebf6149dfc536ee1",
+          "name": "Drama",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "subscribers": 0,
+        "isSubscribed": 0,
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/tvshow\/ef3eb728ae80a14841556fa5962d16cd?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/show\/watch-cid-series-online-ef3eb728ae80a14841556fa5962d16cd?utm_source=mx_android_share",
+        "inWatchCount": 0,
+        "isInWatchlist": 0,
+        "albumCount": 1,
+        "videoCount": 273,
+        "publisher": {
+          "id": "42a84742cdf1d5d0dfa980f6c9bff07f",
+          "name": "Sony LIV1",
+          "type": "publisher",
+          "poster": [{
+            "width": 984,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/42a84742cdf1d5d0dfa980f6c9bff07f\/none\/16x9\/984x555\/test_pic1538659784197.jpg",
+            "height": 555,
+            "type": "bigpic"
+          }, {
+            "width": 312,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/42a84742cdf1d5d0dfa980f6c9bff07f\/none\/1x1\/312x312\/test_pic1535553885288.jpg",
+            "height": 312,
+            "type": "square"
+          }],
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/42a84742cdf1d5d0dfa980f6c9bff07f\/none\/1x1\/312x312\/test_pic1535553885288.jpg",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/42a84742cdf1d5d0dfa980f6c9bff07f?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "enable_bb_quiz": 0,
+        "bb_quiz_time": 0,
+        "attach": "{\"rank\":4}",
+        "include": ["HOT#F2405D"]
+      }],
+      "refreshUrl": "https:\/\/androidapi.dev.mxplay.com\/v1\/paging\/search\/section?section=shows&keyword=hindi&action=type_query&qid=Ot3yEBgsE5xT09~IKmXQT&pagesize=20",
+      "lastUrl": ""
+    }],
+    "listStyle": "pic_left",
+    "moreStyle": "pic_left",
+    "attachContent": "",
+    "nomore": 0,
+    "flowFlag": "0218b1",
+    "mostCount": 121
+  }, {
+    "id": "search_music",
+    "name": "Music",
+    "type": "normal",
+    "tag_name": "",
+    "tag_color": "",
+    "description": "",
+    "background_image": "",
+    "resources": [{
+      "id": "",
+      "name": "",
+      "type": "paging",
+      "nextUrl": "https:\/\/androidapi.dev.mxplay.com\/v1\/paging\/search\/section?section=music&keyword=hindi&action=type_query&qid=Ot3yEBgsE5xT09~IKmXQT&next=4&pagesize=4",
+      "resources": [{
+        "id": "f8870e2fc3835eca725b6afa879c81bf",
+        "type": "music_mv",
+        "name": "Paniyon Sa",
+        "episodeNum": 0,
+        "seasonNum": 0,
+        "poster": [{
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/f8870e2fc3835eca725b6afa879c81bf\/hi\/16x9\/984x555\/test_pic1532433815111.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }, {
+          "width": 480,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/f8870e2fc3835eca725b6afa879c81bf\/hi\/16x9\/480x270\/test_pic1532433815111.jpg",
+          "height": 270,
+          "type": "landscape"
+        }],
+        "description": "",
+        "publishTime": 1530662400000,
+        "duration": 181,
+        "watchAt": 0,
+        "isInWatchlist": 0,
+        "inWatchCount": 0,
+        "thumbStatus": 0,
+        "thumbUpCount": 0,
+        "thumbDownCount": 0,
+        "viewCount": 0,
+        "persons": [{
+          "id": "ef18d6f103a4c66bc91b09f92a30f52b",
+          "name": "Atif Aslam",
+          "type": "singer"
+        }, {
+          "id": "66ae8d9fedc6cdde91fe175b0bdf41e8",
+          "name": "Tulsi Kumar",
+          "type": "singer"
+        }],
+        "genres": [{
+          "id": "efb80324c5d680c8c81f1f9176d54885",
+          "name": "Bollywood",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/music\/f8870e2fc3835eca725b6afa879c81bf?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/music\/watch-paniyon-sa-video-online_f8870e2fc3835eca725b6afa879c81bf?utm_source=mx_android_share",
+        "nameOfVideoAd": "normal",
+        "descriptionUrlOfVideoAd": "https:\/\/www.dev.mxplay.com\/detail\/music\/f8870e2fc3835eca725b6afa879c81bf",
+        "shouldPreload": 0,
+        "preloadTime": 0,
+        "youtubeId": "6PF1sHhlsZs",
+        "playWithYoutube": 1,
+        "playInfo": [],
+        "downloadInfo": [],
+        "publisher": {
+          "id": "",
+          "name": "",
+          "type": "publisher",
+          "poster": [],
+          "icon": "",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "levelInfos": [{
+          "id": "9d07b7142d6257d9726dfba4faf37334",
+          "name": "Satyameva Jayate",
+          "type": "music_album",
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/9d07b7142d6257d9726dfba4faf37334\/hi\/1x1\/312x312\/pccb00_49f3c12b506ef653e06b9aaddb59ec8f.jpg"
+        }, {
+          "id": "1035e1cc757798227649348e96652396",
+          "name": "Various Artist - Hindi",
+          "type": "music_artist",
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/1035e1cc757798227649348e96652396\/en\/1x1\/312x312\/pccb00_test_pic1530783319683.jpg"
+        }],
+        "seek_thumbnail": [{
+          "total": "",
+          "big_pic_num": "",
+          "column": "",
+          "row": "",
+          "width": "",
+          "height": "",
+          "interval": "",
+          "index": "",
+          "url": ""
+        }],
+        "third_party_info": {
+          "content_id": "",
+          "dash_id": "",
+          "dash_url": "",
+          "hls_url": "",
+          "name": "",
+          "valid_until": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "show_ad": 1,
+        "previews": [],
+        "attach": "{\"rank\":1}",
+        "include": ["HOT#F2405D"]
+      }, {
+        "id": "c5e96ff16acf5ce786995bc085104a2e",
+        "type": "music_mv",
+        "name": " Udi Udi Jaye",
+        "episodeNum": 0,
+        "seasonNum": 0,
+        "poster": [{
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/c5e96ff16acf5ce786995bc085104a2e\/en\/16x9\/984x555\/test_pic1539071318431.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }, {
+          "width": 480,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/c5e96ff16acf5ce786995bc085104a2e\/en\/16x9\/480x270\/test_pic1539071318431.jpg",
+          "height": 270,
+          "type": "landscape"
+        }],
+        "description": "",
+        "publishTime": 1484073000000,
+        "duration": 151,
+        "watchAt": 0,
+        "isInWatchlist": 0,
+        "inWatchCount": 0,
+        "thumbStatus": 0,
+        "thumbUpCount": 0,
+        "thumbDownCount": 0,
+        "viewCount": 0,
+        "persons": [{
+          "id": "c84287528d48483398c1cdac5401d678",
+          "name": "Sukhwinder Singh",
+          "type": "singer"
+        }, {
+          "id": "0c25e41e893429f1130f0d46b1fa4a88",
+          "name": "Bhoomi Trivedi",
+          "type": "singer"
+        }],
+        "genres": [{
+          "id": "efb80324c5d680c8c81f1f9176d54885",
+          "name": "Bollywood",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/music\/c5e96ff16acf5ce786995bc085104a2e?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/music\/watch-udi-udi-jaye-video-online_c5e96ff16acf5ce786995bc085104a2e?utm_source=mx_android_share",
+        "nameOfVideoAd": "normal",
+        "descriptionUrlOfVideoAd": "https:\/\/www.dev.mxplay.com\/detail\/music\/c5e96ff16acf5ce786995bc085104a2e",
+        "shouldPreload": 0,
+        "preloadTime": 0,
+        "youtubeId": "WQfdwsPao9E",
+        "playWithYoutube": 1,
+        "playInfo": [],
+        "downloadInfo": [],
+        "publisher": {
+          "id": "AWQhy2utNMebT2ZpquFI",
+          "name": "Zee Music Company",
+          "type": "publisher",
+          "poster": [{
+            "width": 312,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/AWQhy2utNMebT2ZpquFI\/none\/1x1\/312x312\/pccb01_test_pic1531729517685.jpg",
+            "height": 312,
+            "type": "square"
+          }],
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/AWQhy2utNMebT2ZpquFI\/none\/1x1\/312x312\/pccb01_test_pic1531729517685.jpg",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/AWQhy2utNMebT2ZpquFI?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "levelInfos": [{
+          "id": "e30f539cb56e60f3c8f0f8f75b31d2b6",
+          "name": "Raees",
+          "type": "music_album",
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/e30f539cb56e60f3c8f0f8f75b31d2b6\/hi\/1x1\/312x312\/pccb00_7a6d02945ec784f82c2f7625853f3034.jpg"
+        }, {
+          "id": "1035e1cc757798227649348e96652396",
+          "name": "Various Artist - Hindi",
+          "type": "music_artist",
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/1035e1cc757798227649348e96652396\/en\/1x1\/312x312\/pccb00_test_pic1530783319683.jpg"
+        }],
+        "seek_thumbnail": [{
+          "total": "",
+          "big_pic_num": "",
+          "column": "",
+          "row": "",
+          "width": "",
+          "height": "",
+          "interval": "",
+          "index": "",
+          "url": ""
+        }],
+        "third_party_info": {
+          "content_id": "",
+          "dash_id": "",
+          "dash_url": "",
+          "hls_url": "",
+          "name": "",
+          "valid_until": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "show_ad": 1,
+        "previews": [],
+        "attach": "{\"rank\":2}",
+        "include": ["HOT#F2405D"]
+      }, {
+        "id": "235b53ac545e98a2987958cf6e9be838",
+        "type": "music_mv",
+        "name": "Badnaamiyan (Female)",
+        "episodeNum": 0,
+        "seasonNum": 0,
+        "poster": [{
+          "width": 480,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/235b53ac545e98a2987958cf6e9be838\/hi\/16x9\/480x270\/pccb00_25ea512144f6422b32f081f7be28cea1.jpg",
+          "height": 270,
+          "type": "landscape"
+        }, {
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/235b53ac545e98a2987958cf6e9be838\/hi\/16x9\/984x555\/pccb00_25ea512144f6422b32f081f7be28cea1.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }],
+        "description": "",
+        "publishTime": 1517356800000,
+        "duration": 283,
+        "watchAt": 0,
+        "isInWatchlist": 0,
+        "inWatchCount": 0,
+        "thumbStatus": 0,
+        "thumbUpCount": 0,
+        "thumbDownCount": 0,
+        "viewCount": 0,
+        "persons": [{
+          "id": "e4f36f0571111cc3dc40d3422fdd0eed",
+          "name": "Sukriti Kakar",
+          "type": "singer"
+        }],
+        "genres": [{
+          "id": "efb80324c5d680c8c81f1f9176d54885",
+          "name": "Bollywood",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/music\/235b53ac545e98a2987958cf6e9be838?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/music\/watch-badnaamiyan-female-video-online_235b53ac545e98a2987958cf6e9be838?utm_source=mx_android_share",
+        "nameOfVideoAd": "normal",
+        "descriptionUrlOfVideoAd": "https:\/\/www.dev.mxplay.com\/detail\/music\/235b53ac545e98a2987958cf6e9be838",
+        "shouldPreload": 0,
+        "preloadTime": 0,
+        "youtubeId": "JH1uPHHoGiE",
+        "playWithYoutube": 1,
+        "playInfo": [],
+        "downloadInfo": [],
+        "publisher": {
+          "id": "",
+          "name": "",
+          "type": "publisher",
+          "poster": [],
+          "icon": "",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "levelInfos": [{
+          "id": "b1dc37f7817d089a9a060af1c5bf4b68",
+          "name": "Hate Story IV",
+          "type": "music_album",
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/b1dc37f7817d089a9a060af1c5bf4b68\/hi\/1x1\/312x312\/pccb00_6cf128172d87e651ed828cf68022a57d.jpg"
+        }, {
+          "id": "1035e1cc757798227649348e96652396",
+          "name": "Various Artist - Hindi",
+          "type": "music_artist",
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/1035e1cc757798227649348e96652396\/en\/1x1\/312x312\/pccb00_test_pic1530783319683.jpg"
+        }],
+        "seek_thumbnail": [{
+          "total": "",
+          "big_pic_num": "",
+          "column": "",
+          "row": "",
+          "width": "",
+          "height": "",
+          "interval": "",
+          "index": "",
+          "url": ""
+        }],
+        "third_party_info": {
+          "content_id": "",
+          "dash_id": "",
+          "dash_url": "",
+          "hls_url": "",
+          "name": "",
+          "valid_until": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "show_ad": 1,
+        "previews": [],
+        "attach": "{\"rank\":3}",
+        "include": ["HOT#F2405D"]
+      }, {
+        "id": "3b3d36d684a4a1c83f52eaefb6848825",
+        "type": "music_mv",
+        "name": "Tujhse Kahan Juda Hoon Main",
+        "episodeNum": 0,
+        "seasonNum": 0,
+        "poster": [{
+          "width": 480,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/3b3d36d684a4a1c83f52eaefb6848825\/en\/16x9\/480x270\/jpg_test_pic1536926595117.jpg",
+          "height": 270,
+          "type": "landscape"
+        }, {
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/3b3d36d684a4a1c83f52eaefb6848825\/en\/16x9\/984x555\/jpg_test_pic1536926595117.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }],
+        "description": "",
+        "publishTime": 1533753000000,
+        "duration": 181,
+        "watchAt": 0,
+        "isInWatchlist": 0,
+        "inWatchCount": 0,
+        "thumbStatus": 0,
+        "thumbUpCount": 0,
+        "thumbDownCount": 0,
+        "viewCount": 0,
+        "persons": [{
+          "id": "f9fe018d4e55669020ae3f2853b013e7",
+          "name": "Himesh Reshammiya",
+          "type": "singer"
+        }, {
+          "id": "b622aa52ee47925b2eaf437d8ce42d63",
+          "name": "Neeti Mohan",
+          "type": "singer"
+        }],
+        "genres": [{
+          "id": "d283935ccd86ade65a89c0a68e2d18b8",
+          "name": "Pop",
+          "type": "genre"
+        }, {
+          "id": "efb80324c5d680c8c81f1f9176d54885",
+          "name": "Bollywood",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/music\/3b3d36d684a4a1c83f52eaefb6848825?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/music\/watch-tujhse-kahan-juda-hoon-main-video-online_3b3d36d684a4a1c83f52eaefb6848825?utm_source=mx_android_share",
+        "nameOfVideoAd": "normal",
+        "descriptionUrlOfVideoAd": "https:\/\/www.dev.mxplay.com\/detail\/music\/3b3d36d684a4a1c83f52eaefb6848825",
+        "shouldPreload": 0,
+        "preloadTime": 0,
+        "youtubeId": "UdvT4v_2KAU",
+        "playWithYoutube": 1,
+        "playInfo": [],
+        "downloadInfo": [],
+        "publisher": {
+          "id": "e5237aaec1cf25f0581d128362289be8",
+          "name": "Tips Music",
+          "type": "publisher",
+          "poster": [{
+            "width": 312,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/e5237aaec1cf25f0581d128362289be8\/none\/1x1\/312x312\/pccb01_test_pic1532504969273.jpg",
+            "height": 312,
+            "type": "square"
+          }],
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/e5237aaec1cf25f0581d128362289be8\/none\/1x1\/312x312\/pccb01_test_pic1532504969273.jpg",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/e5237aaec1cf25f0581d128362289be8?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "levelInfos": [{
+          "id": "52f4952501565608464d747a37e73f63",
+          "name": "Genius",
+          "type": "music_album",
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/52f4952501565608464d747a37e73f63\/hi\/1x1\/312x312\/pccb00_7764e167a0e96990103caea71a4aeb6e.jpg"
+        }, {
+          "id": "1035e1cc757798227649348e96652396",
+          "name": "Various Artist - Hindi",
+          "type": "music_artist",
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/1035e1cc757798227649348e96652396\/en\/1x1\/312x312\/pccb00_test_pic1530783319683.jpg"
+        }],
+        "seek_thumbnail": [{
+          "total": "",
+          "big_pic_num": "",
+          "column": "",
+          "row": "",
+          "width": "",
+          "height": "",
+          "interval": "",
+          "index": "",
+          "url": ""
+        }],
+        "third_party_info": {
+          "content_id": "",
+          "dash_id": "",
+          "dash_url": "",
+          "hls_url": "",
+          "name": "",
+          "valid_until": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "show_ad": 1,
+        "previews": [],
+        "attach": "{\"rank\":4}",
+        "include": ["HOT#F2405D"]
+      }],
+      "refreshUrl": "https:\/\/androidapi.dev.mxplay.com\/v1\/paging\/search\/section?section=music&keyword=hindi&action=type_query&qid=Ot3yEBgsE5xT09~IKmXQT&pagesize=20",
+      "lastUrl": ""
+    }],
+    "listStyle": "pic_left",
+    "moreStyle": "pic_left",
+    "attachContent": "",
+    "nomore": 0,
+    "flowFlag": "0218b1",
+    "mostCount": 150
+  }, {
+    "id": "search_album",
+    "name": "Music Albums",
+    "type": "normal",
+    "tag_name": "",
+    "tag_color": "",
+    "description": "",
+    "background_image": "",
+    "resources": [{
+      "id": "",
+      "name": "",
+      "type": "paging",
+      "nextUrl": "https:\/\/androidapi.dev.mxplay.com\/v1\/paging\/search\/section?section=album&keyword=hindi&action=type_query&qid=Ot3yEBgsE5xT09~IKmXQT&next=4&pagesize=4",
+      "resources": [{
+        "id": "ec38ab17ceb66c6514e31cf1d15f656a",
+        "name": "Farishtay",
+        "type": "music_album",
+        "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/ec38ab17ceb66c6514e31cf1d15f656a\/hi\/1x1\/312x312\/pccb00_4d3435203eafe43fcbd8b69133d77a5b.jpg",
+        "poster": [{
+          "width": 312,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/ec38ab17ceb66c6514e31cf1d15f656a\/hi\/1x1\/312x312\/pccb00_4d3435203eafe43fcbd8b69133d77a5b.jpg",
+          "height": 312,
+          "type": "square"
+        }],
+        "publishTime": 1532009235416,
+        "description": "",
+        "videoCount": 7,
+        "persons": [],
+        "youtubePlay": 1,
+        "genres": [],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/album\/ec38ab17ceb66c6514e31cf1d15f656a?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/album\/play-farishtay-video-songs-ec38ab17ceb66c6514e31cf1d15f656a?utm_source=mx_android_share",
+        "isInWatchlist": 0,
+        "inWatchCount": 0,
+        "levelInfos": [{
+          "id": "1035e1cc757798227649348e96652396",
+          "name": "Various Artist - Hindi",
+          "type": "music_artist",
+          "icon": ""
+        }],
+        "publisher": {
+          "id": "d00ad07ce629982d05f5f0e2a8d55e05",
+          "name": "Saregama",
+          "type": "publisher",
+          "poster": [{
+            "width": 312,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/d00ad07ce629982d05f5f0e2a8d55e05\/none\/1x1\/312x312\/pccb01_test_pic1532591995278.jpg",
+            "height": 312,
+            "type": "square"
+          }],
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/d00ad07ce629982d05f5f0e2a8d55e05\/none\/1x1\/312x312\/pccb01_test_pic1532591995278.jpg",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/d00ad07ce629982d05f5f0e2a8d55e05?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "attach": "{\"rank\":2}",
+        "include": []
+      }, {
+        "id": "930ab90dc2fedaabd9ae8fd39285db7c",
+        "name": "Karwaan",
+        "type": "music_album",
+        "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/930ab90dc2fedaabd9ae8fd39285db7c\/hi\/1x1\/312x312\/pccb00_6b49958033d6a6fa72b4acc4ef6a4ed4.jpg",
+        "poster": [{
+          "width": 312,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/930ab90dc2fedaabd9ae8fd39285db7c\/hi\/1x1\/312x312\/pccb00_6b49958033d6a6fa72b4acc4ef6a4ed4.jpg",
+          "height": 312,
+          "type": "square"
+        }],
+        "publishTime": 1532080192055,
+        "description": "",
+        "videoCount": 1,
+        "persons": [],
+        "youtubePlay": 1,
+        "genres": [],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/album\/930ab90dc2fedaabd9ae8fd39285db7c?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/album\/play-karwaan-video-songs-930ab90dc2fedaabd9ae8fd39285db7c?utm_source=mx_android_share",
+        "isInWatchlist": 0,
+        "inWatchCount": 0,
+        "levelInfos": [{
+          "id": "1035e1cc757798227649348e96652396",
+          "name": "Various Artist - Hindi",
+          "type": "music_artist",
+          "icon": ""
+        }],
+        "publisher": {
+          "id": "",
+          "name": "",
+          "type": "publisher",
+          "poster": [],
+          "icon": "",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "attach": "{\"rank\":4}",
+        "include": []
+      }],
+      "refreshUrl": "https:\/\/androidapi.dev.mxplay.com\/v1\/paging\/search\/section?section=album&keyword=hindi&action=type_query&qid=Ot3yEBgsE5xT09~IKmXQT&pagesize=20",
+      "lastUrl": ""
+    }],
+    "listStyle": "slide_square",
+    "moreStyle": "pic_left_square",
+    "attachContent": "",
+    "nomore": 0,
+    "flowFlag": "0218b1",
+    "mostCount": 12
+  }, {
+    "id": "search_artist",
+    "name": "Artist",
+    "type": "normal",
+    "tag_name": "",
+    "tag_color": "",
+    "description": "",
+    "background_image": "",
+    "resources": [{
+      "id": "",
+      "name": "",
+      "type": "paging",
+      "nextUrl": "https:\/\/androidapi.dev.mxplay.com\/v1\/paging\/search\/section?section=artist&keyword=hindi&action=type_query&qid=Ot3yEBgsE5xT09~IKmXQT&next=4&pagesize=4",
+      "resources": [{
+        "id": "aaaa9f9a42da24d1e96c254ed68a0752",
+        "name": "Guru Randhawa",
+        "type": "music_artist",
+        "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/aaaa9f9a42da24d1e96c254ed68a0752\/en\/1x1\/312x312\/test_pic1531137246990.jpg",
+        "poster": [{
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/aaaa9f9a42da24d1e96c254ed68a0752\/en\/16x9\/984x555\/test_pic1531137256105.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }, {
+          "width": 312,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/aaaa9f9a42da24d1e96c254ed68a0752\/en\/1x1\/312x312\/test_pic1531137246990.jpg",
+          "height": 312,
+          "type": "square"
+        }],
+        "description": "Indian singer and songwriter from Punjab",
+        "publishTime": 0,
+        "persons": [{
+          "id": "aaaa9f9a42da24d1e96c254ed68a0752",
+          "name": "Guru Randhawa",
+          "type": "singer"
+        }, {
+          "id": "aaaa9f9a42da24d1e96c254ed68a0752",
+          "name": "Guru Randhawa",
+          "type": "singer"
+        }],
+        "genres": [{
+          "id": "d283935ccd86ade65a89c0a68e2d18b8",
+          "name": "Pop",
+          "type": "genre"
+        }, {
+          "id": "578b0b7d962db1cec38b803655217057",
+          "name": "Punjabi Pop",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }, {
+          "id": "pa",
+          "name": "Punjabi",
+          "type": "language"
+        }, {
+          "id": "en",
+          "name": "English",
+          "type": "language"
+        }],
+        "subscribers": 1825,
+        "isSubscribed": 0,
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/artist\/aaaa9f9a42da24d1e96c254ed68a0752?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/artist\/guru-randhawa-aaaa9f9a42da24d1e96c254ed68a0752?utm_source=mx_android_share",
+        "inWatchCount": 0,
+        "isInWatchlist": 0,
+        "albumCount": 1,
+        "videoCount": 11,
+        "publisher": {
+          "id": "",
+          "name": "",
+          "type": "publisher",
+          "poster": [],
+          "icon": "",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "attach": "{\"rank\":1}",
+        "include": []
+      }, {
+        "id": "940247a21dfe9c768e643c12d60d4eb3",
+        "name": "Aastha Gill featuring Badshah",
+        "type": "music_artist",
+        "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/940247a21dfe9c768e643c12d60d4eb3\/hi\/1x1\/312x312\/test_pic1532105046337.jpg",
+        "poster": [{
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/940247a21dfe9c768e643c12d60d4eb3\/hi\/16x9\/984x555\/test_pic1532105039058.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }, {
+          "width": 312,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/940247a21dfe9c768e643c12d60d4eb3\/hi\/1x1\/312x312\/test_pic1532105046337.jpg",
+          "height": 312,
+          "type": "square"
+        }],
+        "description": "Punjabi pop artist",
+        "publishTime": 0,
+        "persons": [{
+          "id": "940247a21dfe9c768e643c12d60d4eb3",
+          "name": "Aastha Gill featuring Badshah",
+          "type": "singer"
+        }, {
+          "id": "940247a21dfe9c768e643c12d60d4eb3",
+          "name": "Aastha Gill featuring Badshah",
+          "type": "singer"
+        }],
+        "genres": [{
+          "id": "d283935ccd86ade65a89c0a68e2d18b8",
+          "name": "Pop",
+          "type": "genre"
+        }, {
+          "id": "578b0b7d962db1cec38b803655217057",
+          "name": "Punjabi Pop",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "subscribers": 23029,
+        "isSubscribed": 0,
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/artist\/940247a21dfe9c768e643c12d60d4eb3?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/artist\/aastha-gill-featuring-badshah-940247a21dfe9c768e643c12d60d4eb3?utm_source=mx_android_share",
+        "inWatchCount": 0,
+        "isInWatchlist": 0,
+        "albumCount": 1,
+        "videoCount": 2,
+        "publisher": {
+          "id": "",
+          "name": "",
+          "type": "publisher",
+          "poster": [],
+          "icon": "",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "attach": "{\"rank\":2}",
+        "include": []
+      }, {
+        "id": "730f3a844d64c914065e1895d85ad207",
+        "name": "Badshah",
+        "type": "music_artist",
+        "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/730f3a844d64c914065e1895d85ad207\/en\/1x1\/312x312\/pccb00_test_pic1531291389992.jpg",
+        "poster": [{
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/730f3a844d64c914065e1895d85ad207\/en\/16x9\/984x555\/pccb00_test_pic1531291381443.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }, {
+          "width": 312,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/730f3a844d64c914065e1895d85ad207\/en\/1x1\/312x312\/pccb00_test_pic1531291389992.jpg",
+          "height": 312,
+          "type": "square"
+        }],
+        "description": "Aditya Prateek Singh Sisodia, better known by his stage name Badshah, is an Indian rapper and music composer known for his Hindi, Haryanvi, and Punjabi songs.",
+        "publishTime": 0,
+        "persons": [{
+          "id": "730f3a844d64c914065e1895d85ad207",
+          "name": "Badshah",
+          "type": "singer"
+        }, {
+          "id": "730f3a844d64c914065e1895d85ad207",
+          "name": "Badshah",
+          "type": "singer"
+        }],
+        "genres": [{
+          "id": "89efba39ac4de2df73884f83049be6c2",
+          "name": "R&B and Soul",
+          "type": "genre"
+        }, {
+          "id": "d283935ccd86ade65a89c0a68e2d18b8",
+          "name": "Pop",
+          "type": "genre"
+        }, {
+          "id": "8045e0496db8065d431db3cffc86cf6a",
+          "name": "Hip hop soul",
+          "type": "genre"
+        }, {
+          "id": "efb80324c5d680c8c81f1f9176d54885",
+          "name": "Bollywood",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }, {
+          "id": "en",
+          "name": "English",
+          "type": "language"
+        }],
+        "subscribers": 26911,
+        "isSubscribed": 0,
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/artist\/730f3a844d64c914065e1895d85ad207?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/artist\/badshah-730f3a844d64c914065e1895d85ad207?utm_source=mx_android_share",
+        "inWatchCount": 0,
+        "isInWatchlist": 0,
+        "albumCount": 0,
+        "videoCount": 16,
+        "publisher": {
+          "id": "",
+          "name": "",
+          "type": "publisher",
+          "poster": [],
+          "icon": "",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "attach": "{\"rank\":3}",
+        "include": []
+      }, {
+        "id": "ad9031300d4ce990db518b667e530813",
+        "name": "Sonu Nigam",
+        "type": "music_artist",
+        "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/ad9031300d4ce990db518b667e530813\/en\/1x1\/312x312\/pccb00_test_pic1530858282486.jpg",
+        "poster": [{
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/ad9031300d4ce990db518b667e530813\/en\/16x9\/984x555\/pccb00_test_pic1530858274879.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }, {
+          "width": 312,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/ad9031300d4ce990db518b667e530813\/en\/1x1\/312x312\/pccb00_test_pic1530858282486.jpg",
+          "height": 312,
+          "type": "square"
+        }],
+        "description": "Hindi Playback Singer",
+        "publishTime": 0,
+        "persons": [{
+          "id": "ad9031300d4ce990db518b667e530813",
+          "name": "Sonu Nigam",
+          "type": "singer"
+        }, {
+          "id": "ad9031300d4ce990db518b667e530813",
+          "name": "Sonu Nigam",
+          "type": "singer"
+        }],
+        "genres": [{
+          "id": "d283935ccd86ade65a89c0a68e2d18b8",
+          "name": "Pop",
+          "type": "genre"
+        }, {
+          "id": "efb80324c5d680c8c81f1f9176d54885",
+          "name": "Bollywood",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "subscribers": 20530,
+        "isSubscribed": 0,
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/artist\/ad9031300d4ce990db518b667e530813?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/artist\/sonu-nigam-ad9031300d4ce990db518b667e530813?utm_source=mx_android_share",
+        "inWatchCount": 0,
+        "isInWatchlist": 0,
+        "albumCount": 0,
+        "videoCount": 23,
+        "publisher": {
+          "id": "",
+          "name": "",
+          "type": "publisher",
+          "poster": [],
+          "icon": "",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "attach": "{\"rank\":4}",
+        "include": []
+      }],
+      "refreshUrl": "https:\/\/androidapi.dev.mxplay.com\/v1\/paging\/search\/section?section=artist&keyword=hindi&action=type_query&qid=Ot3yEBgsE5xT09~IKmXQT&pagesize=20",
+      "lastUrl": ""
+    }],
+    "listStyle": "4pic_circle",
+    "moreStyle": "pic_left_circle",
+    "attachContent": "",
+    "nomore": 0,
+    "flowFlag": "0218b1",
+    "mostCount": 50
+  }, {
+    "id": "search_shorts",
+    "name": "Short Videos",
+    "type": "normal",
+    "tag_name": "",
+    "tag_color": "",
+    "description": "",
+    "background_image": "",
+    "resources": [{
+      "id": "",
+      "name": "",
+      "type": "paging",
+      "nextUrl": "https:\/\/androidapi.dev.mxplay.com\/v1\/paging\/search\/section?section=shorts&keyword=hindi&action=type_query&qid=Ot3yEBgsE5xT09~IKmXQT&next=4&pagesize=4",
+      "resources": [{
+        "id": "2b04090dfdcacc1a4cb14a7f61dfd1fe",
+        "type": "shortvideo_video",
+        "name": "Sapna Haryanvi Item Song Dancer Interview",
+        "episodeNum": 0,
+        "seasonNum": 0,
+        "poster": [{
+          "width": 480,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/2b04090dfdcacc1a4cb14a7f61dfd1fe\/zxx\/16x9\/480x270\/pccb00_2b04090dfdcacc1a4cb14a7f61dfd1fe_1280x720.jpg",
+          "height": 270,
+          "type": "landscape"
+        }, {
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/2b04090dfdcacc1a4cb14a7f61dfd1fe\/zxx\/16x9\/984x555\/pccb00_2b04090dfdcacc1a4cb14a7f61dfd1fe_1280x720.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }],
+        "description": "",
+        "publishTime": 1497571200000,
+        "duration": 484,
+        "watchAt": 0,
+        "isInWatchlist": 0,
+        "inWatchCount": 0,
+        "thumbStatus": 0,
+        "thumbUpCount": 0,
+        "thumbDownCount": 0,
+        "viewCount": 0,
+        "persons": [],
+        "genres": [{
+          "id": "3922d91dd13af084e62ca785a9225bdb",
+          "name": "Arts & Entertainment",
+          "type": "genre"
+        }, {
+          "id": "e8dacc44dfc2f479c7aa3512b5f049fa",
+          "name": "Celebrities",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/shorts\/2b04090dfdcacc1a4cb14a7f61dfd1fe?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/shorts\/watch-sapna-haryanvi-item-song-dancer-interview-online_2b04090dfdcacc1a4cb14a7f61dfd1fe?utm_source=mx_android_share",
+        "nameOfVideoAd": "normal",
+        "descriptionUrlOfVideoAd": "https:\/\/www.dev.mxplay.com\/detail\/shorts\/2b04090dfdcacc1a4cb14a7f61dfd1fe",
+        "shouldPreload": 0,
+        "preloadTime": 0,
+        "youtubeId": "",
+        "playWithYoutube": 0,
+        "playInfo": [{
+          "extension": "mpd",
+          "drmUrl": "",
+          "drmScheme": "",
+          "playUrl": "https:\/\/j2apps.s.llnwi.net\/video\/ac35a9de5a833575f5a36c0d8802be12\/1\/dash\/h264_baseline.mpd",
+          "codec": "h264",
+          "profile": "baseline"
+        }, {
+          "extension": "mpd",
+          "drmUrl": "",
+          "drmScheme": "",
+          "playUrl": "https:\/\/j2apps.s.llnwi.net\/video\/ac35a9de5a833575f5a36c0d8802be12\/1\/dash\/h265_main.mpd",
+          "codec": "h265",
+          "profile": "main"
+        }],
+        "downloadInfo": [{
+          "id": "2b04090dfdcacc1a4cb14a7f61dfd1fe",
+          "name": "Sapna Haryanvi Item Song Dancer Interview",
+          "type": "shortvideo_video",
+          "meta": [{
+            "url": "https:\/\/j2apps.s.llnwi.net\/video\/ac35a9de5a833575f5a36c0d8802be12\/1\/download\/h264_144_baseline_60k.mp4",
+            "codec": "h264",
+            "profile": "baseline",
+            "rate": "144p",
+            "size": 9883940,
+            "title": "Low"
+          }, {
+            "url": "https:\/\/j2apps.s.llnwi.net\/video\/ac35a9de5a833575f5a36c0d8802be12\/1\/download\/h264_360_baseline_750k.mp4",
+            "codec": "h264",
+            "profile": "baseline",
+            "rate": "360p",
+            "size": 41654853,
+            "title": "Medium"
+          }, {
+            "url": "https:\/\/j2apps.s.llnwi.net\/video\/ac35a9de5a833575f5a36c0d8802be12\/1\/download\/h264_480_baseline_1750k.mp4",
+            "codec": "h264",
+            "profile": "baseline",
+            "rate": "480p",
+            "size": 67633371,
+            "title": "High"
+          }],
+          "expiry_date": 0,
+          "valid_period": 999,
+          "download_right": 1,
+          "valid_type": "download_valid_period"
+        }],
+        "publisher": {
+          "id": "8d75e905742166860f672d55f03cf733",
+          "name": "Movie Talkies",
+          "type": "publisher",
+          "poster": [{
+            "width": 312,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/8d75e905742166860f672d55f03cf733\/none\/1x1\/312x312\/pccb01_test_pic1531723413967.jpg",
+            "height": 312,
+            "type": "square"
+          }],
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/8d75e905742166860f672d55f03cf733\/none\/1x1\/312x312\/pccb01_test_pic1531723413967.jpg",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/8d75e905742166860f672d55f03cf733?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "levelInfos": [],
+        "seek_thumbnail": [{
+          "index": "0.jpg",
+          "big_pic_num": "1",
+          "column": "48",
+          "interval": "10",
+          "height": "54",
+          "width": "96",
+          "total": "48",
+          "row": "1",
+          "url": "https:\/\/j2apps.s.llnwi.net\/video\/ac35a9de5a833575f5a36c0d8802be12\/seek_thumbnail\/48_1_48_96_54_10_1_0.jpg"
+        }],
+        "third_party_info": {
+          "content_id": "",
+          "dash_id": "",
+          "dash_url": "",
+          "hls_url": "",
+          "name": "",
+          "valid_until": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "show_ad": 0,
+        "previews": [],
+        "attach": "{\"rank\":1}",
+        "include": ["HOT#F2405D"]
+      }, {
+        "id": "a35aeb346c112fcc7cfc5fa4610ca983",
+        "type": "shortvideo_video",
+        "name": "Motu Patlu King of Kings Movie Trailer Launch | Sushant Singh Rajput",
+        "episodeNum": 0,
+        "seasonNum": 0,
+        "poster": [{
+          "width": 480,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/a35aeb346c112fcc7cfc5fa4610ca983\/zxx\/16x9\/480x270\/pccb00_a35aeb346c112fcc7cfc5fa4610ca983_640x480.jpg",
+          "height": 270,
+          "type": "landscape"
+        }, {
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/a35aeb346c112fcc7cfc5fa4610ca983\/zxx\/16x9\/984x555\/pccb00_a35aeb346c112fcc7cfc5fa4610ca983_640x480.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }],
+        "description": "",
+        "publishTime": 1473379200000,
+        "duration": 1473,
+        "watchAt": 0,
+        "isInWatchlist": 0,
+        "inWatchCount": 0,
+        "thumbStatus": 0,
+        "thumbUpCount": 0,
+        "thumbDownCount": 0,
+        "viewCount": 0,
+        "persons": [],
+        "genres": [{
+          "id": "3922d91dd13af084e62ca785a9225bdb",
+          "name": "Arts & Entertainment",
+          "type": "genre"
+        }, {
+          "id": "e8dacc44dfc2f479c7aa3512b5f049fa",
+          "name": "Celebrities",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/shorts\/a35aeb346c112fcc7cfc5fa4610ca983?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/shorts\/watch-motu-patlu-king-of-kings-movie-trailer-launch-sushant-singh-rajput-online_a35aeb346c112fcc7cfc5fa4610ca983?utm_source=mx_android_share",
+        "nameOfVideoAd": "normal",
+        "descriptionUrlOfVideoAd": "https:\/\/www.dev.mxplay.com\/detail\/shorts\/a35aeb346c112fcc7cfc5fa4610ca983",
+        "shouldPreload": 0,
+        "preloadTime": 0,
+        "youtubeId": "",
+        "playWithYoutube": 0,
+        "playInfo": [{
+          "extension": "mpd",
+          "drmUrl": "",
+          "drmScheme": "",
+          "playUrl": "https:\/\/j2apps.s.llnwi.net\/video\/77ab43feb31a083df7ff51f09c020fa0\/2\/dash\/h264_baseline.mpd",
+          "codec": "h264",
+          "profile": "baseline"
+        }, {
+          "extension": "mpd",
+          "drmUrl": "",
+          "drmScheme": "",
+          "playUrl": "https:\/\/j2apps.s.llnwi.net\/video\/77ab43feb31a083df7ff51f09c020fa0\/2\/dash\/h265_main.mpd",
+          "codec": "h265",
+          "profile": "main"
+        }],
+        "downloadInfo": [{
+          "id": "a35aeb346c112fcc7cfc5fa4610ca983",
+          "name": "Motu Patlu King of Kings Movie Trailer Launch | Sushant Singh Rajput",
+          "type": "shortvideo_video",
+          "meta": [{
+            "url": "https:\/\/j2apps.s.llnwi.net\/video\/77ab43feb31a083df7ff51f09c020fa0\/2\/download\/h264_144_baseline_60k.mp4",
+            "codec": "h264",
+            "profile": "baseline",
+            "rate": "144p",
+            "size": 28326751,
+            "title": "Low"
+          }, {
+            "url": "https:\/\/j2apps.s.llnwi.net\/video\/77ab43feb31a083df7ff51f09c020fa0\/2\/download\/h264_360_baseline_750k.mp4",
+            "codec": "h264",
+            "profile": "baseline",
+            "rate": "360p",
+            "size": 109120181,
+            "title": "Medium"
+          }, {
+            "url": "https:\/\/j2apps.s.llnwi.net\/video\/77ab43feb31a083df7ff51f09c020fa0\/2\/download\/h264_480_baseline_1750k.mp4",
+            "codec": "h264",
+            "profile": "baseline",
+            "rate": "480p",
+            "size": 177806499,
+            "title": "High"
+          }],
+          "expiry_date": 0,
+          "valid_period": 999,
+          "download_right": 1,
+          "valid_type": "download_valid_period"
+        }],
+        "publisher": {
+          "id": "8d75e905742166860f672d55f03cf733",
+          "name": "Movie Talkies",
+          "type": "publisher",
+          "poster": [{
+            "width": 312,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/8d75e905742166860f672d55f03cf733\/none\/1x1\/312x312\/pccb01_test_pic1531723413967.jpg",
+            "height": 312,
+            "type": "square"
+          }],
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/8d75e905742166860f672d55f03cf733\/none\/1x1\/312x312\/pccb01_test_pic1531723413967.jpg",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/8d75e905742166860f672d55f03cf733?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "levelInfos": [],
+        "seek_thumbnail": [{
+          "index": "0.jpg",
+          "big_pic_num": "1",
+          "column": "147",
+          "interval": "10",
+          "height": "54",
+          "width": "96",
+          "total": "147",
+          "row": "1",
+          "url": "https:\/\/j2apps.s.llnwi.net\/video\/77ab43feb31a083df7ff51f09c020fa0\/seek_thumbnail\/147_1_147_96_54_10_1_0.jpg"
+        }],
+        "third_party_info": {
+          "content_id": "",
+          "dash_id": "",
+          "dash_url": "",
+          "hls_url": "",
+          "name": "",
+          "valid_until": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "show_ad": 0,
+        "previews": [],
+        "attach": "{\"rank\":2}",
+        "include": ["HOT#F2405D"]
+      }, {
+        "id": "b14bfcac1e998d2aae1a1a5ff66aaeea",
+        "type": "shortvideo_video",
+        "name": "Bandook Chalegi | Sapna Chaudhary",
+        "episodeNum": 0,
+        "seasonNum": 0,
+        "poster": [{
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/b14bfcac1e998d2aae1a1a5ff66aaeea\/en\/16x9\/984x555\/test_pic1536676581215.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }, {
+          "width": 480,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/b14bfcac1e998d2aae1a1a5ff66aaeea\/en\/16x9\/480x270\/test_pic1536676581215.jpg",
+          "height": 270,
+          "type": "landscape"
+        }],
+        "description": "",
+        "publishTime": 1483295400000,
+        "duration": 290,
+        "watchAt": 0,
+        "isInWatchlist": 0,
+        "inWatchCount": 0,
+        "thumbStatus": 0,
+        "thumbUpCount": 0,
+        "thumbDownCount": 0,
+        "viewCount": 0,
+        "persons": [],
+        "genres": [{
+          "id": "3922d91dd13af084e62ca785a9225bdb",
+          "name": "Arts & Entertainment",
+          "type": "genre"
+        }, {
+          "id": "1b44d1ec4480ca58eaf5a59687719a52",
+          "name": "Dance",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/shorts\/b14bfcac1e998d2aae1a1a5ff66aaeea?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/shorts\/watch-bandook-chalegi-sapna-chaudhary-online_b14bfcac1e998d2aae1a1a5ff66aaeea?utm_source=mx_android_share",
+        "nameOfVideoAd": "normal",
+        "descriptionUrlOfVideoAd": "https:\/\/www.dev.mxplay.com\/detail\/shorts\/b14bfcac1e998d2aae1a1a5ff66aaeea",
+        "shouldPreload": 0,
+        "preloadTime": 0,
+        "youtubeId": "QXCsclZlb0o",
+        "playWithYoutube": 1,
+        "playInfo": [],
+        "downloadInfo": [],
+        "publisher": {
+          "id": "40c7aa830bbeb78525e94072824100a0",
+          "name": "Top Shorts",
+          "type": "publisher",
+          "poster": [{
+            "width": 984,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/40c7aa830bbeb78525e94072824100a0\/none\/16x9\/984x555\/test_pic1537887519120.jpg",
+            "height": 555,
+            "type": "bigpic"
+          }, {
+            "width": 312,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/40c7aa830bbeb78525e94072824100a0\/none\/1x1\/312x312\/test_pic1537887506832.jpg",
+            "height": 312,
+            "type": "square"
+          }],
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/40c7aa830bbeb78525e94072824100a0\/none\/1x1\/312x312\/test_pic1537887506832.jpg",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/40c7aa830bbeb78525e94072824100a0?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "levelInfos": [],
+        "seek_thumbnail": [{
+          "total": "",
+          "big_pic_num": "",
+          "column": "",
+          "row": "",
+          "width": "",
+          "height": "",
+          "interval": "",
+          "index": "",
+          "url": ""
+        }],
+        "third_party_info": {
+          "content_id": "",
+          "dash_id": "",
+          "dash_url": "",
+          "hls_url": "",
+          "name": "",
+          "valid_until": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "show_ad": 0,
+        "previews": [],
+        "attach": "{\"rank\":3}",
+        "include": ["HOT#F2405D"]
+      }, {
+        "id": "f733b5594d4cb507d229c087376c9a10",
+        "type": "shortvideo_video",
+        "name": "Tiger Shroff's Amazing Stunt With Shraddha Kapoor For Baaghi Promotions",
+        "episodeNum": 0,
+        "seasonNum": 0,
+        "poster": [{
+          "width": 480,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/f733b5594d4cb507d229c087376c9a10\/hi\/16x9\/480x270\/pccb00_f733b5594d4cb507d229c087376c9a10_640x480.jpg",
+          "height": 270,
+          "type": "landscape"
+        }, {
+          "width": 984,
+          "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/f733b5594d4cb507d229c087376c9a10\/hi\/16x9\/984x555\/pccb00_f733b5594d4cb507d229c087376c9a10_640x480.jpg",
+          "height": 555,
+          "type": "bigpic"
+        }],
+        "description": "",
+        "publishTime": 1455840000000,
+        "duration": 279,
+        "watchAt": 0,
+        "isInWatchlist": 0,
+        "inWatchCount": 0,
+        "thumbStatus": 0,
+        "thumbUpCount": 0,
+        "thumbDownCount": 0,
+        "viewCount": 0,
+        "persons": [],
+        "genres": [{
+          "id": "3922d91dd13af084e62ca785a9225bdb",
+          "name": "Arts & Entertainment",
+          "type": "genre"
+        }, {
+          "id": "e8dacc44dfc2f479c7aa3512b5f049fa",
+          "name": "Celebrities",
+          "type": "genre"
+        }],
+        "languages": [{
+          "id": "hi",
+          "name": "Hindi",
+          "type": "language"
+        }],
+        "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/shorts\/f733b5594d4cb507d229c087376c9a10?utm_source=mx_android_share",
+        "deeplinkUrl": "https:\/\/www.dev.mxplay.com\/shorts\/watch-tiger-shroffs-amazing-stunt-with-shraddha-kapoor-for-baaghi-promotions-online_f733b5594d4cb507d229c087376c9a10?utm_source=mx_android_share",
+        "nameOfVideoAd": "normal",
+        "descriptionUrlOfVideoAd": "https:\/\/www.dev.mxplay.com\/detail\/shorts\/f733b5594d4cb507d229c087376c9a10",
+        "shouldPreload": 0,
+        "preloadTime": 0,
+        "youtubeId": "",
+        "playWithYoutube": 0,
+        "playInfo": [{
+          "extension": "mpd",
+          "drmUrl": "",
+          "drmScheme": "",
+          "playUrl": "https:\/\/j2apps.s.llnwi.net\/video\/4442d714480219623d14a75b6aa18c50\/1\/dash\/h264_baseline.mpd",
+          "codec": "h264",
+          "profile": "baseline"
+        }, {
+          "extension": "mpd",
+          "drmUrl": "",
+          "drmScheme": "",
+          "playUrl": "https:\/\/j2apps.s.llnwi.net\/video\/4442d714480219623d14a75b6aa18c50\/1\/dash\/h265_main.mpd",
+          "codec": "h265",
+          "profile": "main"
+        }],
+        "downloadInfo": [{
+          "id": "f733b5594d4cb507d229c087376c9a10",
+          "name": "Tiger Shroff's Amazing Stunt With Shraddha Kapoor For Baaghi Promotions",
+          "type": "shortvideo_video",
+          "meta": [{
+            "url": "https:\/\/j2apps.s.llnwi.net\/video\/4442d714480219623d14a75b6aa18c50\/1\/download\/h264_144_baseline_60k.mp4",
+            "codec": "h264",
+            "profile": "baseline",
+            "rate": "144p",
+            "size": 4505529,
+            "title": "Low"
+          }, {
+            "url": "https:\/\/j2apps.s.llnwi.net\/video\/4442d714480219623d14a75b6aa18c50\/1\/download\/h264_360_baseline_750k.mp4",
+            "codec": "h264",
+            "profile": "baseline",
+            "rate": "360p",
+            "size": 29454472,
+            "title": "Medium"
+          }, {
+            "url": "https:\/\/j2apps.s.llnwi.net\/video\/4442d714480219623d14a75b6aa18c50\/1\/download\/h264_480_baseline_1750k.mp4",
+            "codec": "h264",
+            "profile": "baseline",
+            "rate": "480p",
+            "size": 63935654,
+            "title": "High"
+          }],
+          "expiry_date": 0,
+          "valid_period": 999,
+          "download_right": 1,
+          "valid_type": "download_valid_period"
+        }],
+        "publisher": {
+          "id": "8d75e905742166860f672d55f03cf733",
+          "name": "Movie Talkies",
+          "type": "publisher",
+          "poster": [{
+            "width": 312,
+            "url": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/8d75e905742166860f672d55f03cf733\/none\/1x1\/312x312\/pccb01_test_pic1531723413967.jpg",
+            "height": 312,
+            "type": "square"
+          }],
+          "icon": "https:\/\/j2apps.s.llnwi.net\/isa1\/pic\/8d75e905742166860f672d55f03cf733\/none\/1x1\/312x312\/pccb01_test_pic1531723413967.jpg",
+          "subscribers": 0,
+          "isSubscribed": 0,
+          "shareUrl": "https:\/\/www.dev.mxplay.com\/detail\/publisher\/8d75e905742166860f672d55f03cf733?utm_source=mx_android_share",
+          "deeplinkUrl": ""
+        },
+        "levelInfos": [],
+        "seek_thumbnail": [{
+          "index": "0.jpg",
+          "big_pic_num": "1",
+          "column": "28",
+          "interval": "10",
+          "height": "54",
+          "width": "96",
+          "total": "28",
+          "row": "1",
+          "url": "https:\/\/j2apps.s.llnwi.net\/video\/4442d714480219623d14a75b6aa18c50\/seek_thumbnail\/28_1_28_96_54_10_1_0.jpg"
+        }],
+        "third_party_info": {
+          "content_id": "",
+          "dash_id": "",
+          "dash_url": "",
+          "hls_url": "",
+          "name": "",
+          "valid_until": ""
+        },
+        "attachContent": "",
+        "status": "online",
+        "show_ad": 0,
+        "previews": [],
+        "attach": "{\"rank\":4}",
+        "include": ["HOT#F2405D"]
+      }],
+      "refreshUrl": "https:\/\/androidapi.dev.mxplay.com\/v1\/paging\/search\/section?section=shorts&keyword=hindi&action=type_query&qid=Ot3yEBgsE5xT09~IKmXQT&pagesize=20",
+      "lastUrl": ""
+    }],
+    "listStyle": "pic_left",
+    "moreStyle": "pic_left",
+    "attachContent": "",
+    "nomore": 0,
+    "flowFlag": "0218b1",
+    "mostCount": 297
+  }]
+}
