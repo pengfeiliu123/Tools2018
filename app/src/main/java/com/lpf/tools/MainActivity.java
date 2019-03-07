@@ -30,6 +30,7 @@ import com.lpf.tools.feature.navigation.NavigationActivity;
 import com.lpf.tools.feature.networkdemo.NetworkActivity;
 import com.lpf.tools.feature.notification.NotificationUtil;
 import com.lpf.tools.feature.permission.PermissionActivity;
+import com.lpf.tools.feature.progress.ProgressActivity;
 import com.lpf.tools.feature.snackbar.TestSnackbarUtilsActivity;
 import com.lpf.tools.feature.switcher.SwitchActivity;
 import com.lpf.tools.feature.theme.SkinTestActivity;
@@ -71,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
         tagDatas.add(new TagFlowEntity("switch", SwitchActivity.class));
         tagDatas.add(new TagFlowEntity("snackbar", TestSnackbarUtilsActivity.class));
         tagDatas.add(new TagFlowEntity("skin", SkinTestActivity.class));
+        tagDatas.add(new TagFlowEntity("progress", ProgressActivity.class));
     }
 
     private void initFlowLayout() {

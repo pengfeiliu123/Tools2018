@@ -12,13 +12,15 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".feature.theme.SkinTestActivity"></activity>
+        <activity android:name=".feature.progress.ProgressActivity"></activity>
+        <activity android:name=".feature.theme.SkinTestActivity" />
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTask"
             android:theme="@style/BrandedLaunch">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>

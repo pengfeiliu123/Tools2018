@@ -12,4 +12,10 @@
     <color name="notification_bg">#ff2196F3</color>
 
     <color name="skin_test_img__light">#ff2196F3</color>
+
+    <!-- magic progress bar -->
+    <color name="mpc_start_color">#FF00FFED</color>
+    <color name="mpc_end_color">#FF00ED</color>
+    <!-- 没有被渐变填充区域的颜色 -->
+    <color name="mpc_default_color">#CCCCCC</color>
 </resources>

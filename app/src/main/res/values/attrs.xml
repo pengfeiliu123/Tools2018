@@ -10,4 +10,27 @@
         </attr>
     </declare-styleable>
 
+    <!-- 自定义环形进度条的属性-->
+    <declare-styleable name="RingProgressView">
+        <attr name="ringColor" format="color"/>
+        <attr name="ringProgressColor" format="color"/>
+        <attr name="ringWidth" format="dimension"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="currentProgress" format="integer"/>
+        <attr name="maxProgress" format="integer"/>
+    </declare-styleable>
+
+    <!-- 自定义环形进度条-->
+    <declare-styleable name="MagicProgressCircle">
+        <attr name="mpc_percent" format="float" />
+        <attr name="mpc_stroke_width" format="dimension" />
+        <attr name="mpc_start_color" format="color" />
+        <attr name="mpc_end_color" format="color" />
+        <!-- 背景环的颜色 -->
+        <attr name="mpc_default_color" format="color" />
+        <!-- 圆弧: 结尾是否覆盖开始 -->
+        <attr name="mpc_foot_over_head" format="boolean"/>
+    </declare-styleable>
+
 </resources>
