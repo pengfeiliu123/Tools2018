@@ -24,25 +24,14 @@ import javax.xml.parsers.DocumentBuilderFactory;
  */
 public class Generator {
 
-    private static final int[] DP_LIST = {240, 320, 360, 384, 392, 400, 410, 480};
+    /**
+     * 需要适配的手机列表，单位dp
+     */
+    private static final int[]  DP_LIST = {240, 320, 360, 384, 392, 400, 410, 480};
+    private static final String[] PATHS = {"./app/src/main/res/values/dimens.xml"};
+
     private Set<FileItem> fileItemsSet = new HashSet<>();
 
-    private static String[] paths = {"./app/src/main/res/values/dimens.xml"};
-
-    private static class FileItem {
-        String fileName;
-        List<Item> itemList;
-    }
-
-    private static class Item {
-        final String name;
-        final String value;
-
-        public Item(String name, String value) {
-            this.name = name;
-            this.value = value;
-        }
-    }
 
     public static void main(String[] args) throws IOException {
 
@@ -50,9 +39,11 @@ public class Generator {
         System.out.println(file.getAbsolutePath());
 
         Generator generator = new Generator();
-        for (int i = 0; i < paths.length; i++) {
+
+        for (String path : PATHS) {
             generator.clear();
-            generator.parse(paths[i]);
+            generator.parse(path);
+
             for (FileItem fileItem : generator.fileItemsSet) {
                 generator.generate(fileItem);
             }
@@ -187,6 +178,27 @@ public class Generator {
             File dir = new File(parentFile, "values-sw" + dpSize + "dp");
             dir.mkdirs();
             return new File(dir, file.getName()).getAbsolutePath();
+        }
+    }
+
+    /**
+     * dimens.xml文件类
+     */
+    private static class FileItem {
+        String fileName;
+        List<Item> itemList;
+    }
+
+    /**
+     * dimens.xml中元素
+     */
+    private static class Item {
+        final String name;
+        final String value;
+
+        public Item(String name, String value) {
+            this.name = name;
+            this.value = value;
         }
     }
 
