@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lpf.tools">
+
     <!-- permission -->
     <uses-permission android:name="android.permission.READ_CALENDAR" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -12,7 +13,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".feature.progress.ProgressActivity"></activity>
+        <activity android:name=".feature.progress.ProgressActivity" />
         <activity android:name=".feature.theme.SkinTestActivity" />
         <activity
             android:name=".MainActivity"
@@ -85,6 +86,7 @@
 
         <activity android:name=".feature.magicIndicator.ViewPagerFragmentLifeCycle" />
         <activity android:name=".feature.switcher.SwitchActivity" />
+        <activity android:name=".feature.fragments.SampleDialogActivity"></activity>
     </application>
 
 </manifest>

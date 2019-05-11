@@ -24,6 +24,7 @@ import com.lpf.tools.feature.flowtag.FlowLayout;
 import com.lpf.tools.feature.flowtag.TagAdapter;
 import com.lpf.tools.feature.flowtag.TagFlowLayout;
 import com.lpf.tools.feature.fragments.FragmentDoubleListActivity;
+import com.lpf.tools.feature.fragments.SampleDialogActivity;
 import com.lpf.tools.feature.login.LoginActivity;
 import com.lpf.tools.feature.magicIndicator.IndicatorActivity;
 import com.lpf.tools.feature.navigation.NavigationActivity;
@@ -73,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
         tagDatas.add(new TagFlowEntity("snackbar", TestSnackbarUtilsActivity.class));
         tagDatas.add(new TagFlowEntity("skin", SkinTestActivity.class));
         tagDatas.add(new TagFlowEntity("progress", ProgressActivity.class));
+        tagDatas.add(new TagFlowEntity("sampleDialogFragment", SampleDialogActivity.class));
     }
 
     private void initFlowLayout() {
@@ -122,15 +124,15 @@ public class MainActivity extends AppCompatActivity {
         builder.setContentText("content text");
         builder.setContentIntent(pi);
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            builder.setSmallIcon(R.drawable.ic_notification_white);
-            builder.setColor(ContextCompat.getColor(getApplicationContext(), R.color.notification_bg));
-        } else {
-            builder.setSmallIcon(R.drawable.ic_notif_white_big);
-        }
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-            builder.setShowWhen(true);
-        }
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+//            builder.setSmallIcon(R.drawable.ic_notification_white);
+//            builder.setColor(ContextCompat.getColor(getApplicationContext(), R.color.notification_bg));
+//        } else {
+//            builder.setSmallIcon(R.drawable.ic_notif_white_big);
+//        }
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+//            builder.setShowWhen(true);
+//        }
 
 //        builder.setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.ic_notifiation_big));
         builder.setLargeIcon(null);
