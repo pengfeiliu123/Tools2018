@@ -12,7 +12,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".feature.glideimage.GlideImageActivity"></activity>
+        <activity android:name=".feature.spinner.SpinnerTestActivity"></activity>
+        <activity android:name=".feature.glideimage.GlideImageActivity" />
         <activity android:name=".feature.progress.ProgressActivity" />
         <activity android:name=".feature.theme.SkinTestActivity" />
         <activity

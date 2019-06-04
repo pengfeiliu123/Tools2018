@@ -33,6 +33,7 @@ import com.lpf.tools.feature.notification.NotificationUtil;
 import com.lpf.tools.feature.permission.PermissionActivity;
 import com.lpf.tools.feature.progress.ProgressActivity;
 import com.lpf.tools.feature.snackbar.TestSnackbarUtilsActivity;
+import com.lpf.tools.feature.spinner.SpinnerTestActivity;
 import com.lpf.tools.feature.switcher.SwitchActivity;
 import com.lpf.tools.feature.theme.SkinTestActivity;
 import com.lpf.tools.feature.widgets.recyclerviewdemo.RecyclerViewActivity;
@@ -75,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
         tagDatas.add(new TagFlowEntity("skin", SkinTestActivity.class));
         tagDatas.add(new TagFlowEntity("progress", ProgressActivity.class));
         tagDatas.add(new TagFlowEntity("imageglide", GlideImageActivity.class));
+        tagDatas.add(new TagFlowEntity("spinner", SpinnerTestActivity.class));
     }
 
     private void initFlowLayout() {
