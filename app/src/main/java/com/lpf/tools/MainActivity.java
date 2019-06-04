@@ -36,6 +36,7 @@ import com.lpf.tools.feature.snackbar.TestSnackbarUtilsActivity;
 import com.lpf.tools.feature.spinner.SpinnerTestActivity;
 import com.lpf.tools.feature.switcher.SwitchActivity;
 import com.lpf.tools.feature.theme.SkinTestActivity;
+import com.lpf.tools.feature.timepickerdialog.TimePickerDialogActivity;
 import com.lpf.tools.feature.widgets.recyclerviewdemo.RecyclerViewActivity;
 import com.lpf.tools.imageloader.ImageLoader;
 
@@ -77,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
         tagDatas.add(new TagFlowEntity("progress", ProgressActivity.class));
         tagDatas.add(new TagFlowEntity("imageglide", GlideImageActivity.class));
         tagDatas.add(new TagFlowEntity("spinner", SpinnerTestActivity.class));
+        tagDatas.add(new TagFlowEntity("timepicker", TimePickerDialogActivity.class));
     }
 
     private void initFlowLayout() {

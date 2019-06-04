@@ -102,6 +102,8 @@ dependencies {
     implementation project(':utilmultitype')
 
     implementation 'com.github.arcadefire:nice-spinner:1.4.3'
+
+    compile 'com.jzxiang.pickerview:TimePickerDialog:1.0.1'
 }
 
 dependencies {
@@ -135,6 +137,10 @@ dependencies {
 dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     implementation project(path: ':utilskin')
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:+'
 }
 
 dependencies {
