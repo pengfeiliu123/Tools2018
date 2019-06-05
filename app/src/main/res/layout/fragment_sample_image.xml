@@ -1,26 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/bg_sample_dialog_fragment"
-    android:layout_height="wrap_content">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sample_dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    tools:context=".pkg.work.view.subviews.SampleImageFragment">
 
     <ImageView
+        android:id="@+id/sample_img"
         android:layout_width="match_parent"
-        android:layout_height="495dp"
-        android:src="@drawable/test_image"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toTopOf="@id/ic_close"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/sample_image_close"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/sample_image_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/sample_image_close"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/ic_close"
+        android:id="@+id/sample_image_close"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:src="@drawable/ic_lamp_close"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/test_image"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

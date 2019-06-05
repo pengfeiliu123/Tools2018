@@ -24,6 +24,7 @@ import com.lpf.tools.feature.flowtag.FlowLayout;
 import com.lpf.tools.feature.flowtag.TagAdapter;
 import com.lpf.tools.feature.flowtag.TagFlowLayout;
 import com.lpf.tools.feature.fragments.FragmentDoubleListActivity;
+import com.lpf.tools.feature.fragments.SampleDialogActivity;
 import com.lpf.tools.feature.glideimage.GlideImageActivity;
 import com.lpf.tools.feature.login.LoginActivity;
 import com.lpf.tools.feature.magicIndicator.IndicatorActivity;
@@ -79,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
         tagDatas.add(new TagFlowEntity("imageglide", GlideImageActivity.class));
         tagDatas.add(new TagFlowEntity("spinner", SpinnerTestActivity.class));
         tagDatas.add(new TagFlowEntity("timepicker", TimePickerDialogActivity.class));
+        tagDatas.add(new TagFlowEntity("dialogFragment", SampleDialogActivity.class));
     }
 
     private void initFlowLayout() {
