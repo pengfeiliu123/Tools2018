@@ -20,6 +20,7 @@ import com.lpf.tools.feature.banner.BannerActivity;
 import com.lpf.tools.feature.collapsingToolbar.CollapsingToolActivity;
 import com.lpf.tools.feature.customview.drawOneCircle.CustomViewsActivity;
 import com.lpf.tools.feature.dbdemo.DbActivity;
+import com.lpf.tools.feature.dialog.DialogTestActivity;
 import com.lpf.tools.feature.flowtag.FlowLayout;
 import com.lpf.tools.feature.flowtag.TagAdapter;
 import com.lpf.tools.feature.flowtag.TagFlowLayout;
@@ -81,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
         tagDatas.add(new TagFlowEntity("spinner", SpinnerTestActivity.class));
         tagDatas.add(new TagFlowEntity("timepicker", TimePickerDialogActivity.class));
         tagDatas.add(new TagFlowEntity("dialogFragment", SampleDialogActivity.class));
+        tagDatas.add(new TagFlowEntity("dialog", DialogTestActivity.class));
     }
 
     private void initFlowLayout() {

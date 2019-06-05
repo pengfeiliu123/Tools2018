@@ -12,8 +12,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".feature.timepickerdialog.TimePickerDialogActivity"></activity>
-        <activity android:name=".feature.fragments.SampleDialogActivity"></activity>
+        <activity android:name=".feature.dialog.DialogTestActivity" />
+        <activity android:name=".feature.timepickerdialog.TimePickerDialogActivity" />
+        <activity android:name=".feature.fragments.SampleDialogActivity" />
         <activity android:name=".feature.spinner.SpinnerTestActivity" />
         <activity android:name=".feature.glideimage.GlideImageActivity" />
         <activity android:name=".feature.progress.ProgressActivity" />
